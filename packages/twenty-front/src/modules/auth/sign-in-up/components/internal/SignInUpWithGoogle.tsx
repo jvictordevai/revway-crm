@@ -2,10 +2,6 @@ import { isDefined } from 'twenty-shared/utils';
 import { useHasMultipleAuthMethods } from '@/auth/sign-in-up/hooks/useHasMultipleAuthMethods';
 import { useSignInWithGoogle } from '@/auth/sign-in-up/hooks/useSignInWithGoogle';
 import { lastAuthenticatedMethodState } from '@/auth/states/lastAuthenticatedMethodState';
-import {
-  SignInUpStep,
-  signInUpStepState,
-} from '@/auth/states/signInUpStepState';
 import { AuthenticatedMethod } from '@/auth/types/AuthenticatedMethod';
 import { type SocialSsoSignInUpActionType } from '@/auth/types/SocialSsoSignInUpActionType';
 import { useLingui } from '@lingui/react/macro';
@@ -13,7 +9,6 @@ import { memo } from 'react';
 import { MainButton } from 'twenty-ui/components/input';
 import { IconGoogle } from 'twenty-ui/icon';
 import { useAtomState } from '@/ui/utilities/state/jotai/hooks/useAtomState';
-import { useAtomStateValue } from '@/ui/utilities/state/jotai/hooks/useAtomStateValue';
 import { LastUsedPill } from './LastUsedPill';
 import { StyledSsoButtonContainer } from './SignInUpSsoButtonStyles';
 import { useTheme } from 'twenty-ui/theme';
@@ -32,7 +27,6 @@ export const SignInUpWithGoogle = ({
   isGlobalScope?: boolean;
 }) => {
   const { t } = useLingui();
-  const signInUpStep = useAtomStateValue(signInUpStepState);
   const [lastAuthenticatedMethod, setLastAuthenticatedMethod] = useAtomState(
     lastAuthenticatedMethodState,
   );
@@ -53,7 +47,7 @@ export const SignInUpWithGoogle = ({
           startIcon={isDefined(GoogleIcon) ? <GoogleIcon /> : undefined}
           onClick={handleClick}
           fullWidth
-          variant={signInUpStep === SignInUpStep.Init ? 'solid' : 'outline'}
+          variant="outline"
         >{t`Continue with Google`}</MainButton>
         {isLastUsed && (isGlobalScope || hasMultipleAuthMethods) && (
           <LastUsedPill />

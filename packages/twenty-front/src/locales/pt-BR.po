@@ -12710,7 +12710,26 @@ msgid ""
 "## 💳 Billing\n"
 "\n"
 "**Free**: no credits, no metering."
-msgstr "Todo espaço de trabalho do RevWay CRM começa com este aplicativo. Ele define a estrutura do seu CRM: os objetos principais, como eles se relacionam entre si e as visualizações e páginas de registro nas quais sua equipe trabalha. Aplicativos do Marketplace, agentes de IA e suas próprias personalizações são todos criados com base nele.\n\n## ✨ O que você recebe\n\n- **Pessoas e empresas**: seus contatos e as contas às quais eles pertencem\n- **Oportunidades**: seu pipeline de vendas, etapa por etapa\n- **Notas e tarefas**: atividades e acompanhamentos vinculados a qualquer registro\n- **E-mails e eventos de calendário**: sincronizados das suas contas conectadas e vinculados aos registros corretos\n- **Fluxos de trabalho e painéis**: automação e relatórios com base nos seus dados\n\n## 📌 É bom saber\n\n- Instalado em todo espaço de trabalho e mantido pelo RevWay CRM\n- Não pode ser desinstalado: o restante do espaço de trabalho é criado com base nele\n- Seus próprios objetos, campos e layouts ficam no aplicativo **Custom**\n\n## 💳 Cobrança\n\n**Gratuito**: sem créditos, sem medição."
+msgstr ""
+"Todo espaço de trabalho do RevWay CRM começa com este aplicativo. Ele define a estrutura do seu CRM: os objetos principais, como eles se relacionam entre si e as visualizações e páginas de registro nas quais sua equipe trabalha. Aplicativos do Marketplace, agentes de IA e suas próprias personalizações são todos criados com base nele.\n"
+"\n"
+"## ✨ O que você recebe\n"
+"\n"
+"- **Pessoas e empresas**: seus contatos e as contas às quais eles pertencem\n"
+"- **Oportunidades**: seu pipeline de vendas, etapa por etapa\n"
+"- **Notas e tarefas**: atividades e acompanhamentos vinculados a qualquer registro\n"
+"- **E-mails e eventos de calendário**: sincronizados das suas contas conectadas e vinculados aos registros corretos\n"
+"- **Fluxos de trabalho e painéis**: automação e relatórios com base nos seus dados\n"
+"\n"
+"## 📌 É bom saber\n"
+"\n"
+"- Instalado em todo espaço de trabalho e mantido pelo RevWay CRM\n"
+"- Não pode ser desinstalado: o restante do espaço de trabalho é criado com base nele\n"
+"- Seus próprios objetos, campos e layouts ficam no aplicativo **Custom**\n"
+"\n"
+"## 💳 Cobrança\n"
+"\n"
+"**Gratuito**: sem créditos, sem medição."
 
 #. js-lingui-id: PsQmAw
 #: src/modules/object-core/workflows/constants/CoreWorkflowVisibilityOptions.ts
@@ -12751,7 +12770,24 @@ msgid ""
 "## 💳 Billing\n"
 "\n"
 "**Free**: no credits, no metering."
-msgstr "Tudo o que você cria diretamente neste espaço de trabalho fica aqui. Todos os objetos, campos, visualizações ou automações que você adiciona ao aplicativo Standard são agrupados em Personalizado, para que suas alterações de esquema, alterações de interface e lógica específica do espaço de trabalho permaneçam em um só lugar.\n\n## ✨ O que você recebe\n\n- **Objetos e campos personalizados**: seu próprio modelo de dados, ao lado dos objetos padrão\n- **Visualizações, itens de navegação e layouts de registro**: as telas que definem como sua equipe trabalha\n- **Funções de lógica, componentes de front-end e agentes**: automações e extensões específicas deste espaço de trabalho\n\n## 📌 É bom saber\n\n- Criado com seu espaço de trabalho e exclusivo dele\n- Não pode ser desinstalado: contém as personalizações do seu espaço de trabalho\n- As personalizações feitas na interface do RevWay CRM são salvas aqui automaticamente\n\n## 💳 Cobrança\n\n**Grátis**: sem créditos, sem medição."
+msgstr ""
+"Tudo o que você cria diretamente neste espaço de trabalho fica aqui. Todos os objetos, campos, visualizações ou automações que você adiciona ao aplicativo Standard são agrupados em Personalizado, para que suas alterações de esquema, alterações de interface e lógica específica do espaço de trabalho permaneçam em um só lugar.\n"
+"\n"
+"## ✨ O que você recebe\n"
+"\n"
+"- **Objetos e campos personalizados**: seu próprio modelo de dados, ao lado dos objetos padrão\n"
+"- **Visualizações, itens de navegação e layouts de registro**: as telas que definem como sua equipe trabalha\n"
+"- **Funções de lógica, componentes de front-end e agentes**: automações e extensões específicas deste espaço de trabalho\n"
+"\n"
+"## 📌 É bom saber\n"
+"\n"
+"- Criado com seu espaço de trabalho e exclusivo dele\n"
+"- Não pode ser desinstalado: contém as personalizações do seu espaço de trabalho\n"
+"- As personalizações feitas na interface do RevWay CRM são salvas aqui automaticamente\n"
+"\n"
+"## 💳 Cobrança\n"
+"\n"
+"**Grátis**: sem créditos, sem medição."
 
 #. js-lingui-id: LG6l5T
 #: src/modules/spreadsheet-import/steps/components/MatchColumnsStep/components/UserTableColumn.tsx
@@ -22444,6 +22480,11 @@ msgstr "ou"
 #: src/modules/workflow/workflow-steps/filters/components/WorkflowStepFilterLogicalOperatorCell.tsx
 msgid "Or"
 msgstr "Ou"
+
+#. js-lingui-id: AByKfy
+#: src/modules/auth/sign-in-up/components/internal/SignInUpProvidersDivider.tsx
+msgid "or continue with"
+msgstr "ou continue com"
 
 #. js-lingui-id: 4OE5Sf
 #: src/modules/advanced-text-editor/constants/RichTextColorDisplayNames.ts

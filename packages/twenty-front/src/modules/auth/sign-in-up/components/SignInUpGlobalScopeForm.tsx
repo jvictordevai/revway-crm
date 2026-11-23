@@ -9,6 +9,7 @@ import { FormProvider } from 'react-hook-form';
 import { Button } from 'twenty-ui/primitives/input';
 
 import { StyledOnboardingContentContainer } from '@/auth/components/StyledOnboardingContentContainer';
+import { SignInUpProvidersDivider } from '@/auth/sign-in-up/components/internal/SignInUpProvidersDivider';
 import { SignInUpWithCredentials } from '@/auth/sign-in-up/components/internal/SignInUpWithCredentials';
 import { SignInUpWithGoogle } from '@/auth/sign-in-up/components/internal/SignInUpWithGoogle';
 import { SignInUpWithMicrosoft } from '@/auth/sign-in-up/components/internal/SignInUpWithMicrosoft';
@@ -29,7 +30,6 @@ import { getWorkspaceAvatarColorSeed } from '@/workspace/utils/getWorkspaceAvata
 import { isNonEmptyString } from '@sniptt/guards';
 import { IconChevronRight, IconPlus } from 'twenty-ui/icon';
 import { Avatar } from 'twenty-ui/primitives/data-display';
-import { Separator } from 'twenty-ui/primitives/layout';
 import { useTheme, themeCssVariables } from 'twenty-ui/theme';
 import {
   type AvailableWorkspace,
@@ -237,21 +237,6 @@ export const SignInUpGlobalScopeForm = () => {
       )}
       {signInUpStep !== SignInUpStep.WorkspaceSelection && (
         <StyledOnboardingContentContainer>
-          {authProviders.google && (
-            <SignInUpWithGoogle
-              action="list-available-workspaces"
-              isGlobalScope
-            />
-          )}
-          {authProviders.microsoft && (
-            <SignInUpWithMicrosoft
-              action="list-available-workspaces"
-              isGlobalScope
-            />
-          )}
-          {(authProviders.google || authProviders.microsoft) && (
-            <Separator style={{ marginBlock: themeCssVariables.spacing[3] }} />
-          )}
           {/* oxlint-disable-next-line react/jsx-props-no-spreading */}
           <FormProvider {...form}>
             <SignInUpWithCredentials isGlobalScope />
@@ -265,6 +250,21 @@ export const SignInUpGlobalScopeForm = () => {
                 <Trans>Forgot your password?</Trans>
               </Button>
             </StyledForgotPasswordLinkContainer>
+          )}
+          {(authProviders.google || authProviders.microsoft) && (
+            <SignInUpProvidersDivider />
+          )}
+          {authProviders.google && (
+            <SignInUpWithGoogle
+              action="list-available-workspaces"
+              isGlobalScope
+            />
+          )}
+          {authProviders.microsoft && (
+            <SignInUpWithMicrosoft
+              action="list-available-workspaces"
+              isGlobalScope
+            />
           )}
         </StyledOnboardingContentContainer>
       )}

@@ -1,4 +1,4 @@
-import { StyledAuthContent } from '@/auth/components/StyledAuthContent';
+import { AuthSplitLayout } from '@/auth/components/AuthSplitLayout';
 import { SubTitle } from '@/auth/components/SubTitle';
 import { VerifyEmailEffect } from '@/auth/components/VerifyEmailEffect';
 import { EmailVerificationSent } from '@/auth/sign-in-up/components/EmailVerificationSent';
@@ -16,9 +16,9 @@ export const VerifyEmail = () => {
 
   if (isError) {
     return (
-      <StyledAuthContent>
+      <AuthSplitLayout>
         <EmailVerificationSent email={email} isError={true} />
-      </StyledAuthContent>
+      </AuthSplitLayout>
     );
   }
 

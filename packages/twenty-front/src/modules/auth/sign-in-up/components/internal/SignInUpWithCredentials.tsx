@@ -156,7 +156,8 @@ export const SignInUpWithCredentials = ({
               loadingPosition="start"
               disabled={isSubmitButtonDisabled}
               fullWidth
-              variant={signInUpStep === SignInUpStep.Init ? 'outline' : 'solid'}
+              variant="solid"
+              color="accent"
             >
               {buttonTitle}
             </MainButton>

@@ -64,7 +64,7 @@ jest.mock(
 );
 
 jest.mock('@/auth/sign-in-up/components/internal/SignInUpWithGoogle', () => ({
-  SignInUpWithGoogle: () => null,
+  SignInUpWithGoogle: () => <div>google-button</div>,
 }));
 
 jest.mock(
@@ -75,6 +75,19 @@ jest.mock(
 );
 
 dynamicActivate(SOURCE_LOCALE);
+
+const renderForm = () =>
+  render(
+    <MockedProvider mocks={[]}>
+      <JotaiProvider store={jotaiStore}>
+        <ThemeProvider colorScheme="light">
+          <I18nProvider i18n={i18n}>
+            <SignInUpGlobalScopeForm />
+          </I18nProvider>
+        </ThemeProvider>
+      </JotaiProvider>
+    </MockedProvider>,
+  );
 
 describe('SignInUpGlobalScopeForm', () => {
   beforeEach(() => {
@@ -113,5 +126,47 @@ describe('SignInUpGlobalScopeForm', () => {
     fireEvent.click(forgotPasswordLink);
 
     expect(resetPasswordClickMock).toHaveBeenCalledTimes(1);
+  });
+
+  it('renders social providers after the credentials form, below a divider', () => {
+    jotaiStore.set(signInUpStepState.atom, SignInUpStep.Init);
+    jotaiStore.set(authProvidersState.atom, {
+      google: true,
+      magicLink: false,
+      microsoft: false,
+      password: true,
+      sso: [],
+    });
+
+    renderForm();
+
+    const credentialsForm = screen.getByText('credentials-form');
+    const divider = screen.getByText('or continue with');
+    const googleButton = screen.getByText('google-button');
+
+    expect(
+      credentialsForm.compareDocumentPosition(divider) &
+        Node.DOCUMENT_POSITION_FOLLOWING,
+    ).toBeTruthy();
+    expect(
+      divider.compareDocumentPosition(googleButton) &
+        Node.DOCUMENT_POSITION_FOLLOWING,
+    ).toBeTruthy();
+  });
+
+  it('omits the divider when no social provider is enabled', () => {
+    jotaiStore.set(signInUpStepState.atom, SignInUpStep.Init);
+    jotaiStore.set(authProvidersState.atom, {
+      google: false,
+      magicLink: false,
+      microsoft: false,
+      password: true,
+      sso: [],
+    });
+
+    renderForm();
+
+    expect(screen.queryByText('or continue with')).not.toBeInTheDocument();
+    expect(screen.queryByText('google-button')).not.toBeInTheDocument();
   });
 });

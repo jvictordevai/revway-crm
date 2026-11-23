@@ -24,7 +24,6 @@ export const SignInUpWithSso = () => {
   const { t } = useLingui();
   const setSignInUpStep = useSetAtomState(signInUpStepState);
   const workspaceAuthProviders = useAtomStateValue(workspaceAuthProvidersState);
-  const signInUpStep = useAtomStateValue(signInUpStepState);
   const [lastAuthenticatedMethod, setLastAuthenticatedMethod] = useAtomState(
     lastAuthenticatedMethodState,
   );
@@ -53,7 +52,7 @@ export const SignInUpWithSso = () => {
           startIcon={<IconLock size={theme.icon.size.md} />}
           onClick={signInWithSso}
           fullWidth
-          variant={signInUpStep === SignInUpStep.Init ? 'solid' : 'outline'}
+          variant="outline"
         >{t`Single sign-on (SSO)`}</MainButton>
         {isLastUsed && hasMultipleAuthMethods && <LastUsedPill />}
       </StyledSsoButtonContainer>

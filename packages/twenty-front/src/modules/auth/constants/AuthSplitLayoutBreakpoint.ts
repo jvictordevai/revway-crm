@@ -1,0 +1,1 @@
+export const AUTH_SPLIT_LAYOUT_BREAKPOINT = 1024;

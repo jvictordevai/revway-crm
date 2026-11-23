@@ -1,4 +1,4 @@
-import { StyledAuthContent } from '@/auth/components/StyledAuthContent';
+import { AuthSplitLayout } from '@/auth/components/AuthSplitLayout';
 import { useSignInUp } from '@/auth/sign-in-up/hooks/useSignInUp';
 import { useSignInUpForm } from '@/auth/sign-in-up/hooks/useSignInUpForm';
 import { isCreatingWorkspaceState } from '@/auth/states/isCreatingWorkspaceState';
@@ -46,15 +46,6 @@ const StyledLoaderContainer = styled.div`
   justify-content: center;
   margin-bottom: ${themeCssVariables.spacing[8]};
   margin-top: ${themeCssVariables.spacing[8]};
-  width: 100%;
-`;
-
-const StyledBackground = styled.div`
-  background: ${themeCssVariables.background.secondary};
-  display: flex;
-  flex-direction: column;
-  height: calc(100dvh / var(--t-zoom, 1));
-  overflow-y: auto;
   width: 100%;
 `;
 
@@ -217,11 +208,9 @@ export const SignInUp = () => {
       <StyledOnboardingStepPage>{signInUpForm}</StyledOnboardingStepPage>
     </OnboardingLayout>
   ) : (
-    <StyledBackground>
+    <AuthSplitLayout>
       {signInUpStep === SignInUpStep.EmailVerification ? (
-        <StyledAuthContent>
-          <EmailVerificationSent email={searchParams.get('email')} />
-        </StyledAuthContent>
+        <EmailVerificationSent email={searchParams.get('email')} />
       ) : (
         <SignInUpStandardContent
           workspacePublicData={workspacePublicData}
@@ -231,6 +220,6 @@ export const SignInUp = () => {
           onClickOnLogo={onClickOnLogo}
         />
       )}
-    </StyledBackground>
+    </AuthSplitLayout>
   );
 };

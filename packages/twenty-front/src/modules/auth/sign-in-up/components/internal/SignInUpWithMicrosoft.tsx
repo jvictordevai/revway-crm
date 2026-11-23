@@ -1,17 +1,12 @@
 import { useHasMultipleAuthMethods } from '@/auth/sign-in-up/hooks/useHasMultipleAuthMethods';
 import { useSignInWithMicrosoft } from '@/auth/sign-in-up/hooks/useSignInWithMicrosoft';
 import { lastAuthenticatedMethodState } from '@/auth/states/lastAuthenticatedMethodState';
-import {
-  SignInUpStep,
-  signInUpStepState,
-} from '@/auth/states/signInUpStepState';
 import { AuthenticatedMethod } from '@/auth/types/AuthenticatedMethod';
 import { type SocialSsoSignInUpActionType } from '@/auth/types/SocialSsoSignInUpActionType';
 import { useLingui } from '@lingui/react/macro';
 import { MainButton } from 'twenty-ui/components/input';
 import { IconMicrosoft } from 'twenty-ui/icon';
 import { useAtomState } from '@/ui/utilities/state/jotai/hooks/useAtomState';
-import { useAtomStateValue } from '@/ui/utilities/state/jotai/hooks/useAtomStateValue';
 import { LastUsedPill } from './LastUsedPill';
 import { StyledSsoButtonContainer } from './SignInUpSsoButtonStyles';
 import { useTheme } from 'twenty-ui/theme';
@@ -27,7 +22,6 @@ export const SignInUpWithMicrosoft = ({
   const theme = useTheme();
   const { t } = useLingui();
 
-  const signInUpStep = useAtomStateValue(signInUpStepState);
   const [lastAuthenticatedMethod, setLastAuthenticatedMethod] = useAtomState(
     lastAuthenticatedMethodState,
   );
@@ -48,7 +42,7 @@ export const SignInUpWithMicrosoft = ({
           startIcon={<IconMicrosoft size={theme.icon.size.md} />}
           onClick={handleClick}
           fullWidth
-          variant={signInUpStep === SignInUpStep.Init ? 'solid' : 'outline'}
+          variant="outline"
         >{t`Continue with Microsoft`}</MainButton>
         {isLastUsed && (isGlobalScope || hasMultipleAuthMethods) && (
           <LastUsedPill />

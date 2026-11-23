@@ -1,6 +1,5 @@
+import { AuthSplitTitle } from '@/auth/components/AuthSplitTitle';
 import { Logo } from '@/auth/components/Logo';
-import { StyledAuthContent } from '@/auth/components/StyledAuthContent';
-import { Title } from '@/auth/components/Title';
 import { AnimatedEaseIn } from '@/auth/components/internal/AnimatedEaseIn/AnimatedEaseIn';
 import { FooterNote } from '@/auth/sign-in-up/components/FooterNote';
 import { WorkspaceSelectionFooter } from '@/auth/sign-in-up/components/WorkspaceSelectionFooter';
@@ -11,17 +10,12 @@ import { AppPath } from 'twenty-shared/types';
 import { themeCssVariables } from 'twenty-ui/theme';
 import { type PublicWorkspaceData } from '~/generated-metadata/graphql';
 
-const StyledTitleContainer = styled.div`
-  line-height: 1.2;
-  margin-top: ${themeCssVariables.spacing[10]};
-`;
-
 const StyledFormContainer = styled.div`
-  align-items: center;
+  align-items: stretch;
   display: flex;
   flex-direction: column;
   margin-bottom: ${themeCssVariables.spacing[6]};
-  margin-top: ${themeCssVariables.spacing[6]};
+  margin-top: ${themeCssVariables.spacing[2]};
   min-width: 0;
   width: 100%;
 `;
@@ -42,7 +36,7 @@ export const SignInUpStandardContent = ({
   onClickOnLogo,
 }: SignInUpStandardContentProps) => {
   return (
-    <StyledAuthContent>
+    <>
       <AnimatedEaseIn>
         <Logo
           secondaryLogo={workspacePublicData?.logo}
@@ -51,9 +45,7 @@ export const SignInUpStandardContent = ({
           to={AppPath.SignInUp}
         />
       </AnimatedEaseIn>
-      <StyledTitleContainer>
-        <Title animate>{title}</Title>
-      </StyledTitleContainer>
+      <AuthSplitTitle>{title}</AuthSplitTitle>
       <StyledFormContainer>{signInUpForm}</StyledFormContainer>
       {signInUpStep === SignInUpStep.WorkspaceSelection && (
         <WorkspaceSelectionFooter />
@@ -66,6 +58,6 @@ export const SignInUpStandardContent = ({
         SignInUpStep.WorkspaceSelection,
         SignInUpStep.WorkspaceCreation,
       ].includes(signInUpStep) && <FooterNote />}
-    </StyledAuthContent>
+    </>
   );
 };

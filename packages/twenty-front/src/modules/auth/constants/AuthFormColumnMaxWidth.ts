@@ -1,0 +1,1 @@
+export const AUTH_FORM_COLUMN_MAX_WIDTH = 384;
