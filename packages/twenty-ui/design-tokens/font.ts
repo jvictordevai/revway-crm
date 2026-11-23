@@ -26,5 +26,8 @@ export const FONT_TOKENS = {
     medium: token('500', { unit: 'number' }),
     semiBold: token('600', { unit: 'number' }),
   },
-  family: token('Inter, sans-serif'),
+  // RevWay: system font stack (RevWay design rules forbid Inter).
+  family: token(
+    '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
+  ),
 };
