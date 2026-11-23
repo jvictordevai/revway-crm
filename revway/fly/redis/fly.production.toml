@@ -1,0 +1,18 @@
+# Redis dedicado ao RevWay CRM (BullMQ + cache). Só rede privada (sem [http_service]).
+# Senha via secret REDIS_PASSWORD.
+app = "revway-crm-redis"
+primary_region = "gru"
+
+[build]
+  image = "redis:7.4-alpine"
+
+[experimental]
+  cmd = ["sh", "-c", "exec redis-server --dir /data --appendonly yes --maxmemory-policy noeviction --bind :: 0.0.0.0 --protected-mode no --requirepass \"$REDIS_PASSWORD\""]
+
+[mounts]
+  source = "redis_data"
+  destination = "/data"
+
+[[vm]]
+  size = "shared-cpu-1x"
+  memory = "1gb"

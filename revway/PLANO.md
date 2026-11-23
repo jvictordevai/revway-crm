@@ -8,6 +8,20 @@ Estado em 2026-11-23:
 - flyctl v0.5.15 instalado e autenticado. Apps existentes: `revway-app` (app.revway.com.br), `revway-worker`, `revway-redis`. Nenhum Managed Postgres.
 - DNS de revway.com.br na Hostinger. `crm.revway.com.br` hoje já tem A → 66.241.124.160, sem app Fly com certificado para esse nome. Precisa ser reapontado.
 
+## Decisões tomadas (2026-11-23)
+- **Licença:** opção A, só o núcleo AGPL. A cobrança fica fora do CRM, na plataforma RevWay. `IS_BILLING_ENABLED=false`.
+- **Repo público:** https://github.com/jvictordevai/revway-crm. O snapshot do upstream entra como commit raiz órfão (o fetch raso não permite push do histórico). Upgrades: `git fetch upstream tag twenty/vX` + `git diff twenty/vANTIGO twenty/vNOVO | git apply -3`.
+- **Banco:** Supabase (projeto "RevWay CRM", `xaducmrwnnqwcdxgmqxk`, sa-east-1, PG 17), não o Fly MPG.
+  - Role dedicada `revway_crm`, sem superuser. Extensões `uuid-ossp`, `unaccent` e `citext` no schema `public`.
+  - Banco `postgres` = produção, banco `crm_staging` = staging.
+  - Conexão direta IPv6 `db.<ref>.supabase.co:5432` com `PG_SSL_ALLOW_SELF_SIGNED=true`. Sem `sslmode` na URL, porque a CA do Supabase não é pública. Pendência: fixar a CA do Supabase e verificar o certificado.
+- **E-mail:** Resend via SMTP (`smtp.resend.com:465`, usuário `resend`, senha = API key). Domínio `revway.com.br` verificado no Resend.
+- **Gestão de contas (admin):** usa o Admin Panel nativo do Twenty (AGPL). Flags `canAccessFullAdminPanel`/`canImpersonate` no usuário. O 1º usuário do servidor vira admin.
+  - O admin faz busca de usuários e workspaces, impersonate, gestão de server admins, filas, saúde e config.
+  - Com `IS_WORKSPACE_CREATION_LIMITED_TO_SERVER_ADMINS=true`, só o admin RevWay cria workspaces de clientes.
+- **Limite de 5 workspaces:** `MAX_WORKSPACES_WITHOUT_ENTERPRISE_KEY = 5` (`auth/constants/max-workspaces-without-organization-key.constant.ts`, arquivo AGPL). Passar de 5 clientes exige chave Enterprise ou alterar a constante. **Decisão pendente, a ser validada pelo jurídico.**
+- **CI:** os 59 workflows do upstream estão desabilitados no GitHub. Ficou só `.github/workflows/revway-deploy.yml`: check-branding → build (Dockerfile upstream, target `twenty`) → push `registry.fly.io` → `fly deploy`.
+
 ---
 
 ## 0. Bloqueadores de decisão (resolver antes da Fase 3)
