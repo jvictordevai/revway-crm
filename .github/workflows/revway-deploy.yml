@@ -1,0 +1,77 @@
+# RevWay CRM — build da imagem branded e deploy no Fly.io.
+# Os workflows herdados do upstream (Twenty) ficam desabilitados neste repositório.
+name: RevWay Deploy
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'revway/**/*.md'
+      - '**/*.md'
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Ambiente de destino'
+        type: choice
+        options: [staging, production]
+        default: staging
+
+concurrency:
+  group: revway-deploy-${{ github.event.inputs.environment || 'staging' }}
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  branding:
+    name: Check branding
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Guard against upstream branding regressions
+        run: |
+          if [ -f revway/scripts/check-branding.mjs ]; then
+            node revway/scripts/check-branding.mjs
+          else
+            echo "check-branding.mjs not found" && exit 1
+          fi
+
+  deploy:
+    name: Build and deploy (${{ github.event.inputs.environment || 'staging' }})
+    needs: branding
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    environment: ${{ github.event.inputs.environment || 'staging' }}
+    env:
+      FLY_APP: ${{ (github.event.inputs.environment || 'staging') == 'production' && 'revway-crm' || 'revway-crm-staging' }}
+      FLY_CONFIG: ${{ (github.event.inputs.environment || 'staging') == 'production' && 'revway/fly/fly.production.toml' || 'revway/fly/fly.staging.toml' }}
+      FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: superfly/flyctl-actions/setup-flyctl@master
+      - uses: docker/setup-buildx-action@v3
+      - name: Log in to Fly registry
+        run: flyctl auth docker
+      - name: Build and push image
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: packages/twenty-docker/twenty/Dockerfile
+          target: twenty
+          platforms: linux/amd64
+          push: true
+          tags: registry.fly.io/${{ env.FLY_APP }}:${{ github.sha }}
+          cache-from: type=gha,scope=${{ env.FLY_APP }}
+          cache-to: type=gha,mode=max,scope=${{ env.FLY_APP }}
+      - name: Deploy
+        run: >
+          flyctl deploy
+          --config "$FLY_CONFIG"
+          --app "$FLY_APP"
+          --image "registry.fly.io/$FLY_APP:${{ github.sha }}"
+          --ha=false
+          --yes
