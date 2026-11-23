@@ -4,15 +4,16 @@ import { Button } from 'react-email';
 import { canvasTheme } from 'src/common-style';
 
 const callToActionStyle = {
-  display: 'inline-flex',
-  padding: '8px 32px',
+  display: 'inline-block',
+  padding: '12px 28px',
   borderRadius: canvasTheme.border.radius.md,
-  border: `1px solid ${canvasTheme.background.transparent.light}`,
   background: canvasTheme.background.button,
-  boxShadow: `0px 2px 4px 0px ${canvasTheme.background.transparent.light}, 0px 0px 4px 0px ${canvasTheme.background.transparent.medium}`,
   color: canvasTheme.font.colors.inverted,
+  fontFamily: canvasTheme.font.family,
   fontSize: canvasTheme.font.size.md,
   fontWeight: canvasTheme.font.weight.bold,
+  lineHeight: '20px',
+  textDecoration: 'none',
   width: 'auto',
 };
 

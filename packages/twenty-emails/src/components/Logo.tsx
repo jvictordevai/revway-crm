@@ -2,7 +2,8 @@ import { type I18n } from '@lingui/core';
 import { Img } from 'react-email';
 
 const logoStyle = {
-  marginBottom: '40px',
+  display: 'block',
+  border: 0,
 };
 
 type LogoProps = {

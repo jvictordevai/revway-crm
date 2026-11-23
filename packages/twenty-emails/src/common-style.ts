@@ -26,38 +26,55 @@ const colors = {
   blue40: '#154BD4',
 };
 
+// RevWay: e-mail palette aligned with the RevWay platform templates
+// (tinta #0B1B33, tinta-media #465775, tinta-leve #586783, linha #E1E7F1, apoio #F3F6FB).
+const revway = {
+  ink: '#0B1B33',
+  inkMedium: '#465775',
+  inkLight: '#586783',
+  line: '#E1E7F1',
+  canvas: '#F3F6FB',
+  sheet: '#FFFFFF',
+  highlight: '#E9EEF7',
+  brand: colors.blue40,
+};
+
 export const canvasTheme = {
   font: {
     colors: {
-      highlighted: grayScale.gray60,
-      primary: grayScale.gray50,
-      tertiary: grayScale.gray35,
+      highlighted: revway.ink,
+      primary: revway.inkMedium,
+      tertiary: revway.inkLight,
       inverted: grayScale.gray0,
-      blue: colors.blue40,
+      blue: revway.brand,
     },
-    family: 'Trebuchet MS', // Google Inter not working, we need to use a web safe font, see https://templates.mailchimp.com/design/typography/
+    family: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif",
     weight: {
       regular: 400,
       bold: 600,
     },
     size: {
       sm: '12px',
-      md: '13px',
-      lg: '16px',
-      xl: '24px',
+      md: '15px',
+      lg: '17px',
+      xl: '26px',
     },
-    lineHeight: '20px',
+    lineHeight: '24px',
   },
   border: {
-    radius: { sm: '4px', md: '8px' },
-    color: { highlighted: grayScale.gray20 },
+    radius: { sm: '6px', md: '8px', lg: '12px' },
+    color: { highlighted: revway.line },
   },
   background: {
-    colors: { highlight: grayScale.gray15 },
-    button: '#0B1B33',
+    colors: {
+      highlight: revway.highlight,
+      canvas: revway.canvas,
+      sheet: revway.sheet,
+    },
+    button: revway.brand,
     transparent: {
-      medium: 'rgba(0, 0, 0, 0.08)',
-      light: 'rgba(0, 0, 0, 0.04)',
+      medium: 'rgba(11, 27, 51, 0.08)',
+      light: 'rgba(11, 27, 51, 0.04)',
     },
   },
 };
