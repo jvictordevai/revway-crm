@@ -118,3 +118,8 @@ then run `node revway/scripts/check-branding.mjs`. Added files under
 - `src/engine/workspace-manager/twenty-standard-application/utils/page-layout-widget/compute-my-first-dashboard-widgets.util.ts`: "our documentation" link to RevWay help center.
 - `src/engine/workspace-manager/standard-objects-prefill-data/utils/prefill-workflows.util.ts`: sample workflow output URL revway.com.br.
 - Specs updated: `well-known/utils/__tests__/build-mcp-server-card.util.spec.ts`, `well-known/utils/__tests__/build-api-catalog.util.spec.ts`, `ai/ai-chat/utils/__tests__/build-full-system-prompt.util.spec.ts`, `ai/ai-chat/constants/__tests__/workspace-setup-system-prompt.constant.spec.ts`.
+
+## Limite de workspaces (multi-tenant sem chave Enterprise)
+- `packages/twenty-server/src/engine/core-modules/twenty-config/config-variables.ts`: nova env `MAX_WORKSPACES_WITHOUT_ENTERPRISE_KEY` (padrão 5 = comportamento upstream; `0` = ilimitado).
+- `packages/twenty-server/src/engine/core-modules/auth/services/sign-in-up.service.ts`: `assertWorkspaceCountWithinLimit` lê a env via `isWorkspaceCountWithinLimit`.
+- `packages/twenty-server/src/engine/core-modules/auth/utils/is-workspace-count-within-limit.util.ts` (+ spec): novo.

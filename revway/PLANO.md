@@ -19,7 +19,7 @@ Estado em 2026-11-23:
 - **Gestão de contas (admin):** usa o Admin Panel nativo do Twenty (AGPL). Flags `canAccessFullAdminPanel`/`canImpersonate` no usuário. O 1º usuário do servidor vira admin.
   - O admin faz busca de usuários e workspaces, impersonate, gestão de server admins, filas, saúde e config.
   - Com `IS_WORKSPACE_CREATION_LIMITED_TO_SERVER_ADMINS=true`, só o admin RevWay cria workspaces de clientes.
-- **Limite de 5 workspaces:** `MAX_WORKSPACES_WITHOUT_ENTERPRISE_KEY = 5` (`auth/constants/max-workspaces-without-organization-key.constant.ts`, arquivo AGPL). Passar de 5 clientes exige chave Enterprise ou alterar a constante. **Decisão pendente, a ser validada pelo jurídico.**
+- **Limite de workspaces:** o upstream trava em 5 sem chave Enterprise, num arquivo AGPL. Agora o limite é configurável: `MAX_WORKSPACES_WITHOUT_ENTERPRISE_KEY` (padrão 5; `0` = ilimitado). Staging e produção usam `0`. Recursos Enterprise (SSO, RLS, audit, domínio próprio) continuam fora de uso.
 - **CI:** os 59 workflows do upstream estão desabilitados no GitHub. Ficou só `.github/workflows/revway-deploy.yml`: check-branding → build (Dockerfile upstream, target `twenty`) → push `registry.fly.io` → `fly deploy`.
 
 ---

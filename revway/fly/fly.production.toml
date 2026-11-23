@@ -47,6 +47,8 @@ kill_timeout = "120s"
   SIGN_IN_PREFILLED = "false"
   IS_EMAIL_VERIFICATION_REQUIRED = "true"
   IS_WORKSPACE_CREATION_LIMITED_TO_SERVER_ADMINS = "true"
+  # Sem teto de workspaces (núcleo AGPL; ver revway/PLANO.md "Limite de workspaces")
+  MAX_WORKSPACES_WITHOUT_ENTERPRISE_KEY = "0"
 
 [processes]
   app = "node dist/main"

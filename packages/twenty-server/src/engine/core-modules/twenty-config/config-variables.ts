@@ -590,6 +590,18 @@ export class ConfigVariables {
   @IsOptional()
   IS_WORKSPACE_CREATION_LIMITED_TO_SERVER_ADMINS = true;
 
+  // RevWay: workspace cap enforced when no enterprise key is present. 0 = unlimited.
+  @ConfigVariablesMetadata({
+    group: ConfigVariablesGroup.ADVANCED_SETTINGS,
+    description:
+      'Maximum number of workspaces allowed without an enterprise key. Set to 0 for unlimited.',
+    isEnvOnly: true,
+    type: ConfigVariableType.NUMBER,
+  })
+  @CastToPositiveNumber()
+  @IsOptional()
+  MAX_WORKSPACES_WITHOUT_ENTERPRISE_KEY = 5;
+
   @ConfigVariablesMetadata({
     group: ConfigVariablesGroup.ADVANCED_SETTINGS,
     description:
