@@ -67,6 +67,14 @@ then run `node revway/scripts/check-branding.mjs`. Added files under
 - `src/pages/settings/ai/components/SettingsAiModelTiersPreview.tsx`: copy "RevWay CRM".
 - `src/pages/settings/communications/SettingsWorkspaceCommunicationGroupChannelDetail.tsx`: copy "RevWay CRM".
 - `src/pages/settings/developers/tabs/SettingsDevelopersCliTab.tsx`: CLI reference link to the RevWay repo.
+- Auth split layout (form column + cover image >= 1024px), RevWay-owned new files: `src/modules/auth/components/{AuthSplitLayout,AuthSplitTitle}.tsx`, `src/modules/auth/constants/{AuthCoverImagePath,AuthFormColumnMaxWidth,AuthSplitLayoutBreakpoint}.ts`, `src/modules/auth/sign-in-up/components/internal/SignInUpProvidersDivider.tsx` ("or continue with"); cover `public/images/revway/auth-cover.webp` from `revway/brand/auth-cover/variant-1.png` (GPT image; `variant-2.png` is the alternative).
+- `src/pages/auth/SignInUp.tsx`: `AuthSplitLayout` instead of `StyledBackground`/`StyledAuthContent` (onboarding/workspace creation untouched).
+- `src/pages/auth/PasswordReset.tsx`: `AuthSplitLayout` + left-aligned `AuthSplitTitle`; submit button solid.
+- `src/modules/auth/components/VerifyEmail.tsx`: error state in `AuthSplitLayout`.
+- `src/modules/auth/sign-in-up/components/SignInUpStandardContent.tsx`: no own centering wrapper; left-aligned `AuthSplitTitle`.
+- `src/modules/auth/sign-in-up/components/{SignInUpGlobalScopeForm,SignInUpWorkspaceScopeForm}.tsx`: credentials first, then `SignInUpProvidersDivider`, then Google/Microsoft/SSO (same enable conditions).
+- `src/modules/auth/sign-in-up/components/internal/{SignInUpWithGoogle,SignInUpWithMicrosoft,SignInUpWithSso}.tsx`: always `outline`; `SignInUpWithCredentials.tsx`: always `solid`.
+- `src/modules/auth/sign-in-up/components/__tests__/SignInUpGlobalScopeForm.test.tsx`: provider order/divider cases.
 - Tests/stories updated to the new copy: `utils/__tests__/title-utils.test.ts`, `activities/.../__tests__/getTimelineActivityAuthorFullName.test.ts`, `auth/utils/__tests__/getTwentyWebsiteUrl.test.ts`, `settings/hooks/__tests__/useSettingsNavigationItems.test.tsx`, `settings/mcp/utils/__tests__/mcpSetup.test.ts`, `settings/privacy/components/__tests__/SettingsPrivacy.test.tsx`, `pages/settings/applications/__tests__/SettingsAvailableApplicationDetails.test.tsx`, `pages/settings/applications/tabs/__tests__/SettingsApplicationsAvailableTab.test.tsx`, `getting-started/components/__stories__/GettingStartedSidebarCard.stories.tsx`, `onboarding/components/__stories__/OnboardingSkipDialog.stories.tsx`, `pages/auth/__stories__/Authorize.stories.tsx`.
 
 ## twenty-shared
@@ -123,3 +131,5 @@ then run `node revway/scripts/check-branding.mjs`. Added files under
 - `packages/twenty-server/src/engine/core-modules/twenty-config/config-variables.ts`: nova env `MAX_WORKSPACES_WITHOUT_ENTERPRISE_KEY` (padrão 5 = comportamento upstream; `0` = ilimitado).
 - `packages/twenty-server/src/engine/core-modules/auth/services/sign-in-up.service.ts`: `assertWorkspaceCountWithinLimit` lê a env via `isWorkspaceCountWithinLimit`.
 - `packages/twenty-server/src/engine/core-modules/auth/utils/is-workspace-count-within-limit.util.ts` (+ spec): novo.
+
+- Favicon pinned to the RevWay platform symbol: `packages/twenty-front/index.html`, `src/modules/app/components/PageFavicon.tsx` (ignores workspace logo), `public/favicon.ico`, `public/images/revway/{icon.svg,apple-icon.png}` copied from revplataform.
