@@ -5,6 +5,7 @@ import { currentUserState } from '@/auth/states/currentUserState';
 import { currentWorkspaceMemberState } from '@/auth/states/currentWorkspaceMemberState';
 import { billingState } from '@/client-config/states/billingState';
 import { supportChatState } from '@/client-config/states/supportChatState';
+import { TWENTY_REPOSITORY_URL } from '@/settings/privacy/constants/TwentyRepositoryUrl';
 import { permissionFlagMapSelector } from '@/settings/roles/states/permissionFlagMapSelector';
 import { getDocumentationUrl } from '@/support/utils/getDocumentationUrl';
 import { type NavigationDrawerItemModifier } from '@/ui/navigation/navigation-drawer/types/NavigationDrawerItemModifier';
@@ -14,6 +15,7 @@ import { isNonEmptyString } from '@sniptt/guards';
 import {
   IconAppWindow,
   IconApps,
+  IconBrandGithub,
   IconCode,
   IconColorSwatch,
   type IconComponent,
@@ -172,7 +174,8 @@ const useSettingsNavigationItems = (): SettingsNavigationSection[] => {
           label: t`Community`,
           path: SettingsPath.Community,
           Icon: IconUsers,
-          isHidden: !permissionFlagMap[PermissionFlagType.WORKSPACE],
+          // RevWay: Twenty community page has no RevWay equivalent.
+          isHidden: true,
         },
         {
           label: t`Support`,
@@ -187,6 +190,12 @@ const useSettingsNavigationItems = (): SettingsNavigationSection[] => {
               getDocumentationUrl({ locale: currentWorkspaceMember?.locale }),
             ),
           Icon: IconHelpCircle,
+        },
+        // RevWay: AGPL-3.0 section 13, link to the corresponding source code.
+        {
+          label: t`Source code`,
+          onClick: () => openUrlInNewTab(TWENTY_REPOSITORY_URL),
+          Icon: IconBrandGithub,
         },
         {
           label: t`Logout`,

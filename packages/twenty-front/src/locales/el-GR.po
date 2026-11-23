@@ -1883,10 +1883,10 @@ msgstr "Η πρόσβαση στα {objectLabelPlural} ορίζεται από �
 msgid "Access to specific features"
 msgstr "Πρόσβαση σε συγκεκριμένες λειτουργίες"
 
-#. js-lingui-id: rkbqAv
+#. js-lingui-id: IyQkCs
 #: src/modules/settings/mcp/utils/mcpSetup.ts
-msgid "Access your Twenty workspace through MCP"
-msgstr "Αποκτήστε πρόσβαση στο περιβάλλον εργασίας σας Twenty μέσω MCP"
+msgid "Access your RevWay CRM workspace through MCP"
+msgstr ""
 
 #. js-lingui-id: CrjDqe
 #: src/pages/auth/Authorize.tsx
@@ -2576,6 +2576,11 @@ msgstr "Προσθήκη αντίδρασης"
 msgid "Add relation"
 msgstr "Προσθήκη σχέσης"
 
+#. js-lingui-id: zhMzS1
+#: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
+msgid "Add RevWay CRM as a Streamable HTTP extension in Goose."
+msgstr ""
+
 #. js-lingui-id: 32bGrY
 #: src/modules/workflow/workflow-steps/workflow-actions/if-else-action/components/WorkflowEditActionIfElseBody.tsx
 msgid "Add route"
@@ -2650,40 +2655,40 @@ msgstr "Προσθέστε στήλες πίνακα που εμφανίζουν
 msgid "Add teammates"
 msgstr "Προσθήκη συνεργατών"
 
-#. js-lingui-id: FKGcEL
+#. js-lingui-id: tkG3q8
 #: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
-msgid "Add the Twenty MCP server as a remote context server in Zed."
-msgstr "Προσθέστε τον διακομιστή Twenty MCP ως απομακρυσμένο διακομιστή περιβάλλοντος στο Zed."
+msgid "Add the RevWay CRM MCP server as a remote context server in Zed."
+msgstr ""
 
-#. js-lingui-id: iA2nHX
+#. js-lingui-id: Wu2nsN
 #: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
-msgid "Add the Twenty MCP server from Augment Code settings."
-msgstr "Προσθέστε τον διακομιστή Twenty MCP από τις ρυθμίσεις του Augment Code."
+msgid "Add the RevWay CRM MCP server from Augment Code settings."
+msgstr ""
 
-#. js-lingui-id: l+NzAk
+#. js-lingui-id: mov5dX
 #: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
-msgid "Add the Twenty MCP server from Raycast's MCP commands or settings."
-msgstr "Προσθέστε τον διακομιστή Twenty MCP από τις εντολές ή τις ρυθμίσεις MCP του Raycast."
+msgid "Add the RevWay CRM MCP server from Raycast's MCP commands or settings."
+msgstr ""
 
-#. js-lingui-id: j6G/yI
+#. js-lingui-id: /LEI1X
 #: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
-msgid "Add the Twenty MCP server in Gemini CLI settings."
-msgstr "Προσθέστε τον διακομιστή Twenty MCP στις ρυθμίσεις του Gemini CLI."
+msgid "Add the RevWay CRM MCP server in Gemini CLI settings."
+msgstr ""
 
-#. js-lingui-id: /OyhlM
+#. js-lingui-id: jtJEl4
 #: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
-msgid "Add the Twenty MCP server to your LibreChat configuration file."
-msgstr "Προσθέστε τον διακομιστή Twenty MCP στο αρχείο ρυθμίσεων του LibreChat."
+msgid "Add the RevWay CRM MCP server to your LibreChat configuration file."
+msgstr ""
 
-#. js-lingui-id: K0DXoj
+#. js-lingui-id: HRTmy3
 #: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
-msgid "Add the Twenty remote server with LM Studio's install link."
-msgstr "Προσθέστε τον απομακρυσμένο διακομιστή Twenty με τον σύνδεσμο εγκατάστασης του LM Studio."
+msgid "Add the RevWay CRM remote server with LM Studio's install link."
+msgstr ""
 
-#. js-lingui-id: BTFMKE
+#. js-lingui-id: Di8agL
 #: src/pages/settings/communications/SettingsWorkspaceCommunicationGroupChannelDetail.tsx
-msgid "Add these records at your DNS provider. Twenty checks them automatically."
-msgstr "Προσθέστε αυτές τις εγγραφές στον πάροχο DNS σας. Το Twenty τις ελέγχει αυτόματα."
+msgid "Add these records at your DNS provider. RevWay CRM checks them automatically."
+msgstr ""
 
 #. js-lingui-id: Bc+ryO
 #: src/modules/related-record-paths/components/SettingsObjectRelatedRecordPathPicker.tsx
@@ -2721,11 +2726,6 @@ msgstr "Προσθήκη θέματος"
 #: src/modules/object-core/agents/components/CoreAgentTriggersSection.tsx
 msgid "Add trigger"
 msgstr "Προσθήκη ενεργοποίησης"
-
-#. js-lingui-id: 4D/zWv
-#: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
-msgid "Add Twenty as a Streamable HTTP extension in Goose."
-msgstr "Προσθέστε το Twenty ως επέκταση Streamable HTTP στο Goose."
 
 #. js-lingui-id: XnwceV
 #: src/pages/settings/applications/components/SettingsApplicationRegistrationRedirectURIsInput.tsx
@@ -4187,10 +4187,10 @@ msgstr "μεταβλητή εφαρμογής"
 msgid "Applications"
 msgstr "Εφαρμογές"
 
-#. js-lingui-id: q7rlQw
+#. js-lingui-id: DyacQh
 #: src/pages/settings/applications/tabs/SettingsApplicationsAvailableTab.tsx
-msgid "Applications below have not been reviewed by Twenty. Use at your own risk."
-msgstr "Οι παρακάτω εφαρμογές δεν έχουν ελεγχθεί από το Twenty. Χρησιμοποιήστε τες με δική σας ευθύνη."
+msgid "Applications below have not been reviewed by RevWay. Use at your own risk."
+msgstr ""
 
 #. js-lingui-id: p98xmP
 #: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceUsageLimitsSection.tsx
@@ -4948,10 +4948,10 @@ msgstr "Δημιουργία αυτόματων εγγραφών Ατόμων κ
 msgid "Automatically install this app on every newly created workspace"
 msgstr "Εγκαθιστά αυτόματα αυτή την εφαρμογή σε κάθε νέο χώρο εργασίας που δημιουργείται"
 
-#. js-lingui-id: MHsVk5
+#. js-lingui-id: spr4HW
 #: src/pages/settings/ai/components/SettingsAiModelTiersPreview.tsx
-msgid "Automatically selected by Twenty for this mode."
-msgstr "Επιλέγεται αυτόματα από το Twenty για αυτήν τη λειτουργία."
+msgid "Automatically selected by RevWay CRM for this mode."
+msgstr ""
 
 #. js-lingui-id: XFGV21
 #: src/pages/settings/applications/tabs/SettingsApplicationAutoUpdateSection.tsx
@@ -5257,10 +5257,10 @@ msgstr "Διάστημα χρέωσης"
 msgid "Billing period"
 msgstr "Περίοδος χρέωσης"
 
-#. js-lingui-id: xF/NXI
+#. js-lingui-id: Q6E08U
 #: src/modules/settings/billing/hooks/useBillingPortalSession.ts
-msgid "Billing portal session error. Please retry or contact Twenty team"
-msgstr "Σφάλμα συνεδρίας πύλης χρέωσης. Δοκιμάστε ξανά ή επικοινωνήστε με την ομάδα Twenty"
+msgid "Billing portal session error. Please retry or contact RevWay support"
+msgstr ""
 
 #. js-lingui-id: H++SIW
 #: src/modules/settings/billing/hooks/useBillingSubscriptionChangeWording.ts
@@ -5569,10 +5569,10 @@ msgstr "από {author}"
 msgid "by {trimmedAuthor}"
 msgstr "από {trimmedAuthor}"
 
-#. js-lingui-id: 8Pfllj
+#. js-lingui-id: 5KppIb
 #: src/modules/auth/sign-in-up/components/FooterNote.tsx
-msgid "By using Twenty, you agree to the"
-msgstr "Χρησιμοποιώντας το Twenty, συμφωνείτε με τους"
+msgid "By using RevWay CRM, you agree to the"
+msgstr ""
 
 #. js-lingui-id: 7l+dLC
 #: src/modules/marketplace/constants/PermissionFlagSummaryConfigs.ts
@@ -6191,10 +6191,10 @@ msgstr "Αλλάξτε πού οι πάροχοι AI επεξεργάζοντα�
 msgid "Changes"
 msgstr "Αλλαγές"
 
-#. js-lingui-id: OhVo1W
+#. js-lingui-id: SGx4cM
 #: src/modules/settings/applications/components/SettingsApplicationIframeMediaPermissionsSection.tsx
-msgid "Changes saved. Reload open Twenty tabs to apply the updated permissions. Reloading ends active calls and recordings."
-msgstr "Οι αλλαγές αποθηκεύτηκαν. Επαναφορτώστε τις ανοιχτές καρτέλες του Twenty για να εφαρμοστούν τα ενημερωμένα δικαιώματα. Η επαναφόρτωση τερματίζει τις ενεργές κλήσεις και εγγραφές."
+msgid "Changes saved. Reload open RevWay CRM tabs to apply the updated permissions. Reloading ends active calls and recordings."
+msgstr ""
 
 #. js-lingui-id: oRH6Dq
 #: src/modules/metadata-error-handler/hooks/useMetadataErrorHandler.ts
@@ -6295,11 +6295,6 @@ msgstr "Η συνομιλία διακόπηκε: δεν υπάρχουν άλλ
 msgid "Chat with AI agents and use AI features"
 msgstr "Συνομιλήστε με πράκτορες AI και χρησιμοποιήστε λειτουργίες AI"
 
-#. js-lingui-id: yOaaWk
-#: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
-msgid "ChatGPT"
-msgstr "ChatGPT"
-
 #. js-lingui-id: 8Q+lLG
 #: src/modules/settings/usage/constants/UsageOperationTypeLabels.ts
 #: src/modules/side-panel/pages/search-ai-chats/components/SidePanelAiChatPickerList.tsx
@@ -6373,11 +6368,11 @@ msgstr "Ελέγχεται μόνο όταν αποθηκεύεται η εγγ�
 msgid "Checking calendar availability…"
 msgstr "Γίνεται έλεγχος διαθεσιμότητας ημερολογίου…"
 
-#. js-lingui-id: SxwQE8
+#. js-lingui-id: xtL95p
 #: src/modules/settings/billing/hooks/useHandleCheckoutSession.ts
 #: src/modules/settings/billing/hooks/useHandleCheckoutSession.ts
-msgid "Checkout session error. Please retry or contact Twenty team"
-msgstr "Σφάλμα συνεδρίας Checkout. Δοκιμάστε ξανά ή επικοινωνήστε με την ομάδα Twenty"
+msgid "Checkout session error. Please retry or contact RevWay support"
+msgstr ""
 
 #. js-lingui-id: SviKkE
 #: src/modules/localization/hooks/useLocaleOptions.ts
@@ -6570,10 +6565,10 @@ msgstr "Επιλέξτε τι συμβαίνει όταν κάνετε κλικ 
 msgid "Choose what happens when you click an email"
 msgstr "Επιλέξτε τι συμβαίνει όταν κάνετε κλικ σε μια διεύθυνση email"
 
-#. js-lingui-id: XDg9PA
+#. js-lingui-id: iKKBYe
 #: src/modules/settings/privacy/components/SettingsPrivacySharingWithTwenty.tsx
-msgid "Choose what Twenty can access to support you and improve the product."
-msgstr "Επιλέξτε σε τι μπορεί να έχει πρόσβαση το Twenty για να σας υποστηρίζει και να βελτιώνει το προϊόν."
+msgid "Choose what RevWay can access to support you and improve the product."
+msgstr ""
 
 #. js-lingui-id: Fi1ujk
 #: src/pages/settings/ai/components/SettingsAiBehaviorSection.tsx
@@ -7454,15 +7449,15 @@ msgstr "Ρυθμίστε τον απομακρυσμένο διακομιστή 
 msgid "Configure the remote server in Amazon Q Developer's MCP settings."
 msgstr "Ρυθμίστε τον απομακρυσμένο διακομιστή στις ρυθμίσεις MCP του Amazon Q Developer."
 
-#. js-lingui-id: g1/8jH
+#. js-lingui-id: aowOal
 #: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
-msgid "Configure the Twenty MCP server manually in Cascade."
-msgstr "Ρυθμίστε χειροκίνητα τον διακομιστή Twenty MCP στο Cascade."
+msgid "Configure the RevWay CRM MCP server manually in Cascade."
+msgstr ""
 
-#. js-lingui-id: XiyvRh
+#. js-lingui-id: RPl8k2
 #: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
-msgid "Configure the Twenty MCP server manually in Cline."
-msgstr "Ρυθμίστε χειροκίνητα τον διακομιστή Twenty MCP στο Cline."
+msgid "Configure the RevWay CRM MCP server manually in Cline."
+msgstr ""
 
 #. js-lingui-id: qA9AGQ
 #: src/modules/settings/domains/components/SettingsDomainRecords.tsx
@@ -8389,10 +8384,10 @@ msgstr "Καταμέτρηση όλων"
 msgid "Count by"
 msgstr "Καταμέτρηση κατά"
 
-#. js-lingui-id: EEqRLn
+#. js-lingui-id: 2+mU7e
 #: src/modules/settings/workspace/components/ClickTrackingSwitch.tsx
-msgid "Count clicks by routing campaign links through Twenty before the original page."
-msgstr "Μετρήστε τα κλικ δρομολογώντας τους συνδέσμους καμπάνιας μέσω του Twenty πριν από την αρχική σελίδα."
+msgid "Count clicks by routing campaign links through RevWay CRM before the original page."
+msgstr ""
 
 #. js-lingui-id: vQJINq
 #: src/modules/object-record/record-board/record-board-column/utils/getAggregateOperationLabel.ts
@@ -12503,10 +12498,10 @@ msgstr "Σφάλμα κατά την ακύρωση αλλαγής περιόδ�
 msgid "Error while cancelling plan switching."
 msgstr "Σφάλμα κατά την ακύρωση αλλαγής προγράμματος."
 
-#. js-lingui-id: QmR+2U
+#. js-lingui-id: o562b9
 #: src/modules/settings/billing/hooks/useEndSubscriptionTrialPeriod.ts
-msgid "Error while ending trial period. Please contact Twenty team."
-msgstr "Σφάλμα κατά τη λήξη της δοκιμαστικής περιόδου. Επικοινωνήστε με την ομάδα Twenty."
+msgid "Error while ending trial period. Please contact RevWay support."
+msgstr ""
 
 #. js-lingui-id: 5g78zo
 #: src/pages/settings/members/SettingsWorkspaceMember.tsx
@@ -12693,10 +12688,10 @@ msgstr "Κάθε αντικείμενο αυτού του χώρου εργασ�
 msgid "Every provider that handles your data"
 msgstr "Κάθε πάροχος που χειρίζεται τα δεδομένα σας"
 
-#. js-lingui-id: SpXUci
+#. js-lingui-id: cUIzf5
 #: src/modules/applications/utils/getStandardApplicationReadme.ts
 msgid ""
-"Every Twenty workspace starts with this app. It defines the shape of your CRM: the core objects, how they relate to each other, and the views and record pages your team works in. Marketplace apps, AI agents and your own customizations all build on top of it.\n"
+"Every RevWay CRM workspace starts with this app. It defines the shape of your CRM: the core objects, how they relate to each other, and the views and record pages your team works in. Marketplace apps, AI agents and your own customizations all build on top of it.\n"
 "\n"
 "## ✨ What you get\n"
 "\n"
@@ -12708,7 +12703,7 @@ msgid ""
 "\n"
 "## 📌 Good to know\n"
 "\n"
-"- Installed on every workspace and maintained by Twenty\n"
+"- Installed on every workspace and maintained by RevWay CRM\n"
 "- Cannot be uninstalled: the rest of the workspace is built on it\n"
 "- Your own objects, fields and layouts live in the **Custom** app\n"
 "\n"
@@ -12716,25 +12711,6 @@ msgid ""
 "\n"
 "**Free**: no credits, no metering."
 msgstr ""
-"Κάθε χώρος εργασίας Twenty ξεκινά με αυτή την εφαρμογή. Καθορίζει τη δομή του CRM σας: τα βασικά αντικείμενα, τον τρόπο με τον οποίο σχετίζονται μεταξύ τους και τις προβολές και τις σελίδες εγγραφών στις οποίες εργάζεται η ομάδα σας. Οι εφαρμογές του Marketplace, οι πράκτορες AI και οι δικές σας προσαρμογές βασίζονται όλα σε αυτήν.\n"
-"\n"
-"## ✨ Τι λαμβάνετε\n"
-"\n"
-"- **Άτομα & Εταιρείες**: οι επαφές σας και οι λογαριασμοί στους οποίους ανήκουν\n"
-"- **Ευκαιρίες**: η διοχέτευση πωλήσεών σας, στάδιο προς στάδιο\n"
-"- **Σημειώσεις & Εργασίες**: δραστηριότητα και ενέργειες παρακολούθησης που επισυνάπτονται σε οποιαδήποτε εγγραφή\n"
-"- **Email & Συμβάντα ημερολογίου**: συγχρονισμένα από τους συνδεδεμένους λογαριασμούς σας και συνδεδεμένα με τις σωστές εγγραφές\n"
-"- **Ροές εργασίας & Πίνακες ελέγχου**: αυτοματοποίηση και αναφορές πάνω στα δεδομένα σας\n"
-"\n"
-"## 📌 Χρήσιμο να γνωρίζετε\n"
-"\n"
-"- Εγκατεστημένη σε κάθε χώρο εργασίας και συντηρείται από το Twenty\n"
-"- Δεν μπορεί να απεγκατασταθεί: ο υπόλοιπος χώρος εργασίας βασίζεται σε αυτήν\n"
-"- Τα δικά σας αντικείμενα, πεδία και διατάξεις βρίσκονται στην εφαρμογή **Προσαρμοσμένη**\n"
-"\n"
-"## 💳 Χρέωση\n"
-"\n"
-"**Δωρεάν**: χωρίς πιστώσεις, χωρίς μέτρηση."
 
 #. js-lingui-id: PsQmAw
 #: src/modules/object-core/workflows/constants/CoreWorkflowVisibilityOptions.ts
@@ -12755,7 +12731,7 @@ msgstr "Όλοι με πρόσβαση στα {objectLabelPlural}"
 msgid "Everything"
 msgstr "Τα πάντα"
 
-#. js-lingui-id: BnV3Mw
+#. js-lingui-id: GDJydQ
 #: src/modules/applications/utils/getCustomApplicationReadme.ts
 msgid ""
 "Everything you build directly in this workspace lives here. Every object, field, view or automation you add on top of the Standard app is grouped under Custom, so your schema changes, interface changes and workspace-specific logic stay in one place.\n"
@@ -12770,29 +12746,12 @@ msgid ""
 "\n"
 "- Created with your workspace and unique to it\n"
 "- Cannot be uninstalled: it holds your workspace's customizations\n"
-"- Customizations you make from the Twenty interface are saved here automatically\n"
+"- Customizations you make from the RevWay CRM interface are saved here automatically\n"
 "\n"
 "## 💳 Billing\n"
 "\n"
 "**Free**: no credits, no metering."
 msgstr ""
-"Ό,τι δημιουργείτε απευθείας σε αυτόν τον χώρο εργασίας βρίσκεται εδώ. Κάθε αντικείμενο, πεδίο, προβολή ή αυτοματοποίηση που προσθέτετε στην εφαρμογή Standard ομαδοποιείται στην ενότητα Custom, ώστε οι αλλαγές στο σχήμα, οι αλλαγές στη διεπαφή και η λογική που αφορά συγκεκριμένα τον χώρο εργασίας σας να παραμένουν σε ένα μέρος.\n"
-"\n"
-"## ✨ Τι λαμβάνετε\n"
-"\n"
-"- **Προσαρμοσμένα αντικείμενα και πεδία**: το δικό σας μοντέλο δεδομένων, δίπλα στα τυπικά αντικείμενα\n"
-"- **Προβολές, στοιχεία πλοήγησης και διατάξεις εγγραφών**: οι οθόνες που διαμορφώνουν τον τρόπο εργασίας της ομάδας σας\n"
-"- **Συναρτήσεις λογικής, στοιχεία διεπαφής και πράκτορες**: αυτοματισμοί και επεκτάσεις ειδικά για αυτόν τον χώρο εργασίας\n"
-"\n"
-"## 📌 Χρήσιμο να γνωρίζετε\n"
-"\n"
-"- Δημιουργείται μαζί με τον χώρο εργασίας σας και είναι μοναδικό για αυτόν\n"
-"- Δεν μπορεί να απεγκατασταθεί: περιέχει τις προσαρμογές του χώρου εργασίας σας\n"
-"- Οι προσαρμογές που κάνετε από τη διεπαφή του Twenty αποθηκεύονται εδώ αυτόματα\n"
-"\n"
-"## 💳 Χρέωση\n"
-"\n"
-"**Δωρεάν**: χωρίς πιστώσεις, χωρίς μέτρηση χρήσης."
 
 #. js-lingui-id: LG6l5T
 #: src/modules/spreadsheet-import/steps/components/MatchColumnsStep/components/UserTableColumn.tsx
@@ -14860,10 +14819,10 @@ msgstr "Λήψη βοήθειας"
 msgid "Get more credits"
 msgstr "Αποκτήστε περισσότερες πιστώσεις"
 
-#. js-lingui-id: LBG67E
+#. js-lingui-id: SHANFQ
 #: src/modules/settings/experience/components/SettingsExperienceNotificationsSection.tsx
-msgid "Get notified of new inbox messages on this device when you are not looking at Twenty. Your choices below apply to every device"
-msgstr "Λάβετε ειδοποιήσεις για νέα μηνύματα εισερχομένων σε αυτήν τη συσκευή όταν δεν κοιτάζετε το Twenty. Οι επιλογές σας παρακάτω ισχύουν για κάθε συσκευή"
+msgid "Get notified of new inbox messages on this device when you are not looking at RevWay CRM. Your choices below apply to every device"
+msgstr ""
 
 #. js-lingui-id: AvbPI1
 #: src/modules/settings/enterprise/components/EnterprisePlanModal.tsx
@@ -15410,10 +15369,10 @@ msgstr "Βοήθεια"
 msgid "Help center"
 msgstr "Κέντρο βοήθειας"
 
-#. js-lingui-id: GY8MUv
+#. js-lingui-id: NyZKp5
 #: src/modules/settings/privacy/components/SettingsPrivacySharingWithTwenty.tsx
-msgid "Help improve Twenty"
-msgstr "Βοηθήστε στη βελτίωση του Twenty"
+msgid "Help improve RevWay CRM"
+msgstr ""
 
 #. js-lingui-id: tIb8bD
 #: src/modules/ai-chat/constants/AiChatAssistantAvatarShapeLabels.ts
@@ -16054,10 +16013,10 @@ msgstr "Εισαγάγετε ή προσθέστε τη ρύθμιση MCP απ�
 msgid "Import recurring meetings 90 days ahead"
 msgstr "Εισαγωγή επαναλαμβανόμενων συσκέψεων 90 ημέρες εκ των προτέρων"
 
-#. js-lingui-id: LHHO6e
+#. js-lingui-id: nQaRpg
 #: src/modules/getting-started/constants/GettingStartedImportPrompt.ts
-msgid "Import the attached files into Twenty. Work out which records they contain and shape the workspace around them: reuse the objects and fields that fit, add the ones that are missing, then create the records and link them together."
-msgstr "Εισαγάγετε τα συνημμένα αρχεία στο Twenty. Εντοπίστε ποιες εγγραφές περιέχουν και διαμορφώστε τον χώρο εργασίας γύρω από αυτές: επαναχρησιμοποιήστε τα αντικείμενα και τα πεδία που ταιριάζουν, προσθέστε όσα λείπουν και, στη συνέχεια, δημιουργήστε τις εγγραφές και συνδέστε τες μεταξύ τους."
+msgid "Import the attached files into RevWay CRM. Work out which records they contain and shape the workspace around them: reuse the objects and fields that fit, add the ones that are missing, then create the records and link them together."
+msgstr ""
 
 #. js-lingui-id: vXTVX9
 #: src/pages/onboarding/ImportContacts.tsx
@@ -17060,6 +17019,12 @@ msgstr "Widget Kanban"
 msgid "Keep executing the next nodes even if this one fails"
 msgstr "Συνέχισε την εκτέλεση των επόμενων κόμβων ακόμη και αν αυτός αποτύχει"
 
+#. js-lingui-id: xBCGuH
+#: src/modules/getting-started/components/GettingStartedKeepPlanButton.tsx
+#: src/modules/getting-started/components/GettingStartedKeepPlanButton.tsx
+msgid "Keep RevWay CRM"
+msgstr ""
+
 #. js-lingui-id: AHYRpC
 #: src/modules/settings/unsubscribers/utils/getUnsubscribePageTrackingCopy.ts
 msgid "Keep tracking my clicks"
@@ -17074,12 +17039,6 @@ msgstr "Συνέχιση παρακολούθησης των ανοιγμάτω�
 #: src/modules/settings/unsubscribers/utils/getUnsubscribePageTrackingCopy.ts
 msgid "Keep tracking my opens and clicks"
 msgstr "Συνέχιση παρακολούθησης των ανοιγμάτων και των κλικ μου"
-
-#. js-lingui-id: TOIQKe
-#: src/modules/getting-started/components/GettingStartedKeepPlanButton.tsx
-#: src/modules/getting-started/components/GettingStartedKeepPlanButton.tsx
-msgid "Keep Twenty"
-msgstr "Διατήρηση Twenty"
 
 #. js-lingui-id: 7sMeHQ
 #: src/modules/workflow/workflow-steps/workflow-actions/http-request-action/components/KeyValuePairInput.tsx
@@ -19291,10 +19250,10 @@ msgstr "Απαιτείται μοντέλο"
 msgid "Model tier · switches to an allowed model"
 msgstr "Βαθμίδα μοντέλου · αλλάζει σε επιτρεπόμενο μοντέλο"
 
-#. js-lingui-id: iaurWj
+#. js-lingui-id: eMD1GP
 #: src/pages/settings/ai/components/SettingsAiModelsTab.tsx
-msgid "Model used when you chat with Twenty"
-msgstr "Μοντέλο που χρησιμοποιείται όταν συνομιλείτε με το Twenty"
+msgid "Model used when you chat with RevWay CRM"
+msgstr ""
 
 #. js-lingui-id: //nm2/
 #: src/modules/settings/ai/utils/getSettingsAiTabs.ts
@@ -21870,11 +21829,6 @@ msgstr "Ανενεργό"
 msgid "Off the beaten path"
 msgstr "Εκτός της συνηθισμένης πορείας"
 
-#. js-lingui-id: s1X4Cm
-#: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
-msgid "Official app"
-msgstr "Επίσημη εφαρμογή"
-
 #. js-lingui-id: Zd5vVt
 #: src/modules/workflow/workflow-steps/workflow-actions/find-records-action/components/WorkflowEditActionFindRecords.tsx
 msgid "Offset"
@@ -22057,10 +22011,10 @@ msgstr "Μόνο η ημερομηνία και οι συμμετέχοντες 
 msgid "Only enable for steps that are safe to run twice: a failed attempt may already have written data or sent messages."
 msgstr "Ενεργοποιήστε το μόνο για βήματα που είναι ασφαλές να εκτελούνται δύο φορές: μια αποτυχημένη προσπάθεια ενδέχεται να έχει ήδη γράψει δεδομένα ή στείλει μηνύματα."
 
-#. js-lingui-id: KsHGCA
+#. js-lingui-id: 6ML1d4
 #: src/modules/settings/billing/components/SettingsBillingPartnerCodeForm.tsx
-msgid "Only if a Twenty partner referred you. Once applied, it can't be changed."
-msgstr "Μόνο αν σας παρέπεμψε συνεργάτης του Twenty. Αφού εφαρμοστεί, δεν μπορεί να αλλάξει."
+msgid "Only if a RevWay partner referred you. Once applied, it can't be changed."
+msgstr ""
 
 #. js-lingui-id: aluwJP
 #: src/modules/settings/data-model/object-details/components/SettingsUpdateDataModelObjectAboutForm.tsx
@@ -22145,7 +22099,6 @@ msgstr "Μόνο εσείς θα μπορείτε να βλέπετε τα email
 #: src/modules/inbox/constants/InboxThreadPresetFilterLabels.ts
 #: src/modules/log-console/components/LogConsole.tsx
 #: src/modules/settings/data-model/objects/forms/components/SettingsDataModelObjectAboutForm.tsx
-#: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
 #: src/pages/settings/admin-panel/SettingsAdminNewAiProvider.tsx
 #: src/pages/settings/members/tabs/SettingsWorkspaceMembersTeamTab.tsx
 msgid "Open"
@@ -22194,10 +22147,10 @@ msgstr "Άνοιγμα συνομιλίας"
 msgid "Open chats in"
 msgstr "Άνοιγμα συνομιλιών σε"
 
-#. js-lingui-id: n0vVgf
+#. js-lingui-id: NSVz9u
 #: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
-msgid "Open Claude with the Twenty connector name and MCP URL prefilled."
-msgstr "Ανοίξτε το Claude με προ-συμπληρωμένο το όνομα connector Twenty και την MCP URL."
+msgid "Open Claude with the RevWay CRM connector name and MCP URL prefilled."
+msgstr ""
 
 #. js-lingui-id: N4OQXf
 #: src/modules/advanced-text-editor/components/AdvancedTextEditorTableHandleMenu.tsx
@@ -22209,10 +22162,10 @@ msgstr "Άνοιγμα μενού στήλης"
 msgid "Open conversation"
 msgstr "Άνοιγμα συνομιλίας"
 
-#. js-lingui-id: +n2jpB
+#. js-lingui-id: k5UXHy
 #: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
-msgid "Open Cursor's MCP installer with the Twenty remote server config."
-msgstr "Ανοίξτε το πρόγραμμα εγκατάστασης MCP του Cursor με τη ρύθμιση απομακρυσμένου διακομιστή Twenty."
+msgid "Open Cursor's MCP installer with the RevWay CRM remote server config."
+msgstr ""
 
 #. js-lingui-id: JvSHIq
 #: src/modules/getting-started/components/GettingStartedSidebarCard.tsx
@@ -22291,10 +22244,10 @@ msgstr "Άνοιγμα εγγραφών σε"
 msgid "Open records on a dedicated page"
 msgstr "Ανοίξτε τις εγγραφές σε ξεχωριστή σελίδα"
 
-#. js-lingui-id: q170S2
+#. js-lingui-id: WUN+ri
 #: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
-msgid "Open Replit with the Twenty remote server config."
-msgstr "Ανοίξτε το Replit με τη ρύθμιση απομακρυσμένου διακομιστή Twenty."
+msgid "Open Replit with the RevWay CRM remote server config."
+msgstr ""
 
 #. js-lingui-id: iMBVhp
 #: src/modules/advanced-text-editor/components/AdvancedTextEditorTableHandleMenu.tsx
@@ -22320,11 +22273,6 @@ msgstr "Άνοιγμα ρυθμίσεων"
 #: src/modules/sign-in-background-mock/components/BackgroundMockPage.tsx
 msgid "Open side panel"
 msgstr "Άνοιγμα πλευρικού πάνελ"
-
-#. js-lingui-id: sBd/cl
-#: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
-msgid "Open Twenty's official ChatGPT integration for your workspace."
-msgstr "Ανοίξτε την επίσημη ενσωμάτωση ChatGPT του Twenty για τον χώρο εργασίας σας."
 
 #. js-lingui-id: tirDue
 #: src/modules/log-console/constants/LogConsoleSources.tsx
@@ -22860,10 +22808,10 @@ msgstr "Διατάξεις σελίδας"
 msgid "Page name"
 msgstr "Όνομα σελίδας"
 
-#. js-lingui-id: NRvxzv
+#. js-lingui-id: blohbc
 #: src/pages/not-found/NotFound.tsx
-msgid "Page Not Found | Twenty"
-msgstr "Η Σελίδα Δεν Βρέθηκε | Twenty"
+msgid "Page Not Found | RevWay CRM"
+msgstr ""
 
 #. js-lingui-id: QbrUIo
 #: src/modules/log-console/constants/LogConsoleSources.tsx
@@ -24759,10 +24707,10 @@ msgstr "Καταχωρίστε εξωτερικούς διακομιστές MCP
 msgid "Registered as a development instance. This instance will not be billed."
 msgstr "Καταχωρίστηκε ως instance ανάπτυξης. Αυτό το instance δεν θα χρεωθεί."
 
-#. js-lingui-id: 5k0oOn
+#. js-lingui-id: qG2+dd
 #: src/modules/applications/components/AuthorizeClientIdentityNotice.tsx
-msgid "Registered with Twenty as the official {appName}"
-msgstr "Καταχωρίστηκε στο Twenty ως το επίσημο {appName}"
+msgid "Registered with RevWay CRM as the official {appName}"
+msgstr ""
 
 #. js-lingui-id: 1t/NnN
 #: src/modules/ai-chat/tool-calls/components/AiChatToolCallApprovalArgumentsCard.tsx
@@ -25663,6 +25611,32 @@ msgstr "Έχει ανακληθεί"
 #: src/modules/settings/admin-panel/signing-keys/components/SettingsAdminRevokeSigningKeyConfirmationModal.tsx
 msgid "Revoking this key will invalidate every JWT signed with it. Users with active tokens signed by this key will be logged out."
 msgstr "Η ανάκληση αυτού του κλειδιού θα καταστήσει άκυρο κάθε JWT που έχει υπογραφεί με αυτό. Οι χρήστες με ενεργά διακριτικά που έχουν υπογραφεί με αυτό το κλειδί θα αποσυνδεθούν."
+
+#. js-lingui-id: dsxxo8
+#: src/pages/onboarding/SyncEmails.tsx
+msgid "RevWay CRM adds the people you email and meet, and keeps them up to date without manual data entry."
+msgstr ""
+
+#. js-lingui-id: iojVfD
+#: src/modules/getting-started/components/step-preview/GettingStartedImportPreview.tsx
+#: src/modules/spreadsheet-import/steps/components/MatchColumnsStep/components/ColumnGrid.tsx
+msgid "RevWay CRM fields"
+msgstr ""
+
+#. js-lingui-id: 6/VmCW
+#: src/pages/settings/ai/components/SettingsAiModelsTab.tsx
+msgid "RevWay CRM fills each level with the best model that meets your requirements"
+msgstr ""
+
+#. js-lingui-id: wmr/UW
+#: src/modules/onboarding/components/OnboardingInviteTeamSkipDialog.tsx
+msgid "RevWay CRM works better with your team"
+msgstr ""
+
+#. js-lingui-id: GJE+NP
+#: src/modules/getting-started/components/GettingStartedBookCallSummary.tsx
+msgid "RevWay team"
+msgstr ""
 
 #. js-lingui-id: NP5Nbf
 #: src/modules/page-layout/utils/getWidgetTitle.ts
@@ -27742,10 +27716,10 @@ msgstr "Κοινοποίηση"
 msgid "Share calendar events across channels"
 msgstr "Κοινή χρήση συμβάντων ημερολογίου σε όλα τα κανάλια"
 
-#. js-lingui-id: S1jlER
+#. js-lingui-id: i2IHS1
 #: src/modules/settings/privacy/components/SettingsPrivacySharingWithTwenty.tsx
-msgid "Share session replays and AI conversations to help us improve Twenty"
-msgstr "Κοινοποιήστε επαναλήψεις συνεδριών και συνομιλίες AI για να μας βοηθήσετε να βελτιώσουμε το Twenty"
+msgid "Share session replays and AI conversations to help us improve RevWay CRM"
+msgstr ""
 
 #. js-lingui-id: w+9mVo
 #: src/modules/settings/two-factor-authentication/components/TwoFactorAuthenticationRecoveryCodeDisplay.tsx
@@ -27803,10 +27777,10 @@ msgstr "Κοινοποίηση εγγραφής"
 msgid "Sharing settings could not be loaded."
 msgstr "Δεν ήταν δυνατή η φόρτωση των ρυθμίσεων κοινής χρήσης."
 
-#. js-lingui-id: K8Q+iX
+#. js-lingui-id: fTAoH/
 #: src/modules/settings/privacy/components/SettingsPrivacySharingWithTwenty.tsx
-msgid "Sharing with Twenty"
-msgstr "Κοινοποίηση με το Twenty"
+msgid "Sharing with RevWay"
+msgstr ""
 
 #. js-lingui-id: PGetcZ
 #: src/modules/ui/navigation/hooks/useShortcutAccessibleKeyLabels.ts
@@ -28513,6 +28487,7 @@ msgid "Source"
 msgstr "Πηγή"
 
 #. js-lingui-id: joolK7
+#: src/modules/settings/hooks/useSettingsNavigationItems.tsx
 #: src/modules/settings/privacy/components/SettingsPrivacySafeguards.tsx
 msgid "Source code"
 msgstr "Πηγαίος κώδικας"
@@ -28959,10 +28934,10 @@ msgstr "Υπο-Πεδία"
 msgid "Subdomain"
 msgstr "Υποτομέας"
 
-#. js-lingui-id: Sv4BSp
+#. js-lingui-id: Z+brTN
 #: src/modules/settings/billing/constants/SettingsBillingPlanComparisonRows.ts
-msgid "Subdomain (yourco.twenty.com)"
-msgstr "Υποτομέας (yourco.twenty.com)"
+msgid "Subdomain (yourco.crm.revway.com.br)"
+msgstr ""
 
 #. js-lingui-id: mGO3xy
 #: src/modules/auth/sign-in-up/components/internal/SignInUpWorkspaceCreationForm.tsx
@@ -29066,13 +29041,13 @@ msgstr "Συνδρομή"
 msgid "Subscription activated."
 msgstr "Η συνδρομή ενεργοποιήθηκε."
 
-#. js-lingui-id: 0okvpx
+#. js-lingui-id: JjfsEm
 #: src/modules/settings/billing/components/AddPaymentMethodForm.tsx
 #: src/modules/settings/billing/components/AddPaymentMethodForm.tsx
 #: src/modules/settings/billing/hooks/useSubmitSubscriptionPayment.ts
 #: src/modules/settings/billing/hooks/useSubmitSubscriptionPayment.ts
-msgid "Subscription error. Please retry or contact Twenty team"
-msgstr "Σφάλμα συνδρομής. Δοκιμάστε ξανά ή επικοινωνήστε με την ομάδα Twenty"
+msgid "Subscription error. Please retry or contact RevWay support"
+msgstr ""
 
 #. js-lingui-id: kSY/ji
 #: src/modules/settings/billing/hooks/useApplyBillingSubscriptionChange.ts
@@ -29751,10 +29726,10 @@ msgstr "Το API endpoint για τον πάροχό σας που είναι σ
 msgid "The AWS region for Bedrock"
 msgstr "Η περιοχή AWS για το Bedrock"
 
-#. js-lingui-id: bEyeZg
+#. js-lingui-id: QcwSzB
 #: src/modules/applications/utils/getStandardApplicationDescription.ts
-msgid "The base data model every Twenty workspace runs on."
-msgstr "Το βασικό μοντέλο δεδομένων στο οποίο εκτελείται κάθε χώρος εργασίας του Twenty."
+msgid "The base data model every RevWay CRM workspace runs on."
+msgstr ""
 
 #. js-lingui-id: 832YJ9
 #: src/modules/validation-rules/constants/ValidationRuleKeywords.ts
@@ -29781,10 +29756,10 @@ msgstr "Η ηχογράφηση κλήσης βρίσκεται σε επεξε�
 msgid "The code lets {memberName} sign in to this workspace once without their authenticator app. Using it removes their current authenticator and signs them out of their other sessions here. They will be notified by email."
 msgstr "Ο κωδικός επιτρέπει στον/στην {memberName} να συνδεθεί μία φορά σε αυτόν τον χώρο εργασίας χωρίς την εφαρμογή ελέγχου ταυτότητας. Η χρήση του καταργεί τον τρέχοντα έλεγχο ταυτότητας και τον/την αποσυνδέει από τις άλλες συνεδρίες του/της εδώ. Θα ειδοποιηθεί μέσω email."
 
-#. js-lingui-id: G3XY+D
+#. js-lingui-id: zHU9nH
 #: src/modules/settings/billing/components/SettingsBillingPartnerCodeForm.tsx
-msgid "The code of the Twenty partner who referred you"
-msgstr "Ο κωδικός του συνεργάτη του Twenty που σας παρέπεμψε"
+msgid "The code of the RevWay partner who referred you"
+msgstr ""
 
 #. js-lingui-id: aXzQ65
 #: src/modules/ai-chat/messages/components/AiChatCompactionIndicator.tsx
@@ -30285,10 +30260,10 @@ msgstr "Αυτός ο πράκτορας μοιράζεται τον ρόλο τ
 msgid "This agent shares its role with other members or agents. Change its tools in Settings > Roles."
 msgstr "Αυτός ο πράκτορας μοιράζεται τον ρόλο του με άλλα μέλη ή πράκτορες. Αλλάξτε τα εργαλεία του στις Ρυθμίσεις > Ρόλοι."
 
-#. js-lingui-id: Debhph
+#. js-lingui-id: O0nSsj
 #: src/modules/applications/components/AuthorizeClientIdentityNotice.tsx
-msgid "This app calls itself {appName}, but Twenty could not confirm it is. Only continue if you started this connection from {appName}."
-msgstr "Αυτή η εφαρμογή αυτοαποκαλείται {appName}, αλλά το Twenty δεν μπόρεσε να το επιβεβαιώσει. Συνεχίστε μόνο αν ξεκινήσατε αυτή τη σύνδεση από το {appName}."
+msgid "This app calls itself {appName}, but RevWay CRM could not confirm it is. Only continue if you started this connection from {appName}."
+msgstr ""
 
 #. js-lingui-id: 3jroCi
 #: src/pages/settings/admin-panel/SettingsAdminApplicationRegistrationMonitoring.tsx
@@ -30341,11 +30316,11 @@ msgstr "Αυτή η εφαρμογή δεν είναι διαθέσιμη στο
 msgid "This application is not installed on this workspace. It may have been uninstalled or the link is incorrect."
 msgstr "Αυτή η εφαρμογή δεν είναι εγκατεστημένη σε αυτόν τον χώρο εργασίας. Ενδέχεται να έχει απεγκατασταθεί ή ο σύνδεσμος είναι εσφαλμένος."
 
-#. js-lingui-id: +EhakQ
+#. js-lingui-id: cr3M99
 #: src/modules/marketplace/components/SettingsApplicationInstallPermissionValidationModal.tsx
 #: src/pages/settings/applications/SettingsAvailableApplicationDetails.tsx
-msgid "This application is not listed on the marketplace and has not been reviewed by Twenty. Use at your own risk."
-msgstr "Αυτή η εφαρμογή δεν είναι καταχωρημένη στο marketplace και δεν έχει ελεγχθεί από το Twenty. Χρησιμοποιήστε την με δική σας ευθύνη."
+msgid "This application is not listed on the marketplace and has not been reviewed by RevWay. Use at your own risk."
+msgstr ""
 
 #. js-lingui-id: X7w5n6
 #: src/pages/settings/applications/tabs/SettingsApplicationRegistrationDistributionTab.tsx
@@ -31518,36 +31493,10 @@ msgstr "Μετατρέπει το true σε false και το false σε true."
 msgid "Turquoise"
 msgstr "Τιρκουάζ"
 
-#. js-lingui-id: 8pmRvi
-#: src/pages/onboarding/SyncEmails.tsx
-msgid "Twenty adds the people you email and meet, and keeps them up to date without manual data entry."
-msgstr "Το Twenty προσθέτει τα άτομα στα οποία στέλνετε email και συναντάτε και διατηρεί τα στοιχεία τους ενημερωμένα χωρίς μη αυτόματη εισαγωγή δεδομένων."
-
 #. js-lingui-id: UXtQTZ
 #: src/modules/settings/privacy/components/SettingsPrivacySafeguards.tsx
 msgid "Twenty Cloud"
 msgstr "Twenty Cloud"
-
-#. js-lingui-id: JnaRPe
-#: src/modules/getting-started/components/step-preview/GettingStartedImportPreview.tsx
-#: src/modules/spreadsheet-import/steps/components/MatchColumnsStep/components/ColumnGrid.tsx
-msgid "Twenty fields"
-msgstr "Πεδία Twenty"
-
-#. js-lingui-id: pNo8xt
-#: src/pages/settings/ai/components/SettingsAiModelsTab.tsx
-msgid "Twenty fills each level with the best model that meets your requirements"
-msgstr "Το Twenty συμπληρώνει κάθε επίπεδο με το καλύτερο μοντέλο που ανταποκρίνεται στις απαιτήσεις σας"
-
-#. js-lingui-id: WGKXUo
-#: src/modules/getting-started/components/GettingStartedBookCallSummary.tsx
-msgid "Twenty team"
-msgstr "Ομάδα Twenty"
-
-#. js-lingui-id: qUadjH
-#: src/modules/onboarding/components/OnboardingInviteTeamSkipDialog.tsx
-msgid "Twenty works better with your team"
-msgstr "Το Twenty λειτουργεί καλύτερα με την ομάδα σας"
 
 #. js-lingui-id: YIjS4q
 #: src/modules/ai/hooks/useAgentModelCapabilities.ts
@@ -33769,10 +33718,10 @@ msgstr "Εξαντλήθηκε η εβδομαδιαία προσωπική χρ
 msgid "weeks"
 msgstr ""
 
-#. js-lingui-id: nTuObL
+#. js-lingui-id: Q/pboA
 #: src/pages/auth/SignInUp.tsx
-msgid "Welcome to Twenty"
-msgstr "Καλώς ήρθατε στο Twenty"
+msgid "Welcome to RevWay CRM"
+msgstr ""
 
 #. js-lingui-id: t8ZvkC
 #: src/modules/ai-chat/workspace-setup/components/WorkspaceSetupChatPreamble.tsx

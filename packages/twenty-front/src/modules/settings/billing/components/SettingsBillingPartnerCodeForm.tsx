@@ -105,14 +105,14 @@ export const SettingsBillingPartnerCodeForm = () => {
   const hint =
     errorMessage ??
     (isEditable
-      ? t`Only if a Twenty partner referred you. Once applied, it can't be changed.`
+      ? t`Only if a RevWay partner referred you. Once applied, it can't be changed.`
       : null);
 
   return (
     <Section.Root>
       <Section.Header
         title={t`Partner`}
-        description={t`The code of the Twenty partner who referred you`}
+        description={t`The code of the RevWay partner who referred you`}
       />
       <StyledContainer>
         <StyledRow>

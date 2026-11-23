@@ -292,7 +292,7 @@ export const WorkflowEditActionFormBuilder = ({
                   type="button"
                   onClick={() =>
                     openUrlInNewTab(
-                      'https://docs.twenty.com/user-guide/workflows/capabilities/workflow-actions#form',
+                      'https://revway.com.br/ajuda/user-guide/workflows/capabilities/workflow-actions#form',
                     )
                   }
                 >{t`Learn more`}</Callout.Action>

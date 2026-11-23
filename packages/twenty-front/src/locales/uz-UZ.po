@@ -1883,10 +1883,10 @@ msgstr "{objectLabelPlural} obyektlariga kirish yozuvma-yozuv emas, rollar orqal
 msgid "Access to specific features"
 msgstr "Muayyan funksiyalarga kirish"
 
-#. js-lingui-id: rkbqAv
+#. js-lingui-id: IyQkCs
 #: src/modules/settings/mcp/utils/mcpSetup.ts
-msgid "Access your Twenty workspace through MCP"
-msgstr "MCP orqali Twenty ish joyingizga kiring"
+msgid "Access your RevWay CRM workspace through MCP"
+msgstr ""
 
 #. js-lingui-id: CrjDqe
 #: src/pages/auth/Authorize.tsx
@@ -2576,6 +2576,11 @@ msgstr "Reaksiya qo‘shish"
 msgid "Add relation"
 msgstr "Bog‘lanish qo‘shish"
 
+#. js-lingui-id: zhMzS1
+#: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
+msgid "Add RevWay CRM as a Streamable HTTP extension in Goose."
+msgstr ""
+
 #. js-lingui-id: 32bGrY
 #: src/modules/workflow/workflow-steps/workflow-actions/if-else-action/components/WorkflowEditActionIfElseBody.tsx
 msgid "Add route"
@@ -2650,40 +2655,40 @@ msgstr "Shaxsning kompaniya sohasi kabi bog‘liq yozuv maydonini ko‘rsatadiga
 msgid "Add teammates"
 msgstr "Jamoa a’zolarini qo‘shish"
 
-#. js-lingui-id: FKGcEL
+#. js-lingui-id: tkG3q8
 #: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
-msgid "Add the Twenty MCP server as a remote context server in Zed."
-msgstr "Twenty MCP serverini Zed ichida masofaviy kontekst serveri sifatida qo‘shing."
+msgid "Add the RevWay CRM MCP server as a remote context server in Zed."
+msgstr ""
 
-#. js-lingui-id: iA2nHX
+#. js-lingui-id: Wu2nsN
 #: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
-msgid "Add the Twenty MCP server from Augment Code settings."
-msgstr "Twenty MCP serverini Augment Code sozlamalaridan qo‘shing."
+msgid "Add the RevWay CRM MCP server from Augment Code settings."
+msgstr ""
 
-#. js-lingui-id: l+NzAk
+#. js-lingui-id: mov5dX
 #: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
-msgid "Add the Twenty MCP server from Raycast's MCP commands or settings."
-msgstr "Twenty MCP serverini Raycastning MCP buyruqlari yoki sozlamalaridan qo‘shing."
+msgid "Add the RevWay CRM MCP server from Raycast's MCP commands or settings."
+msgstr ""
 
-#. js-lingui-id: j6G/yI
+#. js-lingui-id: /LEI1X
 #: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
-msgid "Add the Twenty MCP server in Gemini CLI settings."
-msgstr "Twenty MCP serverini Gemini CLI sozlamalarida qo‘shing."
+msgid "Add the RevWay CRM MCP server in Gemini CLI settings."
+msgstr ""
 
-#. js-lingui-id: /OyhlM
+#. js-lingui-id: jtJEl4
 #: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
-msgid "Add the Twenty MCP server to your LibreChat configuration file."
-msgstr "Twenty MCP serverini LibreChat konfiguratsiya faylingizga qo‘shing."
+msgid "Add the RevWay CRM MCP server to your LibreChat configuration file."
+msgstr ""
 
-#. js-lingui-id: K0DXoj
+#. js-lingui-id: HRTmy3
 #: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
-msgid "Add the Twenty remote server with LM Studio's install link."
-msgstr "Twenty masofaviy serverini LM Studioning o‘rnatish havolasi bilan qo‘shing."
+msgid "Add the RevWay CRM remote server with LM Studio's install link."
+msgstr ""
 
-#. js-lingui-id: BTFMKE
+#. js-lingui-id: Di8agL
 #: src/pages/settings/communications/SettingsWorkspaceCommunicationGroupChannelDetail.tsx
-msgid "Add these records at your DNS provider. Twenty checks them automatically."
-msgstr "Ushbu yozuvlarni DNS provayderingizga qo‘shing. Twenty ularni avtomatik tekshiradi."
+msgid "Add these records at your DNS provider. RevWay CRM checks them automatically."
+msgstr ""
 
 #. js-lingui-id: Bc+ryO
 #: src/modules/related-record-paths/components/SettingsObjectRelatedRecordPathPicker.tsx
@@ -2721,11 +2726,6 @@ msgstr "Mavzu qo‘shish"
 #: src/modules/object-core/agents/components/CoreAgentTriggersSection.tsx
 msgid "Add trigger"
 msgstr "Trigger qo‘shish"
-
-#. js-lingui-id: 4D/zWv
-#: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
-msgid "Add Twenty as a Streamable HTTP extension in Goose."
-msgstr "Twenty ni Goose ichida Streamable HTTP kengaytmasi sifatida qo‘shing."
 
 #. js-lingui-id: XnwceV
 #: src/pages/settings/applications/components/SettingsApplicationRegistrationRedirectURIsInput.tsx
@@ -4187,10 +4187,10 @@ msgstr "ilova o‘zgaruvchisi"
 msgid "Applications"
 msgstr "Ilovalar"
 
-#. js-lingui-id: q7rlQw
+#. js-lingui-id: DyacQh
 #: src/pages/settings/applications/tabs/SettingsApplicationsAvailableTab.tsx
-msgid "Applications below have not been reviewed by Twenty. Use at your own risk."
-msgstr "Quyidagi ilovalar Twenty tomonidan ko‘rib chiqilmagan. O‘z xavfingiz hisobidan foydalaning."
+msgid "Applications below have not been reviewed by RevWay. Use at your own risk."
+msgstr ""
 
 #. js-lingui-id: p98xmP
 #: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceUsageLimitsSection.tsx
@@ -4948,10 +4948,10 @@ msgstr "Xatlarni qabul qilganingiz yoki yuborganingizda odamlar yozuvlari avtoma
 msgid "Automatically install this app on every newly created workspace"
 msgstr "Har bir yangi yaratilgan ish maydoniga ushbu ilovani avtomatik o‘rnatish"
 
-#. js-lingui-id: MHsVk5
+#. js-lingui-id: spr4HW
 #: src/pages/settings/ai/components/SettingsAiModelTiersPreview.tsx
-msgid "Automatically selected by Twenty for this mode."
-msgstr "Ushbu rejim uchun Twenty tomonidan avtomatik tanlanadi."
+msgid "Automatically selected by RevWay CRM for this mode."
+msgstr ""
 
 #. js-lingui-id: XFGV21
 #: src/pages/settings/applications/tabs/SettingsApplicationAutoUpdateSection.tsx
@@ -5257,10 +5257,10 @@ msgstr "Hisob-kitob davri"
 msgid "Billing period"
 msgstr "Hisob-kitob davri"
 
-#. js-lingui-id: xF/NXI
+#. js-lingui-id: Q6E08U
 #: src/modules/settings/billing/hooks/useBillingPortalSession.ts
-msgid "Billing portal session error. Please retry or contact Twenty team"
-msgstr "Hisob-kitob portali seansi xatosi. Iltimos, qayta urinib ko‘ring yoki Twenty jamoasiga murojaat qiling"
+msgid "Billing portal session error. Please retry or contact RevWay support"
+msgstr ""
 
 #. js-lingui-id: H++SIW
 #: src/modules/settings/billing/hooks/useBillingSubscriptionChangeWording.ts
@@ -5569,10 +5569,10 @@ msgstr "muallif: {author}"
 msgid "by {trimmedAuthor}"
 msgstr "muallif: {trimmedAuthor}"
 
-#. js-lingui-id: 8Pfllj
+#. js-lingui-id: 5KppIb
 #: src/modules/auth/sign-in-up/components/FooterNote.tsx
-msgid "By using Twenty, you agree to the"
-msgstr "Twentyʼdan foydalanish orqali siz"
+msgid "By using RevWay CRM, you agree to the"
+msgstr ""
 
 #. js-lingui-id: 7l+dLC
 #: src/modules/marketplace/constants/PermissionFlagSummaryConfigs.ts
@@ -6191,10 +6191,10 @@ msgstr "AI provayderlari so‘rovlarni qayerda qayta ishlashi va nimalarni saqla
 msgid "Changes"
 msgstr "O‘zgarishlar"
 
-#. js-lingui-id: OhVo1W
+#. js-lingui-id: SGx4cM
 #: src/modules/settings/applications/components/SettingsApplicationIframeMediaPermissionsSection.tsx
-msgid "Changes saved. Reload open Twenty tabs to apply the updated permissions. Reloading ends active calls and recordings."
-msgstr "O‘zgarishlar saqlandi. Yangilangan ruxsatlarni qo‘llash uchun ochiq Twenty yorliqlarini qayta yuklang. Qayta yuklash faol qo‘ng‘iroqlar va yozib olishlarni tugatadi."
+msgid "Changes saved. Reload open RevWay CRM tabs to apply the updated permissions. Reloading ends active calls and recordings."
+msgstr ""
 
 #. js-lingui-id: oRH6Dq
 #: src/modules/metadata-error-handler/hooks/useMetadataErrorHandler.ts
@@ -6295,11 +6295,6 @@ msgstr "Chat to‘xtatildi: mavjud kreditlar qolmadi."
 msgid "Chat with AI agents and use AI features"
 msgstr "AI agentlar bilan suhbatlashish va AI funksiyalaridan foydalanish"
 
-#. js-lingui-id: yOaaWk
-#: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
-msgid "ChatGPT"
-msgstr "ChatGPT"
-
 #. js-lingui-id: 8Q+lLG
 #: src/modules/settings/usage/constants/UsageOperationTypeLabels.ts
 #: src/modules/side-panel/pages/search-ai-chats/components/SidePanelAiChatPickerList.tsx
@@ -6373,11 +6368,11 @@ msgstr "Faqat ushbu qoida tegishli bo‘lgan yozuv saqlanganda tekshiriladi. Bog
 msgid "Checking calendar availability…"
 msgstr "Taqvimdagi mavjudlik tekshirilmoqda…"
 
-#. js-lingui-id: SxwQE8
+#. js-lingui-id: xtL95p
 #: src/modules/settings/billing/hooks/useHandleCheckoutSession.ts
 #: src/modules/settings/billing/hooks/useHandleCheckoutSession.ts
-msgid "Checkout session error. Please retry or contact Twenty team"
-msgstr "To‘lov seansi xatosi. Iltimos, qayta urinib ko‘ring yoki Twenty jamoasiga murojaat qiling"
+msgid "Checkout session error. Please retry or contact RevWay support"
+msgstr ""
 
 #. js-lingui-id: SviKkE
 #: src/modules/localization/hooks/useLocaleOptions.ts
@@ -6570,10 +6565,10 @@ msgstr "Telefon raqamini bosganingizda nima bo‘lishini tanlang"
 msgid "Choose what happens when you click an email"
 msgstr "Emailni bosganingizda nima bo‘lishini tanlang"
 
-#. js-lingui-id: XDg9PA
+#. js-lingui-id: iKKBYe
 #: src/modules/settings/privacy/components/SettingsPrivacySharingWithTwenty.tsx
-msgid "Choose what Twenty can access to support you and improve the product."
-msgstr "Sizni qo‘llab-quvvatlash va mahsulotni yaxshilash uchun Twenty nimalarga kira olishini tanlang."
+msgid "Choose what RevWay can access to support you and improve the product."
+msgstr ""
 
 #. js-lingui-id: Fi1ujk
 #: src/pages/settings/ai/components/SettingsAiBehaviorSection.tsx
@@ -7454,15 +7449,15 @@ msgstr "Uzoqdagi MCP serverini Warp agenti sozlamalari orqali moslang."
 msgid "Configure the remote server in Amazon Q Developer's MCP settings."
 msgstr "Uzoqdagi serverni Amazon Q Developer MCP sozlamalarida moslang."
 
-#. js-lingui-id: g1/8jH
+#. js-lingui-id: aowOal
 #: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
-msgid "Configure the Twenty MCP server manually in Cascade."
-msgstr "Twenty MCP serverini Cascade’da qo‘lda moslang."
+msgid "Configure the RevWay CRM MCP server manually in Cascade."
+msgstr ""
 
-#. js-lingui-id: XiyvRh
+#. js-lingui-id: RPl8k2
 #: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
-msgid "Configure the Twenty MCP server manually in Cline."
-msgstr "Twenty MCP serverini Cline’da qo‘lda moslang."
+msgid "Configure the RevWay CRM MCP server manually in Cline."
+msgstr ""
 
 #. js-lingui-id: qA9AGQ
 #: src/modules/settings/domains/components/SettingsDomainRecords.tsx
@@ -8389,10 +8384,10 @@ msgstr "Barchasini sanash"
 msgid "Count by"
 msgstr "Sanash usuli"
 
-#. js-lingui-id: EEqRLn
+#. js-lingui-id: 2+mU7e
 #: src/modules/settings/workspace/components/ClickTrackingSwitch.tsx
-msgid "Count clicks by routing campaign links through Twenty before the original page."
-msgstr "Asl sahifadan oldin kampaniya havolalarini Twenty orqali yo‘naltirib, bosishlarni hisoblang."
+msgid "Count clicks by routing campaign links through RevWay CRM before the original page."
+msgstr ""
 
 #. js-lingui-id: vQJINq
 #: src/modules/object-record/record-board/record-board-column/utils/getAggregateOperationLabel.ts
@@ -12503,10 +12498,10 @@ msgstr "Oraliqni o‘zgartirishni bekor qilishda xatolik yuz berdi."
 msgid "Error while cancelling plan switching."
 msgstr "Tarifni o‘zgartirishni bekor qilishda xatolik yuz berdi."
 
-#. js-lingui-id: QmR+2U
+#. js-lingui-id: o562b9
 #: src/modules/settings/billing/hooks/useEndSubscriptionTrialPeriod.ts
-msgid "Error while ending trial period. Please contact Twenty team."
-msgstr "Sinov davrini yakunlashda xatolik yuz berdi. Iltimos, Twenty jamoasiga murojaat qiling."
+msgid "Error while ending trial period. Please contact RevWay support."
+msgstr ""
 
 #. js-lingui-id: 5g78zo
 #: src/pages/settings/members/SettingsWorkspaceMember.tsx
@@ -12693,10 +12688,10 @@ msgstr "Ushbu ish maydonidagi barcha obyektlar bitta zip fayldagi CSV fayllari s
 msgid "Every provider that handles your data"
 msgstr "Ma’lumotlaringizni qayta ishlaydigan har bir provayder"
 
-#. js-lingui-id: SpXUci
+#. js-lingui-id: cUIzf5
 #: src/modules/applications/utils/getStandardApplicationReadme.ts
 msgid ""
-"Every Twenty workspace starts with this app. It defines the shape of your CRM: the core objects, how they relate to each other, and the views and record pages your team works in. Marketplace apps, AI agents and your own customizations all build on top of it.\n"
+"Every RevWay CRM workspace starts with this app. It defines the shape of your CRM: the core objects, how they relate to each other, and the views and record pages your team works in. Marketplace apps, AI agents and your own customizations all build on top of it.\n"
 "\n"
 "## ✨ What you get\n"
 "\n"
@@ -12708,7 +12703,7 @@ msgid ""
 "\n"
 "## 📌 Good to know\n"
 "\n"
-"- Installed on every workspace and maintained by Twenty\n"
+"- Installed on every workspace and maintained by RevWay CRM\n"
 "- Cannot be uninstalled: the rest of the workspace is built on it\n"
 "- Your own objects, fields and layouts live in the **Custom** app\n"
 "\n"
@@ -12716,25 +12711,6 @@ msgid ""
 "\n"
 "**Free**: no credits, no metering."
 msgstr ""
-"Har bir Twenty ish maydoni ushbu ilovadan boshlanadi. U CRM tizimingiz tuzilishini belgilaydi: asosiy obyektlar, ularning bir-biri bilan qanday bog'lanishi hamda jamoangiz ishlaydigan ko'rinishlar va yozuv sahifalari. Marketplace ilovalari, AI agentlari va o'zingizning moslashtirishlaringizning barchasi uning ustiga quriladi.\n"
-"\n"
-"## ✨ Siz oladigan imkoniyatlar\n"
-"\n"
-"- **Odamlar va kompaniyalar**: kontaktlaringiz va ular tegishli bo'lgan hisoblar\n"
-"- **Imkoniyatlar**: savdo voronkangiz, bosqichma-bosqich\n"
-"- **Eslatmalar va vazifalar**: istalgan yozuvga biriktirilgan faoliyatlar va keyingi kuzatuvlar\n"
-"- **Elektron pochta xabarlari va taqvim voqealari**: ulangan hisoblaringizdan sinxronlashtiriladi va tegishli yozuvlarga bog'lanadi\n"
-"- **Ish jarayonlari va boshqaruv panellari**: ma'lumotlaringiz asosidagi avtomatlashtirish va hisobotlar\n"
-"\n"
-"## 📌 Bilish foydali\n"
-"\n"
-"- Har bir ish maydoniga o'rnatilgan va Twenty tomonidan qo'llab-quvvatlanadi\n"
-"- Olib tashlab bo'lmaydi: ish maydonining qolgan qismi uning asosida qurilgan\n"
-"- O'zingizning obyektlaringiz, maydonlaringiz va maketlaringiz **Custom** ilovasida joylashadi\n"
-"\n"
-"## 💳 Hisob-kitob\n"
-"\n"
-"**Bepul**: kreditlar yo'q, foydalanish hisoblanmaydi."
 
 #. js-lingui-id: PsQmAw
 #: src/modules/object-core/workflows/constants/CoreWorkflowVisibilityOptions.ts
@@ -12755,7 +12731,7 @@ msgstr "{objectLabelPlural} ga kirish huquqiga ega barcha foydalanuvchilar"
 msgid "Everything"
 msgstr "Hammasi"
 
-#. js-lingui-id: BnV3Mw
+#. js-lingui-id: GDJydQ
 #: src/modules/applications/utils/getCustomApplicationReadme.ts
 msgid ""
 "Everything you build directly in this workspace lives here. Every object, field, view or automation you add on top of the Standard app is grouped under Custom, so your schema changes, interface changes and workspace-specific logic stay in one place.\n"
@@ -12770,29 +12746,12 @@ msgid ""
 "\n"
 "- Created with your workspace and unique to it\n"
 "- Cannot be uninstalled: it holds your workspace's customizations\n"
-"- Customizations you make from the Twenty interface are saved here automatically\n"
+"- Customizations you make from the RevWay CRM interface are saved here automatically\n"
 "\n"
 "## 💳 Billing\n"
 "\n"
 "**Free**: no credits, no metering."
 msgstr ""
-"Ushbu ish joyida bevosita yaratgan barcha narsangiz shu yerda joylashadi. Standard ilovasi ustiga qo‘shgan har bir obyekt, maydon, ko‘rinish yoki avtomatlashtirish Custom ostida guruhlanadi, shuning uchun sxema o‘zgarishlari, interfeys o‘zgarishlari va ish joyiga xos mantiq bir joyda qoladi.\n"
-"\n"
-"## ✨ Siz oladigan narsalar\n"
-"\n"
-"- **Custom obyektlar va maydonlar**: standart obyektlar yonidagi o‘zingizning ma’lumotlar modelingiz\n"
-"- **Ko‘rinishlar, navigatsiya elementlari va yozuv maketlari**: jamoangizning ishlash usulini belgilaydigan ekranlar\n"
-"- **Mantiq funksiyalari, front komponentlar va agentlar**: ushbu ish joyiga xos avtomatlashtirish va kengaytmalar\n"
-"\n"
-"## 📌 Bilish foydali\n"
-"\n"
-"- Ish joyingiz bilan yaratilgan va unga xos\n"
-"- O‘chirib tashlab bo‘lmaydi: u ish joyingizning moslashtirishlarini saqlaydi\n"
-"- Twenty interfeysidan qilgan moslashtirishlaringiz bu yerda avtomatik saqlanadi\n"
-"\n"
-"## 💳 Hisob-kitob\n"
-"\n"
-"**Bepul**: kreditlar yo‘q, foydalanish hisoblanmaydi."
 
 #. js-lingui-id: LG6l5T
 #: src/modules/spreadsheet-import/steps/components/MatchColumnsStep/components/UserTableColumn.tsx
@@ -14860,10 +14819,10 @@ msgstr "Yordam olish"
 msgid "Get more credits"
 msgstr "Ko‘proq kredit olish"
 
-#. js-lingui-id: LBG67E
+#. js-lingui-id: SHANFQ
 #: src/modules/settings/experience/components/SettingsExperienceNotificationsSection.tsx
-msgid "Get notified of new inbox messages on this device when you are not looking at Twenty. Your choices below apply to every device"
-msgstr "Twenty’ni ko‘rmayotganingizda, ushbu qurilmada yangi kiruvchi xabarlar haqida bildirishnoma oling. Quyidagi tanlovlaringiz barcha qurilmalarga tatbiq etiladi"
+msgid "Get notified of new inbox messages on this device when you are not looking at RevWay CRM. Your choices below apply to every device"
+msgstr ""
 
 #. js-lingui-id: AvbPI1
 #: src/modules/settings/enterprise/components/EnterprisePlanModal.tsx
@@ -15410,10 +15369,10 @@ msgstr "Yordam"
 msgid "Help center"
 msgstr "Yordam markazi"
 
-#. js-lingui-id: GY8MUv
+#. js-lingui-id: NyZKp5
 #: src/modules/settings/privacy/components/SettingsPrivacySharingWithTwenty.tsx
-msgid "Help improve Twenty"
-msgstr "Twenty’ni yaxshilashga yordam bering"
+msgid "Help improve RevWay CRM"
+msgstr ""
 
 #. js-lingui-id: tIb8bD
 #: src/modules/ai-chat/constants/AiChatAssistantAvatarShapeLabels.ts
@@ -16054,10 +16013,10 @@ msgstr "JetBrains sozlamalaridan MCP konfiguratsiyasini import qiling yoki qo‘
 msgid "Import recurring meetings 90 days ahead"
 msgstr "Takrorlanuvchi uchrashuvlarni 90 kun oldindan import qilish"
 
-#. js-lingui-id: LHHO6e
+#. js-lingui-id: nQaRpg
 #: src/modules/getting-started/constants/GettingStartedImportPrompt.ts
-msgid "Import the attached files into Twenty. Work out which records they contain and shape the workspace around them: reuse the objects and fields that fit, add the ones that are missing, then create the records and link them together."
-msgstr "Biriktirilgan fayllarni Twenty'ga import qiling. Ular qaysi yozuvlarni o‘z ichiga olganini aniqlang va ish joyini ular asosida shakllantiring: mos keladigan obyektlar va maydonlardan qayta foydalaning, yetishmayotganlarini qo‘shing, so‘ng yozuvlarni yarating va ularni bir-biriga bog‘lang."
+msgid "Import the attached files into RevWay CRM. Work out which records they contain and shape the workspace around them: reuse the objects and fields that fit, add the ones that are missing, then create the records and link them together."
+msgstr ""
 
 #. js-lingui-id: vXTVX9
 #: src/pages/onboarding/ImportContacts.tsx
@@ -17060,6 +17019,12 @@ msgstr "Kanban vidjeti"
 msgid "Keep executing the next nodes even if this one fails"
 msgstr "Bu tugun muvaffaqiyatsiz tugasa ham, keyingi tugunlarni bajarishda davom eting"
 
+#. js-lingui-id: xBCGuH
+#: src/modules/getting-started/components/GettingStartedKeepPlanButton.tsx
+#: src/modules/getting-started/components/GettingStartedKeepPlanButton.tsx
+msgid "Keep RevWay CRM"
+msgstr ""
+
 #. js-lingui-id: AHYRpC
 #: src/modules/settings/unsubscribers/utils/getUnsubscribePageTrackingCopy.ts
 msgid "Keep tracking my clicks"
@@ -17074,12 +17039,6 @@ msgstr "Ochishlarimni kuzatishda davom etish"
 #: src/modules/settings/unsubscribers/utils/getUnsubscribePageTrackingCopy.ts
 msgid "Keep tracking my opens and clicks"
 msgstr "Ochishlarim va bosishlarimni kuzatishda davom etish"
-
-#. js-lingui-id: TOIQKe
-#: src/modules/getting-started/components/GettingStartedKeepPlanButton.tsx
-#: src/modules/getting-started/components/GettingStartedKeepPlanButton.tsx
-msgid "Keep Twenty"
-msgstr "Twenty-ni saqlab qolish"
 
 #. js-lingui-id: 7sMeHQ
 #: src/modules/workflow/workflow-steps/workflow-actions/http-request-action/components/KeyValuePairInput.tsx
@@ -19291,10 +19250,10 @@ msgstr "Model majburiy"
 msgid "Model tier · switches to an allowed model"
 msgstr "Model darajasi · ruxsat etilgan modelga o‘tadi"
 
-#. js-lingui-id: iaurWj
+#. js-lingui-id: eMD1GP
 #: src/pages/settings/ai/components/SettingsAiModelsTab.tsx
-msgid "Model used when you chat with Twenty"
-msgstr "Twenty bilan chat qilganingizda foydalaniladigan model"
+msgid "Model used when you chat with RevWay CRM"
+msgstr ""
 
 #. js-lingui-id: //nm2/
 #: src/modules/settings/ai/utils/getSettingsAiTabs.ts
@@ -21870,11 +21829,6 @@ msgstr "O‘chirilgan"
 msgid "Off the beaten path"
 msgstr "Odatdagidan chetda"
 
-#. js-lingui-id: s1X4Cm
-#: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
-msgid "Official app"
-msgstr "Rasmiy ilova"
-
 #. js-lingui-id: Zd5vVt
 #: src/modules/workflow/workflow-steps/workflow-actions/find-records-action/components/WorkflowEditActionFindRecords.tsx
 msgid "Offset"
@@ -22057,10 +22011,10 @@ msgstr "Faqat sana va ishtirokchilar jamoangiz bilan bo‘lishiladi."
 msgid "Only enable for steps that are safe to run twice: a failed attempt may already have written data or sent messages."
 msgstr "Faqat ikki marta bajarish xavfsiz bo‘lgan qadamlar uchun yoqing: muvaffaqiyatsiz urinish allaqachon ma’lumot yozgan yoki xabarlar yuborgan bo‘lishi mumkin."
 
-#. js-lingui-id: KsHGCA
+#. js-lingui-id: 6ML1d4
 #: src/modules/settings/billing/components/SettingsBillingPartnerCodeForm.tsx
-msgid "Only if a Twenty partner referred you. Once applied, it can't be changed."
-msgstr "Faqat Twenty hamkori sizni tavsiya qilgan bo‘lsa. Qo‘llangandan so‘ng, uni o‘zgartirib bo‘lmaydi."
+msgid "Only if a RevWay partner referred you. Once applied, it can't be changed."
+msgstr ""
 
 #. js-lingui-id: aluwJP
 #: src/modules/settings/data-model/object-details/components/SettingsUpdateDataModelObjectAboutForm.tsx
@@ -22145,7 +22099,6 @@ msgstr "Faqat siz elektron pochtalaringiz va hodisalaringizni ko‘rasiz"
 #: src/modules/inbox/constants/InboxThreadPresetFilterLabels.ts
 #: src/modules/log-console/components/LogConsole.tsx
 #: src/modules/settings/data-model/objects/forms/components/SettingsDataModelObjectAboutForm.tsx
-#: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
 #: src/pages/settings/admin-panel/SettingsAdminNewAiProvider.tsx
 #: src/pages/settings/members/tabs/SettingsWorkspaceMembersTeamTab.tsx
 msgid "Open"
@@ -22194,10 +22147,10 @@ msgstr "Chatni ochish"
 msgid "Open chats in"
 msgstr "Chatlarni quyidagida ochish"
 
-#. js-lingui-id: n0vVgf
+#. js-lingui-id: NSVz9u
 #: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
-msgid "Open Claude with the Twenty connector name and MCP URL prefilled."
-msgstr "Claude ni Twenty konnektori nomi va oldindan to‘ldirilgan MCP URL bilan oching."
+msgid "Open Claude with the RevWay CRM connector name and MCP URL prefilled."
+msgstr ""
 
 #. js-lingui-id: N4OQXf
 #: src/modules/advanced-text-editor/components/AdvancedTextEditorTableHandleMenu.tsx
@@ -22209,10 +22162,10 @@ msgstr "Ustun menyusini ochish"
 msgid "Open conversation"
 msgstr "Suhbatni ochish"
 
-#. js-lingui-id: +n2jpB
+#. js-lingui-id: k5UXHy
 #: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
-msgid "Open Cursor's MCP installer with the Twenty remote server config."
-msgstr "Cursor ning MCP o‘rnatish dasturini Twenty masofaviy server konfiguratsiyasi bilan oching."
+msgid "Open Cursor's MCP installer with the RevWay CRM remote server config."
+msgstr ""
 
 #. js-lingui-id: JvSHIq
 #: src/modules/getting-started/components/GettingStartedSidebarCard.tsx
@@ -22291,10 +22244,10 @@ msgstr "Yozuvlarni quyidagida ochish"
 msgid "Open records on a dedicated page"
 msgstr "Yozuvlarni alohida sahifada oching"
 
-#. js-lingui-id: q170S2
+#. js-lingui-id: WUN+ri
 #: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
-msgid "Open Replit with the Twenty remote server config."
-msgstr "Replit ni Twenty masofaviy server konfiguratsiyasi bilan oching."
+msgid "Open Replit with the RevWay CRM remote server config."
+msgstr ""
 
 #. js-lingui-id: iMBVhp
 #: src/modules/advanced-text-editor/components/AdvancedTextEditorTableHandleMenu.tsx
@@ -22320,11 +22273,6 @@ msgstr "Sozlamalarni ochish"
 #: src/modules/sign-in-background-mock/components/BackgroundMockPage.tsx
 msgid "Open side panel"
 msgstr "Yon panelni ochish"
-
-#. js-lingui-id: sBd/cl
-#: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
-msgid "Open Twenty's official ChatGPT integration for your workspace."
-msgstr "Ish maydoningiz uchun Twenty ning rasmiy ChatGPT integratsiyasini oching."
 
 #. js-lingui-id: tirDue
 #: src/modules/log-console/constants/LogConsoleSources.tsx
@@ -22860,10 +22808,10 @@ msgstr "Sahifa tartiblari"
 msgid "Page name"
 msgstr "Sahifa nomi"
 
-#. js-lingui-id: NRvxzv
+#. js-lingui-id: blohbc
 #: src/pages/not-found/NotFound.tsx
-msgid "Page Not Found | Twenty"
-msgstr "Sahifa topilmadi | Twenty"
+msgid "Page Not Found | RevWay CRM"
+msgstr ""
 
 #. js-lingui-id: QbrUIo
 #: src/modules/log-console/constants/LogConsoleSources.tsx
@@ -24759,10 +24707,10 @@ msgstr "Dasturchilar sozlamalarida tashqi MCP serverlarini ro‘yxatdan o‘tkaz
 msgid "Registered as a development instance. This instance will not be billed."
 msgstr "Ishlab chiqish instansiyasi sifatida ro‘yxatdan o‘tkazildi. Ushbu instansiya uchun hisob-kitob qilinmaydi."
 
-#. js-lingui-id: 5k0oOn
+#. js-lingui-id: qG2+dd
 #: src/modules/applications/components/AuthorizeClientIdentityNotice.tsx
-msgid "Registered with Twenty as the official {appName}"
-msgstr "Twenty’da rasmiy {appName} sifatida ro‘yxatdan o‘tgan"
+msgid "Registered with RevWay CRM as the official {appName}"
+msgstr ""
 
 #. js-lingui-id: 1t/NnN
 #: src/modules/ai-chat/tool-calls/components/AiChatToolCallApprovalArgumentsCard.tsx
@@ -25663,6 +25611,32 @@ msgstr "Bekor qilingan"
 #: src/modules/settings/admin-panel/signing-keys/components/SettingsAdminRevokeSigningKeyConfirmationModal.tsx
 msgid "Revoking this key will invalidate every JWT signed with it. Users with active tokens signed by this key will be logged out."
 msgstr "Ushbu kalitni bekor qilish undan foydalangan holda imzolangan barcha JWTlarni yaroqsiz qiladi. Ushbu kalit bilan imzolangan faol tokenlarga ega foydalanuvchilar tizimdan chiqariladi."
+
+#. js-lingui-id: dsxxo8
+#: src/pages/onboarding/SyncEmails.tsx
+msgid "RevWay CRM adds the people you email and meet, and keeps them up to date without manual data entry."
+msgstr ""
+
+#. js-lingui-id: iojVfD
+#: src/modules/getting-started/components/step-preview/GettingStartedImportPreview.tsx
+#: src/modules/spreadsheet-import/steps/components/MatchColumnsStep/components/ColumnGrid.tsx
+msgid "RevWay CRM fields"
+msgstr ""
+
+#. js-lingui-id: 6/VmCW
+#: src/pages/settings/ai/components/SettingsAiModelsTab.tsx
+msgid "RevWay CRM fills each level with the best model that meets your requirements"
+msgstr ""
+
+#. js-lingui-id: wmr/UW
+#: src/modules/onboarding/components/OnboardingInviteTeamSkipDialog.tsx
+msgid "RevWay CRM works better with your team"
+msgstr ""
+
+#. js-lingui-id: GJE+NP
+#: src/modules/getting-started/components/GettingStartedBookCallSummary.tsx
+msgid "RevWay team"
+msgstr ""
 
 #. js-lingui-id: NP5Nbf
 #: src/modules/page-layout/utils/getWidgetTitle.ts
@@ -27742,10 +27716,10 @@ msgstr "Ulashish"
 msgid "Share calendar events across channels"
 msgstr "Taqvim tadbirlarini kanallar bo‘ylab ulashish"
 
-#. js-lingui-id: S1jlER
+#. js-lingui-id: i2IHS1
 #: src/modules/settings/privacy/components/SettingsPrivacySharingWithTwenty.tsx
-msgid "Share session replays and AI conversations to help us improve Twenty"
-msgstr "Twenty’ni yaxshilashimizga yordam berish uchun sessiya takrorlari va AI suhbatlarini ulashing"
+msgid "Share session replays and AI conversations to help us improve RevWay CRM"
+msgstr ""
 
 #. js-lingui-id: w+9mVo
 #: src/modules/settings/two-factor-authentication/components/TwoFactorAuthenticationRecoveryCodeDisplay.tsx
@@ -27803,10 +27777,10 @@ msgstr "Yozuv ulashilmoqda"
 msgid "Sharing settings could not be loaded."
 msgstr "Ulashish sozlamalarini yuklab bo‘lmadi."
 
-#. js-lingui-id: K8Q+iX
+#. js-lingui-id: fTAoH/
 #: src/modules/settings/privacy/components/SettingsPrivacySharingWithTwenty.tsx
-msgid "Sharing with Twenty"
-msgstr "Twenty bilan ulashish"
+msgid "Sharing with RevWay"
+msgstr ""
 
 #. js-lingui-id: PGetcZ
 #: src/modules/ui/navigation/hooks/useShortcutAccessibleKeyLabels.ts
@@ -28513,6 +28487,7 @@ msgid "Source"
 msgstr "Manba"
 
 #. js-lingui-id: joolK7
+#: src/modules/settings/hooks/useSettingsNavigationItems.tsx
 #: src/modules/settings/privacy/components/SettingsPrivacySafeguards.tsx
 msgid "Source code"
 msgstr "Manba kodi"
@@ -28959,10 +28934,10 @@ msgstr "Quyi maydonlar"
 msgid "Subdomain"
 msgstr "Subdomen"
 
-#. js-lingui-id: Sv4BSp
+#. js-lingui-id: Z+brTN
 #: src/modules/settings/billing/constants/SettingsBillingPlanComparisonRows.ts
-msgid "Subdomain (yourco.twenty.com)"
-msgstr "Subdomen (yourco.twenty.com)"
+msgid "Subdomain (yourco.crm.revway.com.br)"
+msgstr ""
 
 #. js-lingui-id: mGO3xy
 #: src/modules/auth/sign-in-up/components/internal/SignInUpWorkspaceCreationForm.tsx
@@ -29066,13 +29041,13 @@ msgstr "Obuna"
 msgid "Subscription activated."
 msgstr "Obuna faollashtirildi."
 
-#. js-lingui-id: 0okvpx
+#. js-lingui-id: JjfsEm
 #: src/modules/settings/billing/components/AddPaymentMethodForm.tsx
 #: src/modules/settings/billing/components/AddPaymentMethodForm.tsx
 #: src/modules/settings/billing/hooks/useSubmitSubscriptionPayment.ts
 #: src/modules/settings/billing/hooks/useSubmitSubscriptionPayment.ts
-msgid "Subscription error. Please retry or contact Twenty team"
-msgstr "Obuna xatosi. Iltimos, qayta urinib ko‘ring yoki Twenty jamoasiga murojaat qiling"
+msgid "Subscription error. Please retry or contact RevWay support"
+msgstr ""
 
 #. js-lingui-id: kSY/ji
 #: src/modules/settings/billing/hooks/useApplyBillingSubscriptionChange.ts
@@ -29751,10 +29726,10 @@ msgstr "OpenAI bilan mos keluvchi provayderingiz uchun API endpoint manzili"
 msgid "The AWS region for Bedrock"
 msgstr "Bedrock uchun AWS regioni"
 
-#. js-lingui-id: bEyeZg
+#. js-lingui-id: QcwSzB
 #: src/modules/applications/utils/getStandardApplicationDescription.ts
-msgid "The base data model every Twenty workspace runs on."
-msgstr "Har bir Twenty ish joyi ishlaydigan asosiy ma’lumotlar modeli."
+msgid "The base data model every RevWay CRM workspace runs on."
+msgstr ""
 
 #. js-lingui-id: 832YJ9
 #: src/modules/validation-rules/constants/ValidationRuleKeywords.ts
@@ -29781,10 +29756,10 @@ msgstr "Qo‘ng‘iroq yozuviga ishlov berilmoqda…"
 msgid "The code lets {memberName} sign in to this workspace once without their authenticator app. Using it removes their current authenticator and signs them out of their other sessions here. They will be notified by email."
 msgstr "Kod {memberName} ga autentifikator ilovasisiz ushbu ish maydoniga bir marta kirish imkonini beradi. Undan foydalanish ularning joriy autentifikatorini o‘chiradi va bu yerdagi boshqa seanslaridan chiqaradi. Ularga elektron pochta orqali xabar beriladi."
 
-#. js-lingui-id: G3XY+D
+#. js-lingui-id: zHU9nH
 #: src/modules/settings/billing/components/SettingsBillingPartnerCodeForm.tsx
-msgid "The code of the Twenty partner who referred you"
-msgstr "Sizni tavsiya qilgan Twenty hamkorining kodi"
+msgid "The code of the RevWay partner who referred you"
+msgstr ""
 
 #. js-lingui-id: aXzQ65
 #: src/modules/ai-chat/messages/components/AiChatCompactionIndicator.tsx
@@ -30283,10 +30258,10 @@ msgstr "Bu agent o‘z rolini boshqa a’zolar yoki agentlar bilan baham ko‘ra
 msgid "This agent shares its role with other members or agents. Change its tools in Settings > Roles."
 msgstr "Bu agent o‘z rolini boshqa a’zolar yoki agentlar bilan baham ko‘radi. Uning vositalarini Sozlamalar > Rollar bo‘limida o‘zgartiring."
 
-#. js-lingui-id: Debhph
+#. js-lingui-id: O0nSsj
 #: src/modules/applications/components/AuthorizeClientIdentityNotice.tsx
-msgid "This app calls itself {appName}, but Twenty could not confirm it is. Only continue if you started this connection from {appName}."
-msgstr "Bu ilova o‘zini {appName} deb ataydi, ammo Twenty buni tasdiqlay olmadi. Faqat bu ulanishni {appName} orqali boshlagan bo‘lsangiz davom eting."
+msgid "This app calls itself {appName}, but RevWay CRM could not confirm it is. Only continue if you started this connection from {appName}."
+msgstr ""
 
 #. js-lingui-id: 3jroCi
 #: src/pages/settings/admin-panel/SettingsAdminApplicationRegistrationMonitoring.tsx
@@ -30339,11 +30314,11 @@ msgstr "Bu ilova marketplace’da mavjud emas. U o‘chirilgan bo‘lishi yoki h
 msgid "This application is not installed on this workspace. It may have been uninstalled or the link is incorrect."
 msgstr "Bu ilova ushbu ish maydoniga o‘rnatilmagan. U o‘chirib tashlangan bo‘lishi yoki havola noto‘g‘ri bo‘lishi mumkin."
 
-#. js-lingui-id: +EhakQ
+#. js-lingui-id: cr3M99
 #: src/modules/marketplace/components/SettingsApplicationInstallPermissionValidationModal.tsx
 #: src/pages/settings/applications/SettingsAvailableApplicationDetails.tsx
-msgid "This application is not listed on the marketplace and has not been reviewed by Twenty. Use at your own risk."
-msgstr "Bu ilova bozorda roʻyxatga kiritilmagan va Twenty tomonidan ko‘rib chiqilmagan. Undan o‘z xavf-xataringiz ostida foydalaning."
+msgid "This application is not listed on the marketplace and has not been reviewed by RevWay. Use at your own risk."
+msgstr ""
 
 #. js-lingui-id: X7w5n6
 #: src/pages/settings/applications/tabs/SettingsApplicationRegistrationDistributionTab.tsx
@@ -31516,36 +31491,10 @@ msgstr "true qiymatini false ga va false qiymatini true ga o‘zgartiradi."
 msgid "Turquoise"
 msgstr "Firuzarang"
 
-#. js-lingui-id: 8pmRvi
-#: src/pages/onboarding/SyncEmails.tsx
-msgid "Twenty adds the people you email and meet, and keeps them up to date without manual data entry."
-msgstr "Twenty siz yozishadigan va uchrashadigan odamlarni qo‘shadi hamda qo‘lda ma’lumot kiritmasdan ularni yangilab turadi."
-
 #. js-lingui-id: UXtQTZ
 #: src/modules/settings/privacy/components/SettingsPrivacySafeguards.tsx
 msgid "Twenty Cloud"
 msgstr "Twenty Cloud"
-
-#. js-lingui-id: JnaRPe
-#: src/modules/getting-started/components/step-preview/GettingStartedImportPreview.tsx
-#: src/modules/spreadsheet-import/steps/components/MatchColumnsStep/components/ColumnGrid.tsx
-msgid "Twenty fields"
-msgstr "Twenty maydonlari"
-
-#. js-lingui-id: pNo8xt
-#: src/pages/settings/ai/components/SettingsAiModelsTab.tsx
-msgid "Twenty fills each level with the best model that meets your requirements"
-msgstr "Twenty har bir darajani talablaringizga javob beradigan eng yaxshi model bilan to‘ldiradi"
-
-#. js-lingui-id: WGKXUo
-#: src/modules/getting-started/components/GettingStartedBookCallSummary.tsx
-msgid "Twenty team"
-msgstr "Twenty jamoasi"
-
-#. js-lingui-id: qUadjH
-#: src/modules/onboarding/components/OnboardingInviteTeamSkipDialog.tsx
-msgid "Twenty works better with your team"
-msgstr "Twenty jamoangiz bilan yaxshiroq ishlaydi"
 
 #. js-lingui-id: YIjS4q
 #: src/modules/ai/hooks/useAgentModelCapabilities.ts
@@ -33767,10 +33716,10 @@ msgstr "Shaxsiy AI’dan haftalik foydalanish limitiga yetildi. Endi ish maydoni
 msgid "weeks"
 msgstr "haftalar"
 
-#. js-lingui-id: nTuObL
+#. js-lingui-id: Q/pboA
 #: src/pages/auth/SignInUp.tsx
-msgid "Welcome to Twenty"
-msgstr "Twenty ga xush kelibsiz"
+msgid "Welcome to RevWay CRM"
+msgstr ""
 
 #. js-lingui-id: t8ZvkC
 #: src/modules/ai-chat/workspace-setup/components/WorkspaceSetupChatPreamble.tsx

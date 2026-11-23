@@ -24,6 +24,11 @@ import { SOURCE_LOCALE } from 'twenty-shared/translations';
 import { ToastProvider } from 'twenty-ui/components/feedback';
 import { IconApps } from 'twenty-ui/icon';
 import { messages } from '~/locales/generated/en';
+import { openUrlInNewTab } from '~/utils/openUrlInNewTab';
+
+jest.mock('~/utils/openUrlInNewTab', () => ({
+  openUrlInNewTab: jest.fn(),
+}));
 
 i18n.load({
   [SOURCE_LOCALE]: messages,
@@ -212,5 +217,38 @@ describe('useSettingsNavigationItems', () => {
     expect(appPreferencesItem?.Icon).toBe(IconApps);
     expect(appPreferencesItem?.isHidden).toBe(false);
     expect(appPreferencesItem?.subItems).toBeUndefined();
+  });
+  it('should expose the AGPL source code link in the Other section', () => {
+    setPermissionFlags([PermissionFlagType.WORKSPACE]);
+
+    const { result } = renderHook(() => useSettingsNavigationItems(), {
+      wrapper: Wrapper,
+    });
+
+    const sourceCodeItem = result.current
+      .find((section) => section.label === 'Other')
+      ?.items.find((item) => item.label === 'Source code');
+
+    expect(sourceCodeItem?.isHidden).toBeFalsy();
+
+    sourceCodeItem?.onClick?.();
+
+    expect(openUrlInNewTab).toHaveBeenCalledWith(
+      'https://github.com/jvictordevai/revway-crm',
+    );
+  });
+
+  it('should hide the Twenty community page', () => {
+    setPermissionFlags([PermissionFlagType.WORKSPACE]);
+
+    const { result } = renderHook(() => useSettingsNavigationItems(), {
+      wrapper: Wrapper,
+    });
+
+    const communityItem = result.current
+      .find((section) => section.label === 'Other')
+      ?.items.find((item) => item.path === SettingsPath.Community);
+
+    expect(communityItem?.isHidden).toBe(true);
   });
 });

@@ -124,20 +124,20 @@ export const SETTINGS_COMPOSITE_FIELD_TYPE_CONFIGS = {
     ],
     exampleValues: doNotTranslate([
       {
-        primaryEmail: 'tim@twenty.com',
+        primaryEmail: 'tim@revway.com.br',
         additionalEmails: [
-          'tim@twenty.com',
-          'timapple@twenty.com',
-          'johnappletim@twenty.com',
+          'tim@revway.com.br',
+          'timapple@revway.com.br',
+          'johnappletim@revway.com.br',
         ],
       },
       {
-        primaryEmail: 'jane@twenty.com',
-        additionalEmails: ['jane@twenty.com', 'jane.doe@twenty.com'],
+        primaryEmail: 'jane@revway.com.br',
+        additionalEmails: ['jane@revway.com.br', 'jane.doe@revway.com.br'],
       },
       {
-        primaryEmail: 'john@twenty.com',
-        additionalEmails: ['john.doe@twenty.com'],
+        primaryEmail: 'john@revway.com.br',
+        additionalEmails: ['john.doe@revway.com.br'],
       },
     ]),
     category: 'Basic',
@@ -182,14 +182,14 @@ export const SETTINGS_COMPOSITE_FIELD_TYPE_CONFIGS = {
     ],
     exampleValues: doNotTranslate([
       {
-        primaryLinkUrl: 'twenty.com',
+        primaryLinkUrl: 'revway.com.br',
         primaryLinkLabel: '',
-        secondaryLinks: [{ url: 'twenty.com', label: 'Twenty' }],
+        secondaryLinks: [{ url: 'revway.com.br', label: 'RevWay' }],
       },
       {
-        primaryLinkUrl: 'github.com/twentyhq/twenty',
-        primaryLinkLabel: 'Twenty Repo',
-        secondaryLinks: [{ url: 'twenty.com', label: '' }],
+        primaryLinkUrl: 'github.com/jvictordevai/revway-crm',
+        primaryLinkLabel: 'RevWay CRM Repo',
+        secondaryLinks: [{ url: 'revway.com.br', label: '' }],
       },
       {
         primaryLinkUrl: 'react.dev',

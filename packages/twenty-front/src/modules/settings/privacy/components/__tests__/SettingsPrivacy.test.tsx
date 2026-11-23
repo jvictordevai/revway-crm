@@ -161,18 +161,22 @@ describe('SettingsPrivacy', () => {
     window.PointerEvent ??= MouseEvent as typeof PointerEvent;
   });
 
-  it('presents compliance, AI controls and sharing on Twenty Cloud', () => {
+  it('presents AI controls and sharing, without Twenty Cloud safeguards', () => {
     renderSettingsPrivacy({
       isMultiWorkspaceEnabled: true,
       aiModels: [EU_ZERO_DATA_RETENTION_MODEL],
     });
 
-    expect(screen.getByText('Data Processing Agreement')).toBeInTheDocument();
+    expect(
+      screen.queryByText('Data Processing Agreement'),
+    ).not.toBeInTheDocument();
     expect(screen.getByText('Processing region')).toBeInTheDocument();
     expect(screen.getByText('Zero data retention')).toBeInTheDocument();
-    expect(screen.getByText('Help improve Twenty')).toBeInTheDocument();
+    expect(screen.getByText('Help improve RevWay CRM')).toBeInTheDocument();
     expect(screen.getByText('Allow Support Team Access')).toBeInTheDocument();
-    expect(screen.getByText('AWS, Frankfurt, Germany')).toBeInTheDocument();
+    expect(
+      screen.queryByText('AWS, Frankfurt, Germany'),
+    ).not.toBeInTheDocument();
     expect(
       screen.queryByText('Your data stays in the EU'),
     ).not.toBeInTheDocument();
@@ -191,7 +195,9 @@ describe('SettingsPrivacy', () => {
     expect(
       screen.queryByText('Data Processing Agreement'),
     ).not.toBeInTheDocument();
-    expect(screen.queryByText('Help improve Twenty')).not.toBeInTheDocument();
+    expect(
+      screen.queryByText('Help improve RevWay CRM'),
+    ).not.toBeInTheDocument();
   });
 
   it('hides AI controls when no model states a residency or retention', () => {
@@ -301,7 +307,7 @@ describe('SettingsPrivacy', () => {
       screen.getByRole('switch', { name: 'Zero data retention' }),
     );
     await userEvent.click(
-      screen.getByRole('switch', { name: 'Help improve Twenty' }),
+      screen.getByRole('switch', { name: 'Help improve RevWay CRM' }),
     );
 
     expect(onUpdateWorkspace).toHaveBeenCalledTimes(1);

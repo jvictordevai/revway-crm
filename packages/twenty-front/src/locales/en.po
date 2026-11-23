@@ -1878,10 +1878,10 @@ msgstr "Access to {objectLabelPlural} is set by roles, not record by record."
 msgid "Access to specific features"
 msgstr "Access to specific features"
 
-#. js-lingui-id: rkbqAv
+#. js-lingui-id: IyQkCs
 #: src/modules/settings/mcp/utils/mcpSetup.ts
-msgid "Access your Twenty workspace through MCP"
-msgstr "Access your Twenty workspace through MCP"
+msgid "Access your RevWay CRM workspace through MCP"
+msgstr "Access your RevWay CRM workspace through MCP"
 
 #. js-lingui-id: CrjDqe
 #: src/pages/auth/Authorize.tsx
@@ -2571,6 +2571,11 @@ msgstr "Add reaction"
 msgid "Add relation"
 msgstr "Add relation"
 
+#. js-lingui-id: zhMzS1
+#: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
+msgid "Add RevWay CRM as a Streamable HTTP extension in Goose."
+msgstr "Add RevWay CRM as a Streamable HTTP extension in Goose."
+
 #. js-lingui-id: 32bGrY
 #: src/modules/workflow/workflow-steps/workflow-actions/if-else-action/components/WorkflowEditActionIfElseBody.tsx
 msgid "Add route"
@@ -2645,40 +2650,40 @@ msgstr "Add table columns that show a field of a related record, such as a perso
 msgid "Add teammates"
 msgstr "Add teammates"
 
-#. js-lingui-id: FKGcEL
+#. js-lingui-id: tkG3q8
 #: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
-msgid "Add the Twenty MCP server as a remote context server in Zed."
-msgstr "Add the Twenty MCP server as a remote context server in Zed."
+msgid "Add the RevWay CRM MCP server as a remote context server in Zed."
+msgstr "Add the RevWay CRM MCP server as a remote context server in Zed."
 
-#. js-lingui-id: iA2nHX
+#. js-lingui-id: Wu2nsN
 #: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
-msgid "Add the Twenty MCP server from Augment Code settings."
-msgstr "Add the Twenty MCP server from Augment Code settings."
+msgid "Add the RevWay CRM MCP server from Augment Code settings."
+msgstr "Add the RevWay CRM MCP server from Augment Code settings."
 
-#. js-lingui-id: l+NzAk
+#. js-lingui-id: mov5dX
 #: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
-msgid "Add the Twenty MCP server from Raycast's MCP commands or settings."
-msgstr "Add the Twenty MCP server from Raycast's MCP commands or settings."
+msgid "Add the RevWay CRM MCP server from Raycast's MCP commands or settings."
+msgstr "Add the RevWay CRM MCP server from Raycast's MCP commands or settings."
 
-#. js-lingui-id: j6G/yI
+#. js-lingui-id: /LEI1X
 #: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
-msgid "Add the Twenty MCP server in Gemini CLI settings."
-msgstr "Add the Twenty MCP server in Gemini CLI settings."
+msgid "Add the RevWay CRM MCP server in Gemini CLI settings."
+msgstr "Add the RevWay CRM MCP server in Gemini CLI settings."
 
-#. js-lingui-id: /OyhlM
+#. js-lingui-id: jtJEl4
 #: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
-msgid "Add the Twenty MCP server to your LibreChat configuration file."
-msgstr "Add the Twenty MCP server to your LibreChat configuration file."
+msgid "Add the RevWay CRM MCP server to your LibreChat configuration file."
+msgstr "Add the RevWay CRM MCP server to your LibreChat configuration file."
 
-#. js-lingui-id: K0DXoj
+#. js-lingui-id: HRTmy3
 #: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
-msgid "Add the Twenty remote server with LM Studio's install link."
-msgstr "Add the Twenty remote server with LM Studio's install link."
+msgid "Add the RevWay CRM remote server with LM Studio's install link."
+msgstr "Add the RevWay CRM remote server with LM Studio's install link."
 
-#. js-lingui-id: BTFMKE
+#. js-lingui-id: Di8agL
 #: src/pages/settings/communications/SettingsWorkspaceCommunicationGroupChannelDetail.tsx
-msgid "Add these records at your DNS provider. Twenty checks them automatically."
-msgstr "Add these records at your DNS provider. Twenty checks them automatically."
+msgid "Add these records at your DNS provider. RevWay CRM checks them automatically."
+msgstr "Add these records at your DNS provider. RevWay CRM checks them automatically."
 
 #. js-lingui-id: Bc+ryO
 #: src/modules/related-record-paths/components/SettingsObjectRelatedRecordPathPicker.tsx
@@ -2716,11 +2721,6 @@ msgstr "Add topic"
 #: src/modules/object-core/agents/components/CoreAgentTriggersSection.tsx
 msgid "Add trigger"
 msgstr "Add trigger"
-
-#. js-lingui-id: 4D/zWv
-#: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
-msgid "Add Twenty as a Streamable HTTP extension in Goose."
-msgstr "Add Twenty as a Streamable HTTP extension in Goose."
 
 #. js-lingui-id: XnwceV
 #: src/pages/settings/applications/components/SettingsApplicationRegistrationRedirectURIsInput.tsx
@@ -4182,10 +4182,10 @@ msgstr "application variable"
 msgid "Applications"
 msgstr "Applications"
 
-#. js-lingui-id: q7rlQw
+#. js-lingui-id: DyacQh
 #: src/pages/settings/applications/tabs/SettingsApplicationsAvailableTab.tsx
-msgid "Applications below have not been reviewed by Twenty. Use at your own risk."
-msgstr "Applications below have not been reviewed by Twenty. Use at your own risk."
+msgid "Applications below have not been reviewed by RevWay. Use at your own risk."
+msgstr "Applications below have not been reviewed by RevWay. Use at your own risk."
 
 #. js-lingui-id: p98xmP
 #: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceUsageLimitsSection.tsx
@@ -4943,10 +4943,10 @@ msgstr "Automatically create People records when receiving or sending emails"
 msgid "Automatically install this app on every newly created workspace"
 msgstr "Automatically install this app on every newly created workspace"
 
-#. js-lingui-id: MHsVk5
+#. js-lingui-id: spr4HW
 #: src/pages/settings/ai/components/SettingsAiModelTiersPreview.tsx
-msgid "Automatically selected by Twenty for this mode."
-msgstr "Automatically selected by Twenty for this mode."
+msgid "Automatically selected by RevWay CRM for this mode."
+msgstr "Automatically selected by RevWay CRM for this mode."
 
 #. js-lingui-id: XFGV21
 #: src/pages/settings/applications/tabs/SettingsApplicationAutoUpdateSection.tsx
@@ -5252,10 +5252,10 @@ msgstr "Billing interval"
 msgid "Billing period"
 msgstr "Billing period"
 
-#. js-lingui-id: xF/NXI
+#. js-lingui-id: Q6E08U
 #: src/modules/settings/billing/hooks/useBillingPortalSession.ts
-msgid "Billing portal session error. Please retry or contact Twenty team"
-msgstr "Billing portal session error. Please retry or contact Twenty team"
+msgid "Billing portal session error. Please retry or contact RevWay support"
+msgstr "Billing portal session error. Please retry or contact RevWay support"
 
 #. js-lingui-id: H++SIW
 #: src/modules/settings/billing/hooks/useBillingSubscriptionChangeWording.ts
@@ -5564,10 +5564,10 @@ msgstr "by {author}"
 msgid "by {trimmedAuthor}"
 msgstr "by {trimmedAuthor}"
 
-#. js-lingui-id: 8Pfllj
+#. js-lingui-id: 5KppIb
 #: src/modules/auth/sign-in-up/components/FooterNote.tsx
-msgid "By using Twenty, you agree to the"
-msgstr "By using Twenty, you agree to the"
+msgid "By using RevWay CRM, you agree to the"
+msgstr "By using RevWay CRM, you agree to the"
 
 #. js-lingui-id: 7l+dLC
 #: src/modules/marketplace/constants/PermissionFlagSummaryConfigs.ts
@@ -6186,10 +6186,10 @@ msgstr "Change where AI providers process requests and what they keep"
 msgid "Changes"
 msgstr "Changes"
 
-#. js-lingui-id: OhVo1W
+#. js-lingui-id: SGx4cM
 #: src/modules/settings/applications/components/SettingsApplicationIframeMediaPermissionsSection.tsx
-msgid "Changes saved. Reload open Twenty tabs to apply the updated permissions. Reloading ends active calls and recordings."
-msgstr "Changes saved. Reload open Twenty tabs to apply the updated permissions. Reloading ends active calls and recordings."
+msgid "Changes saved. Reload open RevWay CRM tabs to apply the updated permissions. Reloading ends active calls and recordings."
+msgstr "Changes saved. Reload open RevWay CRM tabs to apply the updated permissions. Reloading ends active calls and recordings."
 
 #. js-lingui-id: oRH6Dq
 #: src/modules/metadata-error-handler/hooks/useMetadataErrorHandler.ts
@@ -6290,11 +6290,6 @@ msgstr "Chat stopped: no more available credits."
 msgid "Chat with AI agents and use AI features"
 msgstr "Chat with AI agents and use AI features"
 
-#. js-lingui-id: yOaaWk
-#: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
-msgid "ChatGPT"
-msgstr "ChatGPT"
-
 #. js-lingui-id: 8Q+lLG
 #: src/modules/settings/usage/constants/UsageOperationTypeLabels.ts
 #: src/modules/side-panel/pages/search-ai-chats/components/SidePanelAiChatPickerList.tsx
@@ -6368,11 +6363,11 @@ msgstr "Checked only when the record this rule belongs to is saved. Editing the 
 msgid "Checking calendar availability…"
 msgstr "Checking calendar availability…"
 
-#. js-lingui-id: SxwQE8
+#. js-lingui-id: xtL95p
 #: src/modules/settings/billing/hooks/useHandleCheckoutSession.ts
 #: src/modules/settings/billing/hooks/useHandleCheckoutSession.ts
-msgid "Checkout session error. Please retry or contact Twenty team"
-msgstr "Checkout session error. Please retry or contact Twenty team"
+msgid "Checkout session error. Please retry or contact RevWay support"
+msgstr "Checkout session error. Please retry or contact RevWay support"
 
 #. js-lingui-id: SviKkE
 #: src/modules/localization/hooks/useLocaleOptions.ts
@@ -6565,10 +6560,10 @@ msgstr "Choose what happens when you click a phone number"
 msgid "Choose what happens when you click an email"
 msgstr "Choose what happens when you click an email"
 
-#. js-lingui-id: XDg9PA
+#. js-lingui-id: iKKBYe
 #: src/modules/settings/privacy/components/SettingsPrivacySharingWithTwenty.tsx
-msgid "Choose what Twenty can access to support you and improve the product."
-msgstr "Choose what Twenty can access to support you and improve the product."
+msgid "Choose what RevWay can access to support you and improve the product."
+msgstr "Choose what RevWay can access to support you and improve the product."
 
 #. js-lingui-id: Fi1ujk
 #: src/pages/settings/ai/components/SettingsAiBehaviorSection.tsx
@@ -7449,15 +7444,15 @@ msgstr "Configure the remote MCP server through Warp's agent settings."
 msgid "Configure the remote server in Amazon Q Developer's MCP settings."
 msgstr "Configure the remote server in Amazon Q Developer's MCP settings."
 
-#. js-lingui-id: g1/8jH
+#. js-lingui-id: aowOal
 #: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
-msgid "Configure the Twenty MCP server manually in Cascade."
-msgstr "Configure the Twenty MCP server manually in Cascade."
+msgid "Configure the RevWay CRM MCP server manually in Cascade."
+msgstr "Configure the RevWay CRM MCP server manually in Cascade."
 
-#. js-lingui-id: XiyvRh
+#. js-lingui-id: RPl8k2
 #: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
-msgid "Configure the Twenty MCP server manually in Cline."
-msgstr "Configure the Twenty MCP server manually in Cline."
+msgid "Configure the RevWay CRM MCP server manually in Cline."
+msgstr "Configure the RevWay CRM MCP server manually in Cline."
 
 #. js-lingui-id: qA9AGQ
 #: src/modules/settings/domains/components/SettingsDomainRecords.tsx
@@ -8384,10 +8379,10 @@ msgstr "Count all"
 msgid "Count by"
 msgstr "Count by"
 
-#. js-lingui-id: EEqRLn
+#. js-lingui-id: 2+mU7e
 #: src/modules/settings/workspace/components/ClickTrackingSwitch.tsx
-msgid "Count clicks by routing campaign links through Twenty before the original page."
-msgstr "Count clicks by routing campaign links through Twenty before the original page."
+msgid "Count clicks by routing campaign links through RevWay CRM before the original page."
+msgstr "Count clicks by routing campaign links through RevWay CRM before the original page."
 
 #. js-lingui-id: vQJINq
 #: src/modules/object-record/record-board/record-board-column/utils/getAggregateOperationLabel.ts
@@ -12498,10 +12493,10 @@ msgstr "Error while cancelling interval switching."
 msgid "Error while cancelling plan switching."
 msgstr "Error while cancelling plan switching."
 
-#. js-lingui-id: QmR+2U
+#. js-lingui-id: o562b9
 #: src/modules/settings/billing/hooks/useEndSubscriptionTrialPeriod.ts
-msgid "Error while ending trial period. Please contact Twenty team."
-msgstr "Error while ending trial period. Please contact Twenty team."
+msgid "Error while ending trial period. Please contact RevWay support."
+msgstr "Error while ending trial period. Please contact RevWay support."
 
 #. js-lingui-id: 5g78zo
 #: src/pages/settings/members/SettingsWorkspaceMember.tsx
@@ -12688,10 +12683,10 @@ msgstr "Every object of this workspace as CSV files in one zip, kept for 1 day. 
 msgid "Every provider that handles your data"
 msgstr "Every provider that handles your data"
 
-#. js-lingui-id: SpXUci
+#. js-lingui-id: cUIzf5
 #: src/modules/applications/utils/getStandardApplicationReadme.ts
 msgid ""
-"Every Twenty workspace starts with this app. It defines the shape of your CRM: the core objects, how they relate to each other, and the views and record pages your team works in. Marketplace apps, AI agents and your own customizations all build on top of it.\n"
+"Every RevWay CRM workspace starts with this app. It defines the shape of your CRM: the core objects, how they relate to each other, and the views and record pages your team works in. Marketplace apps, AI agents and your own customizations all build on top of it.\n"
 "\n"
 "## ✨ What you get\n"
 "\n"
@@ -12703,7 +12698,7 @@ msgid ""
 "\n"
 "## 📌 Good to know\n"
 "\n"
-"- Installed on every workspace and maintained by Twenty\n"
+"- Installed on every workspace and maintained by RevWay CRM\n"
 "- Cannot be uninstalled: the rest of the workspace is built on it\n"
 "- Your own objects, fields and layouts live in the **Custom** app\n"
 "\n"
@@ -12711,7 +12706,7 @@ msgid ""
 "\n"
 "**Free**: no credits, no metering."
 msgstr ""
-"Every Twenty workspace starts with this app. It defines the shape of your CRM: the core objects, how they relate to each other, and the views and record pages your team works in. Marketplace apps, AI agents and your own customizations all build on top of it.\n"
+"Every RevWay CRM workspace starts with this app. It defines the shape of your CRM: the core objects, how they relate to each other, and the views and record pages your team works in. Marketplace apps, AI agents and your own customizations all build on top of it.\n"
 "\n"
 "## ✨ What you get\n"
 "\n"
@@ -12723,7 +12718,7 @@ msgstr ""
 "\n"
 "## 📌 Good to know\n"
 "\n"
-"- Installed on every workspace and maintained by Twenty\n"
+"- Installed on every workspace and maintained by RevWay CRM\n"
 "- Cannot be uninstalled: the rest of the workspace is built on it\n"
 "- Your own objects, fields and layouts live in the **Custom** app\n"
 "\n"
@@ -12750,7 +12745,7 @@ msgstr "Everyone with access to {objectLabelPlural}"
 msgid "Everything"
 msgstr "Everything"
 
-#. js-lingui-id: BnV3Mw
+#. js-lingui-id: GDJydQ
 #: src/modules/applications/utils/getCustomApplicationReadme.ts
 msgid ""
 "Everything you build directly in this workspace lives here. Every object, field, view or automation you add on top of the Standard app is grouped under Custom, so your schema changes, interface changes and workspace-specific logic stay in one place.\n"
@@ -12765,7 +12760,7 @@ msgid ""
 "\n"
 "- Created with your workspace and unique to it\n"
 "- Cannot be uninstalled: it holds your workspace's customizations\n"
-"- Customizations you make from the Twenty interface are saved here automatically\n"
+"- Customizations you make from the RevWay CRM interface are saved here automatically\n"
 "\n"
 "## 💳 Billing\n"
 "\n"
@@ -12783,7 +12778,7 @@ msgstr ""
 "\n"
 "- Created with your workspace and unique to it\n"
 "- Cannot be uninstalled: it holds your workspace's customizations\n"
-"- Customizations you make from the Twenty interface are saved here automatically\n"
+"- Customizations you make from the RevWay CRM interface are saved here automatically\n"
 "\n"
 "## 💳 Billing\n"
 "\n"
@@ -14855,10 +14850,10 @@ msgstr "Get help"
 msgid "Get more credits"
 msgstr "Get more credits"
 
-#. js-lingui-id: LBG67E
+#. js-lingui-id: SHANFQ
 #: src/modules/settings/experience/components/SettingsExperienceNotificationsSection.tsx
-msgid "Get notified of new inbox messages on this device when you are not looking at Twenty. Your choices below apply to every device"
-msgstr "Get notified of new inbox messages on this device when you are not looking at Twenty. Your choices below apply to every device"
+msgid "Get notified of new inbox messages on this device when you are not looking at RevWay CRM. Your choices below apply to every device"
+msgstr "Get notified of new inbox messages on this device when you are not looking at RevWay CRM. Your choices below apply to every device"
 
 #. js-lingui-id: AvbPI1
 #: src/modules/settings/enterprise/components/EnterprisePlanModal.tsx
@@ -15405,10 +15400,10 @@ msgstr "Help"
 msgid "Help center"
 msgstr "Help center"
 
-#. js-lingui-id: GY8MUv
+#. js-lingui-id: NyZKp5
 #: src/modules/settings/privacy/components/SettingsPrivacySharingWithTwenty.tsx
-msgid "Help improve Twenty"
-msgstr "Help improve Twenty"
+msgid "Help improve RevWay CRM"
+msgstr "Help improve RevWay CRM"
 
 #. js-lingui-id: tIb8bD
 #: src/modules/ai-chat/constants/AiChatAssistantAvatarShapeLabels.ts
@@ -16049,10 +16044,10 @@ msgstr "Import or add the MCP configuration from JetBrains settings."
 msgid "Import recurring meetings 90 days ahead"
 msgstr "Import recurring meetings 90 days ahead"
 
-#. js-lingui-id: LHHO6e
+#. js-lingui-id: nQaRpg
 #: src/modules/getting-started/constants/GettingStartedImportPrompt.ts
-msgid "Import the attached files into Twenty. Work out which records they contain and shape the workspace around them: reuse the objects and fields that fit, add the ones that are missing, then create the records and link them together."
-msgstr "Import the attached files into Twenty. Work out which records they contain and shape the workspace around them: reuse the objects and fields that fit, add the ones that are missing, then create the records and link them together."
+msgid "Import the attached files into RevWay CRM. Work out which records they contain and shape the workspace around them: reuse the objects and fields that fit, add the ones that are missing, then create the records and link them together."
+msgstr "Import the attached files into RevWay CRM. Work out which records they contain and shape the workspace around them: reuse the objects and fields that fit, add the ones that are missing, then create the records and link them together."
 
 #. js-lingui-id: vXTVX9
 #: src/pages/onboarding/ImportContacts.tsx
@@ -17055,6 +17050,12 @@ msgstr "Kanban widget"
 msgid "Keep executing the next nodes even if this one fails"
 msgstr "Keep executing the next nodes even if this one fails"
 
+#. js-lingui-id: xBCGuH
+#: src/modules/getting-started/components/GettingStartedKeepPlanButton.tsx
+#: src/modules/getting-started/components/GettingStartedKeepPlanButton.tsx
+msgid "Keep RevWay CRM"
+msgstr "Keep RevWay CRM"
+
 #. js-lingui-id: AHYRpC
 #: src/modules/settings/unsubscribers/utils/getUnsubscribePageTrackingCopy.ts
 msgid "Keep tracking my clicks"
@@ -17069,12 +17070,6 @@ msgstr "Keep tracking my opens"
 #: src/modules/settings/unsubscribers/utils/getUnsubscribePageTrackingCopy.ts
 msgid "Keep tracking my opens and clicks"
 msgstr "Keep tracking my opens and clicks"
-
-#. js-lingui-id: TOIQKe
-#: src/modules/getting-started/components/GettingStartedKeepPlanButton.tsx
-#: src/modules/getting-started/components/GettingStartedKeepPlanButton.tsx
-msgid "Keep Twenty"
-msgstr "Keep Twenty"
 
 #. js-lingui-id: 7sMeHQ
 #: src/modules/workflow/workflow-steps/workflow-actions/http-request-action/components/KeyValuePairInput.tsx
@@ -19286,10 +19281,10 @@ msgstr "Model is required"
 msgid "Model tier · switches to an allowed model"
 msgstr "Model tier · switches to an allowed model"
 
-#. js-lingui-id: iaurWj
+#. js-lingui-id: eMD1GP
 #: src/pages/settings/ai/components/SettingsAiModelsTab.tsx
-msgid "Model used when you chat with Twenty"
-msgstr "Model used when you chat with Twenty"
+msgid "Model used when you chat with RevWay CRM"
+msgstr "Model used when you chat with RevWay CRM"
 
 #. js-lingui-id: //nm2/
 #: src/modules/settings/ai/utils/getSettingsAiTabs.ts
@@ -21865,11 +21860,6 @@ msgstr "Off"
 msgid "Off the beaten path"
 msgstr "Off the beaten path"
 
-#. js-lingui-id: s1X4Cm
-#: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
-msgid "Official app"
-msgstr "Official app"
-
 #. js-lingui-id: Zd5vVt
 #: src/modules/workflow/workflow-steps/workflow-actions/find-records-action/components/WorkflowEditActionFindRecords.tsx
 msgid "Offset"
@@ -22052,10 +22042,10 @@ msgstr "Only date & participants will be shared with your team."
 msgid "Only enable for steps that are safe to run twice: a failed attempt may already have written data or sent messages."
 msgstr "Only enable for steps that are safe to run twice: a failed attempt may already have written data or sent messages."
 
-#. js-lingui-id: KsHGCA
+#. js-lingui-id: 6ML1d4
 #: src/modules/settings/billing/components/SettingsBillingPartnerCodeForm.tsx
-msgid "Only if a Twenty partner referred you. Once applied, it can't be changed."
-msgstr "Only if a Twenty partner referred you. Once applied, it can't be changed."
+msgid "Only if a RevWay partner referred you. Once applied, it can't be changed."
+msgstr "Only if a RevWay partner referred you. Once applied, it can't be changed."
 
 #. js-lingui-id: aluwJP
 #: src/modules/settings/data-model/object-details/components/SettingsUpdateDataModelObjectAboutForm.tsx
@@ -22140,7 +22130,6 @@ msgstr "Only you will be able to see your emails and events"
 #: src/modules/inbox/constants/InboxThreadPresetFilterLabels.ts
 #: src/modules/log-console/components/LogConsole.tsx
 #: src/modules/settings/data-model/objects/forms/components/SettingsDataModelObjectAboutForm.tsx
-#: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
 #: src/pages/settings/admin-panel/SettingsAdminNewAiProvider.tsx
 #: src/pages/settings/members/tabs/SettingsWorkspaceMembersTeamTab.tsx
 msgid "Open"
@@ -22189,10 +22178,10 @@ msgstr "Open chat"
 msgid "Open chats in"
 msgstr "Open chats in"
 
-#. js-lingui-id: n0vVgf
+#. js-lingui-id: NSVz9u
 #: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
-msgid "Open Claude with the Twenty connector name and MCP URL prefilled."
-msgstr "Open Claude with the Twenty connector name and MCP URL prefilled."
+msgid "Open Claude with the RevWay CRM connector name and MCP URL prefilled."
+msgstr "Open Claude with the RevWay CRM connector name and MCP URL prefilled."
 
 #. js-lingui-id: N4OQXf
 #: src/modules/advanced-text-editor/components/AdvancedTextEditorTableHandleMenu.tsx
@@ -22204,10 +22193,10 @@ msgstr "Open column menu"
 msgid "Open conversation"
 msgstr "Open conversation"
 
-#. js-lingui-id: +n2jpB
+#. js-lingui-id: k5UXHy
 #: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
-msgid "Open Cursor's MCP installer with the Twenty remote server config."
-msgstr "Open Cursor's MCP installer with the Twenty remote server config."
+msgid "Open Cursor's MCP installer with the RevWay CRM remote server config."
+msgstr "Open Cursor's MCP installer with the RevWay CRM remote server config."
 
 #. js-lingui-id: JvSHIq
 #: src/modules/getting-started/components/GettingStartedSidebarCard.tsx
@@ -22286,10 +22275,10 @@ msgstr "Open records in"
 msgid "Open records on a dedicated page"
 msgstr "Open records on a dedicated page"
 
-#. js-lingui-id: q170S2
+#. js-lingui-id: WUN+ri
 #: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
-msgid "Open Replit with the Twenty remote server config."
-msgstr "Open Replit with the Twenty remote server config."
+msgid "Open Replit with the RevWay CRM remote server config."
+msgstr "Open Replit with the RevWay CRM remote server config."
 
 #. js-lingui-id: iMBVhp
 #: src/modules/advanced-text-editor/components/AdvancedTextEditorTableHandleMenu.tsx
@@ -22315,11 +22304,6 @@ msgstr "Open settings"
 #: src/modules/sign-in-background-mock/components/BackgroundMockPage.tsx
 msgid "Open side panel"
 msgstr "Open side panel"
-
-#. js-lingui-id: sBd/cl
-#: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
-msgid "Open Twenty's official ChatGPT integration for your workspace."
-msgstr "Open Twenty's official ChatGPT integration for your workspace."
 
 #. js-lingui-id: tirDue
 #: src/modules/log-console/constants/LogConsoleSources.tsx
@@ -22855,10 +22839,10 @@ msgstr "Page layouts"
 msgid "Page name"
 msgstr "Page name"
 
-#. js-lingui-id: NRvxzv
+#. js-lingui-id: blohbc
 #: src/pages/not-found/NotFound.tsx
-msgid "Page Not Found | Twenty"
-msgstr "Page Not Found | Twenty"
+msgid "Page Not Found | RevWay CRM"
+msgstr "Page Not Found | RevWay CRM"
 
 #. js-lingui-id: QbrUIo
 #: src/modules/log-console/constants/LogConsoleSources.tsx
@@ -24754,10 +24738,10 @@ msgstr "Register external MCP servers in Developers settings and expose their to
 msgid "Registered as a development instance. This instance will not be billed."
 msgstr "Registered as a development instance. This instance will not be billed."
 
-#. js-lingui-id: 5k0oOn
+#. js-lingui-id: qG2+dd
 #: src/modules/applications/components/AuthorizeClientIdentityNotice.tsx
-msgid "Registered with Twenty as the official {appName}"
-msgstr "Registered with Twenty as the official {appName}"
+msgid "Registered with RevWay CRM as the official {appName}"
+msgstr "Registered with RevWay CRM as the official {appName}"
 
 #. js-lingui-id: 1t/NnN
 #: src/modules/ai-chat/tool-calls/components/AiChatToolCallApprovalArgumentsCard.tsx
@@ -25658,6 +25642,32 @@ msgstr "Revoked"
 #: src/modules/settings/admin-panel/signing-keys/components/SettingsAdminRevokeSigningKeyConfirmationModal.tsx
 msgid "Revoking this key will invalidate every JWT signed with it. Users with active tokens signed by this key will be logged out."
 msgstr "Revoking this key will invalidate every JWT signed with it. Users with active tokens signed by this key will be logged out."
+
+#. js-lingui-id: dsxxo8
+#: src/pages/onboarding/SyncEmails.tsx
+msgid "RevWay CRM adds the people you email and meet, and keeps them up to date without manual data entry."
+msgstr "RevWay CRM adds the people you email and meet, and keeps them up to date without manual data entry."
+
+#. js-lingui-id: iojVfD
+#: src/modules/getting-started/components/step-preview/GettingStartedImportPreview.tsx
+#: src/modules/spreadsheet-import/steps/components/MatchColumnsStep/components/ColumnGrid.tsx
+msgid "RevWay CRM fields"
+msgstr "RevWay CRM fields"
+
+#. js-lingui-id: 6/VmCW
+#: src/pages/settings/ai/components/SettingsAiModelsTab.tsx
+msgid "RevWay CRM fills each level with the best model that meets your requirements"
+msgstr "RevWay CRM fills each level with the best model that meets your requirements"
+
+#. js-lingui-id: wmr/UW
+#: src/modules/onboarding/components/OnboardingInviteTeamSkipDialog.tsx
+msgid "RevWay CRM works better with your team"
+msgstr "RevWay CRM works better with your team"
+
+#. js-lingui-id: GJE+NP
+#: src/modules/getting-started/components/GettingStartedBookCallSummary.tsx
+msgid "RevWay team"
+msgstr "RevWay team"
 
 #. js-lingui-id: NP5Nbf
 #: src/modules/page-layout/utils/getWidgetTitle.ts
@@ -27737,10 +27747,10 @@ msgstr "Share"
 msgid "Share calendar events across channels"
 msgstr "Share calendar events across channels"
 
-#. js-lingui-id: S1jlER
+#. js-lingui-id: i2IHS1
 #: src/modules/settings/privacy/components/SettingsPrivacySharingWithTwenty.tsx
-msgid "Share session replays and AI conversations to help us improve Twenty"
-msgstr "Share session replays and AI conversations to help us improve Twenty"
+msgid "Share session replays and AI conversations to help us improve RevWay CRM"
+msgstr "Share session replays and AI conversations to help us improve RevWay CRM"
 
 #. js-lingui-id: w+9mVo
 #: src/modules/settings/two-factor-authentication/components/TwoFactorAuthenticationRecoveryCodeDisplay.tsx
@@ -27798,10 +27808,10 @@ msgstr "Sharing record"
 msgid "Sharing settings could not be loaded."
 msgstr "Sharing settings could not be loaded."
 
-#. js-lingui-id: K8Q+iX
+#. js-lingui-id: fTAoH/
 #: src/modules/settings/privacy/components/SettingsPrivacySharingWithTwenty.tsx
-msgid "Sharing with Twenty"
-msgstr "Sharing with Twenty"
+msgid "Sharing with RevWay"
+msgstr "Sharing with RevWay"
 
 #. js-lingui-id: PGetcZ
 #: src/modules/ui/navigation/hooks/useShortcutAccessibleKeyLabels.ts
@@ -28508,6 +28518,7 @@ msgid "Source"
 msgstr "Source"
 
 #. js-lingui-id: joolK7
+#: src/modules/settings/hooks/useSettingsNavigationItems.tsx
 #: src/modules/settings/privacy/components/SettingsPrivacySafeguards.tsx
 msgid "Source code"
 msgstr "Source code"
@@ -28954,10 +28965,10 @@ msgstr "Sub-Fields"
 msgid "Subdomain"
 msgstr "Subdomain"
 
-#. js-lingui-id: Sv4BSp
+#. js-lingui-id: Z+brTN
 #: src/modules/settings/billing/constants/SettingsBillingPlanComparisonRows.ts
-msgid "Subdomain (yourco.twenty.com)"
-msgstr "Subdomain (yourco.twenty.com)"
+msgid "Subdomain (yourco.crm.revway.com.br)"
+msgstr "Subdomain (yourco.crm.revway.com.br)"
 
 #. js-lingui-id: mGO3xy
 #: src/modules/auth/sign-in-up/components/internal/SignInUpWorkspaceCreationForm.tsx
@@ -29061,13 +29072,13 @@ msgstr "Subscription"
 msgid "Subscription activated."
 msgstr "Subscription activated."
 
-#. js-lingui-id: 0okvpx
+#. js-lingui-id: JjfsEm
 #: src/modules/settings/billing/components/AddPaymentMethodForm.tsx
 #: src/modules/settings/billing/components/AddPaymentMethodForm.tsx
 #: src/modules/settings/billing/hooks/useSubmitSubscriptionPayment.ts
 #: src/modules/settings/billing/hooks/useSubmitSubscriptionPayment.ts
-msgid "Subscription error. Please retry or contact Twenty team"
-msgstr "Subscription error. Please retry or contact Twenty team"
+msgid "Subscription error. Please retry or contact RevWay support"
+msgstr "Subscription error. Please retry or contact RevWay support"
 
 #. js-lingui-id: kSY/ji
 #: src/modules/settings/billing/hooks/useApplyBillingSubscriptionChange.ts
@@ -29746,10 +29757,10 @@ msgstr "The API endpoint for your OpenAI-compatible provider"
 msgid "The AWS region for Bedrock"
 msgstr "The AWS region for Bedrock"
 
-#. js-lingui-id: bEyeZg
+#. js-lingui-id: QcwSzB
 #: src/modules/applications/utils/getStandardApplicationDescription.ts
-msgid "The base data model every Twenty workspace runs on."
-msgstr "The base data model every Twenty workspace runs on."
+msgid "The base data model every RevWay CRM workspace runs on."
+msgstr "The base data model every RevWay CRM workspace runs on."
 
 #. js-lingui-id: 832YJ9
 #: src/modules/validation-rules/constants/ValidationRuleKeywords.ts
@@ -29776,10 +29787,10 @@ msgstr "The call recording is being processed…"
 msgid "The code lets {memberName} sign in to this workspace once without their authenticator app. Using it removes their current authenticator and signs them out of their other sessions here. They will be notified by email."
 msgstr "The code lets {memberName} sign in to this workspace once without their authenticator app. Using it removes their current authenticator and signs them out of their other sessions here. They will be notified by email."
 
-#. js-lingui-id: G3XY+D
+#. js-lingui-id: zHU9nH
 #: src/modules/settings/billing/components/SettingsBillingPartnerCodeForm.tsx
-msgid "The code of the Twenty partner who referred you"
-msgstr "The code of the Twenty partner who referred you"
+msgid "The code of the RevWay partner who referred you"
+msgstr "The code of the RevWay partner who referred you"
 
 #. js-lingui-id: aXzQ65
 #: src/modules/ai-chat/messages/components/AiChatCompactionIndicator.tsx
@@ -30280,10 +30291,10 @@ msgstr "This agent shares its role with other members or agents. Change its acce
 msgid "This agent shares its role with other members or agents. Change its tools in Settings > Roles."
 msgstr "This agent shares its role with other members or agents. Change its tools in Settings > Roles."
 
-#. js-lingui-id: Debhph
+#. js-lingui-id: O0nSsj
 #: src/modules/applications/components/AuthorizeClientIdentityNotice.tsx
-msgid "This app calls itself {appName}, but Twenty could not confirm it is. Only continue if you started this connection from {appName}."
-msgstr "This app calls itself {appName}, but Twenty could not confirm it is. Only continue if you started this connection from {appName}."
+msgid "This app calls itself {appName}, but RevWay CRM could not confirm it is. Only continue if you started this connection from {appName}."
+msgstr "This app calls itself {appName}, but RevWay CRM could not confirm it is. Only continue if you started this connection from {appName}."
 
 #. js-lingui-id: 3jroCi
 #: src/pages/settings/admin-panel/SettingsAdminApplicationRegistrationMonitoring.tsx
@@ -30336,11 +30347,11 @@ msgstr "This application is not available on the marketplace. It may have been r
 msgid "This application is not installed on this workspace. It may have been uninstalled or the link is incorrect."
 msgstr "This application is not installed on this workspace. It may have been uninstalled or the link is incorrect."
 
-#. js-lingui-id: +EhakQ
+#. js-lingui-id: cr3M99
 #: src/modules/marketplace/components/SettingsApplicationInstallPermissionValidationModal.tsx
 #: src/pages/settings/applications/SettingsAvailableApplicationDetails.tsx
-msgid "This application is not listed on the marketplace and has not been reviewed by Twenty. Use at your own risk."
-msgstr "This application is not listed on the marketplace and has not been reviewed by Twenty. Use at your own risk."
+msgid "This application is not listed on the marketplace and has not been reviewed by RevWay. Use at your own risk."
+msgstr "This application is not listed on the marketplace and has not been reviewed by RevWay. Use at your own risk."
 
 #. js-lingui-id: X7w5n6
 #: src/pages/settings/applications/tabs/SettingsApplicationRegistrationDistributionTab.tsx
@@ -31513,36 +31524,10 @@ msgstr "Turns true into false and false into true."
 msgid "Turquoise"
 msgstr "Turquoise"
 
-#. js-lingui-id: 8pmRvi
-#: src/pages/onboarding/SyncEmails.tsx
-msgid "Twenty adds the people you email and meet, and keeps them up to date without manual data entry."
-msgstr "Twenty adds the people you email and meet, and keeps them up to date without manual data entry."
-
 #. js-lingui-id: UXtQTZ
 #: src/modules/settings/privacy/components/SettingsPrivacySafeguards.tsx
 msgid "Twenty Cloud"
 msgstr "Twenty Cloud"
-
-#. js-lingui-id: JnaRPe
-#: src/modules/getting-started/components/step-preview/GettingStartedImportPreview.tsx
-#: src/modules/spreadsheet-import/steps/components/MatchColumnsStep/components/ColumnGrid.tsx
-msgid "Twenty fields"
-msgstr "Twenty fields"
-
-#. js-lingui-id: pNo8xt
-#: src/pages/settings/ai/components/SettingsAiModelsTab.tsx
-msgid "Twenty fills each level with the best model that meets your requirements"
-msgstr "Twenty fills each level with the best model that meets your requirements"
-
-#. js-lingui-id: WGKXUo
-#: src/modules/getting-started/components/GettingStartedBookCallSummary.tsx
-msgid "Twenty team"
-msgstr "Twenty team"
-
-#. js-lingui-id: qUadjH
-#: src/modules/onboarding/components/OnboardingInviteTeamSkipDialog.tsx
-msgid "Twenty works better with your team"
-msgstr "Twenty works better with your team"
 
 #. js-lingui-id: YIjS4q
 #: src/modules/ai/hooks/useAgentModelCapabilities.ts
@@ -33764,10 +33749,10 @@ msgstr "Weekly personal AI usage reached. Now using workspace credits."
 msgid "weeks"
 msgstr "weeks"
 
-#. js-lingui-id: nTuObL
+#. js-lingui-id: Q/pboA
 #: src/pages/auth/SignInUp.tsx
-msgid "Welcome to Twenty"
-msgstr "Welcome to Twenty"
+msgid "Welcome to RevWay CRM"
+msgstr "Welcome to RevWay CRM"
 
 #. js-lingui-id: t8ZvkC
 #: src/modules/ai-chat/workspace-setup/components/WorkspaceSetupChatPreamble.tsx

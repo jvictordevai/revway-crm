@@ -110,7 +110,7 @@ export const WithoutPaymentMethod: Story = {
     const canvas = within(canvasElement);
 
     await expect(
-      await canvas.findByRole('button', { name: 'Keep Twenty' }),
+      await canvas.findByRole('button', { name: 'Keep RevWay CRM' }),
     ).toBeVisible();
     await expect(
       canvas.getByRole('progressbar', { name: 'Getting started progress' }),
