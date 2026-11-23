@@ -1,0 +1,27 @@
+# RevWay branding allowlist for revway/scripts/check-branding.mjs
+#   path:<glob>   skip files (repo-relative; ** and * supported)
+#   line:<regex>  skip matching lines / pt-BR msgstr lines
+# Keep every entry justified. Tests, stories, mocks and comments are skipped by the script itself.
+
+# Upstream license and package metadata.
+path:LICENSE
+path:**/package.json
+
+# Pages hidden in RevWay (no RevWay equivalent). Unreachable from the UI.
+# Community: Settings nav item forced hidden in useSettingsNavigationItems.tsx.
+path:packages/twenty-front/src/pages/settings/community/SettingsCommunity.tsx
+# Twenty Cloud safeguards (AWS Frankfurt, SOC 2, trust center): not rendered in SettingsPrivacy.tsx.
+path:packages/twenty-front/src/modules/settings/privacy/components/SettingsPrivacySafeguards.tsx
+path:packages/twenty-front/src/modules/settings/privacy/constants/TwentyTrustCenterUrls.ts
+# DPA generator uses Twenty's legal template: only reachable from the hidden safeguards card.
+# Pending legal review before any RevWay DPA (see revway/PLANO.md 3.4).
+path:packages/twenty-front/src/pages/settings/legal/SettingsLegalDpaNew.tsx
+path:packages/twenty-front/src/modules/settings/legal/components/SettingsDpaAgreementsTable.tsx
+# Enterprise license page: RevWay does not use Enterprise features.
+path:packages/twenty-front/src/pages/settings/enterprise/**
+
+# Internal identifiers, not user-visible.
+# Apollo dev logger label (console only).
+line:loggerLink\(\(\) => 'Twenty'\)
+# Placeholder avatar images for the onboarding preview (asset host, not copy).
+line:twentyhq\.github\.io/placeholder-images/people
