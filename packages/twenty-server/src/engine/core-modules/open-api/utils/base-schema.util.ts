@@ -12,7 +12,7 @@ export const baseSchema = (
   return {
     openapi: '3.1.1',
     info: {
-      title: 'Twenty Api',
+      title: 'RevWay CRM API',
       description: `Use this page to explore and call the **REST API**.
 
 ## Authentication
@@ -106,7 +106,7 @@ order_by=id[AscNullsFirst],createdAt[DescNullsLast]
 ## Usage with LLMs
 
 The recommended way to give an LLM agent (Claude Desktop, Cursor, Windsurf, …)
-access to your workspace is the **Twenty MCP server**, not this OpenAPI schema.
+access to your workspace is the **RevWay CRM MCP server**, not this OpenAPI schema.
 The MCP server exposes typed tools the agent can call directly with proper
 header-based auth (OAuth or API key), no tokens in URLs.
 
@@ -125,14 +125,13 @@ curl -H 'Authorization: Bearer <token>' \\
   ${serverUrl}/${ApiPath.Rest}/open-api/${schemaName} > twenty-${schemaName}.json
 \`\`\`
 `,
-      termsOfService:
-        'https://github.com/twentyhq/twenty?tab=coc-ov-file#readme',
+      termsOfService: 'https://revway.com.br/termos',
       contact: {
-        email: 'felix@twenty.com',
+        email: 'suporte@revway.com.br',
       },
       license: {
         name: 'AGPL-3.0',
-        url: 'https://github.com/twentyhq/twenty?tab=License-1-ov-file#readme',
+        url: 'https://github.com/jvictordevai/revway-crm/blob/main/LICENSE',
       },
       version: API_Version,
     },
@@ -159,8 +158,8 @@ curl -H 'Authorization: Bearer <token>' \\
       },
     ],
     externalDocs: {
-      description: 'Find out more about **Twenty**',
-      url: 'https://twenty.com',
+      description: 'Find out more about **RevWay CRM**',
+      url: 'https://revway.com.br',
     },
     paths: { [`/open-api/${schemaName}`]: computeOpenApiPath(serverUrl) },
   };

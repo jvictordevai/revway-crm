@@ -138,7 +138,7 @@ const createWelcomeRichText = ({
                   {
                     type: TIPTAP_MARK_TYPES.LINK,
                     attrs: {
-                      href: 'https://docs.twenty.com/getting-started/introduction',
+                      href: 'https://revway.com.br/ajuda/getting-started/introduction',
                     },
                   },
                 ],

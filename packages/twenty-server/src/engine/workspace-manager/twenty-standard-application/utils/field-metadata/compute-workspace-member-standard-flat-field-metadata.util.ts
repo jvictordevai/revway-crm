@@ -276,7 +276,8 @@ export const buildWorkspaceMemberStandardFlatFieldMetadatas = ({
       isSystem: true,
       isNullable: false,
       isUIEditable: false,
-      defaultValue: "'en'",
+      // RevWay: default locale pt-BR.
+      defaultValue: "'pt-BR'",
     },
     standardObjectMetadataRelatedEntityIds,
     dependencyFlatEntityMaps,

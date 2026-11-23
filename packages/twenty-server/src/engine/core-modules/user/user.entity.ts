@@ -1,6 +1,6 @@
 import { Field, ObjectType, registerEnumType } from '@nestjs/graphql';
 
-import { APP_LOCALES, SOURCE_LOCALE } from 'twenty-shared/translations';
+import { APP_LOCALES } from 'twenty-shared/translations';
 import {
   BeforeInsert,
   BeforeUpdate,
@@ -89,7 +89,8 @@ export class UserEntity {
   deletedAt: Date;
 
   @Field(() => String, { nullable: false })
-  @Column({ nullable: false, default: SOURCE_LOCALE, type: 'varchar' })
+  // RevWay: default locale pt-BR.
+  @Column({ nullable: false, default: 'pt-BR', type: 'varchar' })
   locale: keyof typeof APP_LOCALES;
 
   @OneToMany(() => AppTokenEntity, (appToken) => appToken.user, {

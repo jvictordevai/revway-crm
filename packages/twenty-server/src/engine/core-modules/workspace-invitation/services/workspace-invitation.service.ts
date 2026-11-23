@@ -407,12 +407,12 @@ export class WorkspaceInvitationService {
           plainText: true,
         });
 
-        const joinTeamMsg = msg`Join your team on Twenty`;
+        const joinTeamMsg = msg`Join your team on RevWay CRM`;
         const i18n = this.i18nService.getI18nInstance(sender.locale);
         const subject = i18n._(joinTeamMsg);
 
         await this.emailService.send({
-          from: `${senderName.firstName} ${senderName.lastName} (via Twenty) <${this.twentyConfigService.get('EMAIL_FROM_ADDRESS')}>`,
+          from: `${senderName.firstName} ${senderName.lastName} (via RevWay CRM) <${this.twentyConfigService.get('EMAIL_FROM_ADDRESS')}>`,
           to: invitation.value.email,
           subject,
           text,

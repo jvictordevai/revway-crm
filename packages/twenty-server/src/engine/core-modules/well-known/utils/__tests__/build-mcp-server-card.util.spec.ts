@@ -25,7 +25,12 @@ describe('buildMcpServerCard', () => {
     expect(card.$schema).toBe(
       'https://static.modelcontextprotocol.io/schemas/v1/server-card.schema.json',
     );
-    expect(card.name).toBe('com.twenty/twenty');
+    expect(card.name).toBe('br.com.revway/crm');
+    expect(card.title).toBe('RevWay CRM');
+    expect(card.websiteUrl).toBe('https://revway.com.br');
+    expect(card.repository.url).toBe(
+      'https://github.com/jvictordevai/revway-crm',
+    );
     expect(card.version).toBe('0.42.0');
     expect(card.repository.source).toBe('github');
   });

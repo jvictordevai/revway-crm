@@ -284,10 +284,10 @@ msgctxt "objectMetadata.description"
 msgid "A hand-picked audience of people"
 msgstr "קהל יעד שנבחר בקפידה של אנשים"
 
-#. js-lingui-id: TF/ZV2
+#. js-lingui-id: 49pk/5
 #: src/engine/core-modules/billing/reminders/services/billing-reminder.service.ts
-msgid "A heads up before your Twenty trial ends"
-msgstr "תזכורת לפני שתקופת הניסיון שלך ב-Twenty מסתיימת"
+msgid "A heads up before your RevWay CRM trial ends"
+msgstr ""
 
 #. js-lingui-id: 6yZjO1
 #: src/engine/core-modules/application/application.exception.ts
@@ -2131,10 +2131,10 @@ msgstr "הוחזר בתאריך"
 msgid "Bring your companies, contacts and deals from any CRM export."
 msgstr "העבר את החברות, אנשי הקשר והעסקאות שלך מכל ייצוא CRM."
 
-#. js-lingui-id: YYQkoU
+#. js-lingui-id: 16sTXm
 #: src/engine/core-modules/getting-started/constants/getting-started-step-content.constant.ts
-msgid "Bring your team into Twenty."
-msgstr "צרף את הצוות שלך ל-Twenty."
+msgid "Bring your team into RevWay CRM."
+msgstr ""
 
 #. js-lingui-id: pYD4lD
 #: src/engine/core-modules/web-push/web-push.exception.ts
@@ -7961,10 +7961,10 @@ msgctxt "objectMetadata.description"
 msgid "Join table linking message channel message associations to message folders"
 msgstr "טבלת קישור שמקשרת בין שיוכי הודעות של ערוץ ההודעות לתיקיות הודעות"
 
-#. js-lingui-id: PviVyk
+#. js-lingui-id: bwKl1r
 #: src/engine/core-modules/workspace-invitation/services/workspace-invitation.service.ts
-msgid "Join your team on Twenty"
-msgstr "הצטרף לצוות שלך ב-Twenty"
+msgid "Join your team on RevWay CRM"
+msgstr ""
 
 #. js-lingui-id: +KEn4d
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-call-recording-standard-flat-field-metadata.util.ts
@@ -10689,10 +10689,10 @@ msgctxt "pageLayoutWidget.title"
 msgid "Participants"
 msgstr "משתתפים"
 
-#. js-lingui-id: kWRulr
+#. js-lingui-id: cQepoB
 #: src/engine/core-modules/billing/billing.exception.ts
-msgid "Partner codes only apply to new Twenty customers."
-msgstr "קודי שותפים חלים רק על לקוחות חדשים של Twenty."
+msgid "Partner codes only apply to new RevWay CRM customers."
+msgstr ""
 
 #. js-lingui-id: mZg7qC
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-agent-message-standard-flat-field-metadata.util.ts
@@ -11012,10 +11012,10 @@ msgstr "אנא בחרו תאריך ושעת סיום לאחר תאריך ושע�
 msgid "Please confirm your updated email"
 msgstr ""
 
-#. js-lingui-id: Zm9s4F
+#. js-lingui-id: YfP316
 #: src/engine/api/common/common-args-processors/data-arg-processor/validator-utils/validate-links-field-or-throw.util.ts
-msgid "Please enter a domain name, like twenty.com"
-msgstr "יש להזין שם דומיין, כגון twenty.com"
+msgid "Please enter a domain name, like revway.com.br"
+msgstr ""
 
 #. js-lingui-id: qgasuj
 #: src/engine/core-modules/imap-smtp-caldav-connection/services/imap-smtp-caldav-connection-validator.service.ts
@@ -13531,10 +13531,10 @@ msgstr ""
 msgid "System fields cannot be updated"
 msgstr ""
 
-#. js-lingui-id: aK2k19
+#. js-lingui-id: i1kjl+
 #: src/engine/metadata-modules/index-metadata/services/index-metadata.service.ts
-msgid "System indexes are required for Twenty to work and cannot be deleted."
-msgstr "אינדקסי מערכת נדרשים כדי ש-Twenty יעבוד ואי אפשר למחוק אותם."
+msgid "System indexes are required for RevWay CRM to work and cannot be deleted."
+msgstr ""
 
 #. js-lingui-id: /ojawH
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-object-metadata-validator.service.ts
@@ -14787,11 +14787,11 @@ msgstr "מפתח ה-API הזה פג תוקף. אנא צור אחד חדש."
 msgid "This API key has no role assigned."
 msgstr "למפתח API זה לא הוקצה תפקיד."
 
-#. js-lingui-id: zISk4k
+#. js-lingui-id: CLyQx2
 #: src/engine/core-modules/application/application-registration/application-registration.exception.ts
 #: src/engine/core-modules/application/application.exception.ts
-msgid "This app requires a newer version of the Twenty server. Please upgrade your server or use a compatible app version."
-msgstr "אפליקציה זו דורשת גרסה חדשה יותר של שרת Twenty. אנא שדרגו את השרת שלכם או השתמשו בגרסת אפליקציה תואמת."
+msgid "This app requires a newer version of the RevWay CRM server. Please upgrade your server or use a compatible app version."
+msgstr ""
 
 #. js-lingui-id: y2nks/
 #: src/engine/core-modules/application/application.exception.ts
@@ -17358,10 +17358,10 @@ msgstr "וובהוק לא נמצא."
 msgid "Wednesday"
 msgstr "יום רביעי"
 
-#. js-lingui-id: TVkCrJ
+#. js-lingui-id: Nl19uq
 #: src/engine/core-modules/email-verification/services/email-verification.service.ts
-msgid "Welcome to Twenty: Please Confirm Your Email"
-msgstr "ברוך הבא ל-Twenty: נא לאשר את האימייל שלך"
+msgid "Welcome to RevWay CRM: Please Confirm Your Email"
+msgstr ""
 
 #. js-lingui-id: lKboI8
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-record-share-standard-flat-field-metadata.util.ts
@@ -18492,6 +18492,16 @@ msgstr "לא ניתן היה להוסיף את הקרדיטים שרכשת. צו
 msgid "Your records are in, organized around how you work."
 msgstr "הרשומות שלך כבר בפנים, ומאורגנות סביב אופן העבודה שלך."
 
+#. js-lingui-id: 6r7/lN
+#: src/engine/core-modules/billing/reminders/services/billing-reminder.service.ts
+msgid "Your RevWay CRM plan renews soon"
+msgstr ""
+
+#. js-lingui-id: cIv4/C
+#: src/engine/core-modules/billing/reminders/services/billing-reminder.service.ts
+msgid "Your RevWay CRM trial is ending soon"
+msgstr ""
+
 #. js-lingui-id: vAscP2
 #: src/engine/api/common/common-query-runners/common-merge-many-query-runner.service.ts
 msgid "Your role cannot delete some of these records, so they cannot be merged."
@@ -18513,16 +18523,6 @@ msgstr "תוקף ההפעלה שלך פג. יש להיכנס שוב כדי לה�
 msgctxt "fieldMetadata.description"
 msgid "Your team member responsible for managing the company account"
 msgstr "חבר הצוות שלך אחראי על ניהול חשבון החברה"
-
-#. js-lingui-id: sOfbGC
-#: src/engine/core-modules/billing/reminders/services/billing-reminder.service.ts
-msgid "Your Twenty plan renews soon"
-msgstr "תוכנית ה-Twenty שלך מתחדשת בקרוב"
-
-#. js-lingui-id: qW+K5e
-#: src/engine/core-modules/billing/reminders/services/billing-reminder.service.ts
-msgid "Your Twenty trial is ending soon"
-msgstr "תקופת הניסיון שלך ב-Twenty מסתיימת בקרוב"
 
 #. js-lingui-id: 9xG1k0
 #: src/engine/core-modules/two-factor-authentication/services/two-factor-authentication-backup-code.service.ts
