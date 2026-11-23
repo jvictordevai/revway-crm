@@ -90,8 +90,8 @@ msgstr "Yangi elektron pochta manzilingizni tasdiqlang"
 
 #. js-lingui-explicit-id
 #: src/emails/password-update-notify.email.tsx
-msgid "Connect to Twenty"
-msgstr "Twenty ga ulaning"
+msgid "Connect to RevWay CRM"
+msgstr ""
 
 #. js-lingui-explicit-id
 #: src/emails/password-update-notify.email.tsx
@@ -99,14 +99,14 @@ msgid "Dear {userName},"
 msgstr "Hurmatli {userName},"
 
 #. js-lingui-explicit-id
-#: src/components/Footer.tsx
-msgid "Developers"
-msgstr "Dasturchilar"
-
-#. js-lingui-explicit-id
 #: src/emails/server-admin-access-changed.email.tsx
 msgid "Disabled"
 msgstr "O‘chirilgan"
+
+#. js-lingui-explicit-id
+#: src/components/Footer.tsx
+msgid "Email RevWay support"
+msgstr ""
 
 #. js-lingui-explicit-id
 #: src/emails/server-admin-access-changed.email.tsx
@@ -117,11 +117,6 @@ msgstr "Yoqilgan"
 #: src/emails/server-admin-access-changed.email.tsx
 msgid "Full admin panel access: {fullAdminStatus}"
 msgstr "To‘liq administrator paneliga kirish: {fullAdminStatus}"
-
-#. js-lingui-explicit-id
-#: src/components/Footer.tsx
-msgid "Github"
-msgstr "Github"
 
 #. js-lingui-explicit-id
 #: src/emails/warn-suspended-workspace.email.tsx
@@ -148,6 +143,11 @@ msgid "Hi {userName},"
 msgstr "Salom, {userName},"
 
 #. js-lingui-explicit-id
+#: src/emails/billing-trial-converting.email.tsx
+msgid "If RevWay CRM is working for you, you're all set — there's nothing to do. If it's not the right fit, you can cancel in one click before then and you won't be charged."
+msgstr ""
+
+#. js-lingui-explicit-id
 #: src/emails/two-factor-authentication-backup-codes-regenerated.email.tsx
 msgid "If this was not you, change your password and generate new backup codes under Settings, Profile, Two-factor authentication."
 msgstr "Agar buni siz qilmagan bo'lsangiz, parolingizni o'zgartiring va Sozlamalar, Profil, Ikki faktorli autentifikatsiya bo'limida yangi zaxira kodlarini yarating."
@@ -162,11 +162,6 @@ msgstr "Agar buni siz qilmagan bo'lsangiz, parolingizni o'zgartiring va yangi za
 #: src/emails/two-factor-authentication-reset.email.tsx
 msgid "If this was not you, contact your workspace administrator and change your password."
 msgstr "Agar buni siz qilmagan bo‘lsangiz, ish maydoni administratoringiz bilan bog‘laning va parolingizni o‘zgartiring."
-
-#. js-lingui-explicit-id
-#: src/emails/billing-trial-converting.email.tsx
-msgid "If Twenty is working for you, you're all set — there's nothing to do. If it's not the right fit, you can cancel in one click before then and you won't be charged."
-msgstr "Agar Twenty siz uchun mos boʻlsa, hammasi tayyor — siz hech narsa qilishingiz shart emas. Agar u sizga toʻgʻri kelmasa, shu muddatgacha bir marta bosish bilan bekor qilishingiz mumkin va sizdan toʻlov olinmaydi."
 
 #. js-lingui-explicit-id
 #: src/emails/two-factor-authentication-recovery-code-issued.email.tsx
@@ -190,18 +185,13 @@ msgstr "Hech narsa qilmasangiz, biz ish maydoningizni pauza holatiga oʻtkazamiz
 
 #. js-lingui-explicit-id
 #: src/emails/clean-suspended-workspace.email.tsx
-msgid "If you'd ever like to give Twenty another try, you can start a fresh workspace in minutes — we'd love to have you back."
-msgstr "Agar qachondir Twentyʼga yana bir bor imkon berishni istasangiz, bir necha daqiqada yangi ish maydonini boshlashingiz mumkin — sizni yana koʻrishdan mamnun boʻlamiz."
+msgid "If you'd ever like to give RevWay CRM another try, you can start a fresh workspace in minutes — we'd love to have you back."
+msgstr ""
 
 #. js-lingui-explicit-id
 #: src/emails/server-admin-access-changed.email.tsx
 msgid "Impersonation: {impersonateStatus}"
 msgstr "Boshqa foydalanuvchi nomidan kirish: {impersonateStatus}"
-
-#. js-lingui-explicit-id
-#: src/components/WhatIsTwenty.tsx
-msgid "It's a CRM, a software to help businesses manage their customer data and relationships efficiently."
-msgstr "Bu mijozlar bilan munosabatlarni boshqarish tizimi, bizneslarga mijozlar maʼlumotlari va munosabatlarini samarali boshqarishda yordam beradigan dasturiy taʼminot."
 
 #. js-lingui-explicit-id
 #: src/emails/clean-suspended-workspace.email.tsx
@@ -210,8 +200,8 @@ msgstr "Uning maʼlumotlari olib tashlangan va endi qayta tiklab boʻlmaydi."
 
 #. js-lingui-explicit-id
 #: src/emails/send-invite-link.email.tsx
-msgid "Join your team on Twenty"
-msgstr "Jamoangizga Twenty da qoʻshiling"
+msgid "Join your team on RevWay CRM"
+msgstr ""
 
 #. js-lingui-explicit-id
 #: src/emails/billing-subscription-renewing.email.tsx
@@ -255,11 +245,6 @@ msgid "Reactivate workspace"
 msgstr "Ish maydonini qayta faollashtirish"
 
 #. js-lingui-explicit-id
-#: src/components/Footer.tsx
-msgid "Read Twenty's user guide"
-msgstr "Twenty foydalanuvchi qoʻllanmasini oʻqing"
-
-#. js-lingui-explicit-id
 #: src/emails/password-reset-link.email.tsx
 msgid "Reset"
 msgstr "Qayta oʻrnatish"
@@ -270,9 +255,14 @@ msgid "Reset your password 🗝"
 msgstr "Parolingizni qayta oʻrnating 🗝"
 
 #. js-lingui-explicit-id
-#: src/components/Footer.tsx
-msgid "San Francisco / Paris"
-msgstr "San-Fransisko / Parij"
+#: src/components/BaseHead.tsx
+msgid "RevWay CRM email"
+msgstr ""
+
+#. js-lingui-explicit-id
+#: src/components/Logo.tsx
+msgid "RevWay CRM logo"
+msgstr ""
 
 #. js-lingui-explicit-id
 #: src/emails/server-admin-access-changed.email.tsx
@@ -296,9 +286,19 @@ msgid "Set your password 🗝"
 msgstr "Parolingizni oʻrnating 🗝"
 
 #. js-lingui-explicit-id
+#: src/components/Footer.tsx
+msgid "Source code"
+msgstr ""
+
+#. js-lingui-explicit-id
 #: src/emails/clean-suspended-workspace.email.tsx
 msgid "Start a new workspace"
 msgstr "Yangi ish maydoni yaratish"
+
+#. js-lingui-explicit-id
+#: src/components/Footer.tsx
+msgid "Support"
+msgstr ""
 
 #. js-lingui-explicit-id
 #: src/emails/test.email.tsx
@@ -307,8 +307,8 @@ msgstr "Sinov xati"
 
 #. js-lingui-explicit-id
 #: src/emails/send-email-verification-link.email.tsx
-msgid "Thanks for registering for an account on Twenty! Before we get started, we just need to confirm that this is you. Click below to verify your email address."
-msgstr "Twenty’da hisob qaydnomasidan o‘tganingiz uchun rahmat! Boshlashdan oldin, bu siz ekaningizni tasdiqlashimiz kerak. Elektron pochta manzilingizni tasdiqlash uchun quyidagi tugmani bosing."
+msgid "Thanks for registering for an account on RevWay CRM! Before we get started, we just need to confirm that this is you. Click below to verify your email address."
+msgstr ""
 
 #. js-lingui-explicit-id
 #: src/emails/two-factor-authentication-removed.email.tsx
@@ -336,21 +336,6 @@ msgid "To keep your workspace and everything you've built, add a payment method 
 msgstr "Ish maydoningiz va unda yaratganlaringizni saqlab qolish uchun toʻlov usulini qoʻshing va rejani tanlang."
 
 #. js-lingui-explicit-id
-#: src/components/BaseHead.tsx
-msgid "Twenty email"
-msgstr "Twenty elektron pochtasi"
-
-#. js-lingui-explicit-id
-#: src/components/Logo.tsx
-msgid "Twenty logo"
-msgstr "Twenty logotipi"
-
-#. js-lingui-explicit-id
-#: src/components/Footer.tsx
-msgid "Twenty.com, Public Benefit Corporation"
-msgstr "Twenty.com, Public Benefit Corporation"
-
-#. js-lingui-explicit-id
 #: src/emails/two-factor-authentication-recovery-code-issued.email.tsx
 msgid "Two-factor authentication recovery code issued"
 msgstr "Ikki faktorli autentifikatsiya tiklash kodi berildi"
@@ -366,11 +351,6 @@ msgid "Two-factor authentication reset"
 msgstr "Ikki faktorli autentifikatsiyani qayta o‘rnatish"
 
 #. js-lingui-explicit-id
-#: src/components/Footer.tsx
-msgid "User guide"
-msgstr "Foydalanuvchi qoʻllanmasi"
-
-#. js-lingui-explicit-id
 #: src/emails/validate-approved-access-domain.email.tsx
 #: src/emails/validate-approved-access-domain.email.tsx
 msgid "Validate domain"
@@ -383,18 +363,13 @@ msgstr "Elektron pochtani tasdiqlang"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
-msgid "Visit Twenty's developer documentation"
-msgstr "Twenty’ning dasturchilar uchun hujjatlariga tashrif buyuring"
+msgid "View the RevWay CRM source code"
+msgstr ""
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
-msgid "Visit Twenty's GitHub repository"
-msgstr "Twenty’ning GitHub repozitoriyasiga tashrif buyuring"
-
-#. js-lingui-explicit-id
-#: src/components/Footer.tsx
-msgid "Visit Twenty's website"
-msgstr "Twenty veb-saytiga tashrif buyuring"
+msgid "Visit the RevWay website"
+msgstr ""
 
 #. js-lingui-explicit-id
 #: src/emails/billing-trial-converting.email.tsx
@@ -403,18 +378,13 @@ msgstr "Kutilmagan toʻlovlarni yoqtirmaymiz, shuning uchun sizni doʻstona tarz
 
 #. js-lingui-explicit-id
 #: src/emails/send-email-verification-link.email.tsx
-msgid "We received a request to change the email address associated with your Twenty account. Click below to confirm this change."
-msgstr "Twenty hisob qaydnomangiz bilan bog‘langan elektron pochta manzilini o‘zgartirish so‘rovini oldik. Ushbu o‘zgarishni tasdiqlash uchun quyidagi tugmani bosing."
+msgid "We received a request to change the email address associated with your RevWay CRM account. Click below to confirm this change."
+msgstr ""
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
 msgid "Website"
 msgstr "Veb-sayt"
-
-#. js-lingui-explicit-id
-#: src/components/WhatIsTwenty.tsx
-msgid "What is Twenty?"
-msgstr "Twenty nima?"
 
 #. js-lingui-explicit-id
 #: src/emails/send-invite-link.email.tsx

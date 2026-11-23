@@ -90,8 +90,8 @@ msgstr ""
 
 #. js-lingui-explicit-id
 #: src/emails/password-update-notify.email.tsx
-msgid "Connect to Twenty"
-msgstr "Połącz z Twenty"
+msgid "Connect to RevWay CRM"
+msgstr ""
 
 #. js-lingui-explicit-id
 #: src/emails/password-update-notify.email.tsx
@@ -99,14 +99,14 @@ msgid "Dear {userName},"
 msgstr "Szanowny {userName},"
 
 #. js-lingui-explicit-id
-#: src/components/Footer.tsx
-msgid "Developers"
-msgstr "Deweloperzy"
-
-#. js-lingui-explicit-id
 #: src/emails/server-admin-access-changed.email.tsx
 msgid "Disabled"
 msgstr "Wyłączony"
+
+#. js-lingui-explicit-id
+#: src/components/Footer.tsx
+msgid "Email RevWay support"
+msgstr ""
 
 #. js-lingui-explicit-id
 #: src/emails/server-admin-access-changed.email.tsx
@@ -117,11 +117,6 @@ msgstr "Włączony"
 #: src/emails/server-admin-access-changed.email.tsx
 msgid "Full admin panel access: {fullAdminStatus}"
 msgstr "Pełny dostęp do panelu administratora: {fullAdminStatus}"
-
-#. js-lingui-explicit-id
-#: src/components/Footer.tsx
-msgid "Github"
-msgstr "Github"
 
 #. js-lingui-explicit-id
 #: src/emails/warn-suspended-workspace.email.tsx
@@ -148,6 +143,11 @@ msgid "Hi {userName},"
 msgstr "Cześć {userName},"
 
 #. js-lingui-explicit-id
+#: src/emails/billing-trial-converting.email.tsx
+msgid "If RevWay CRM is working for you, you're all set — there's nothing to do. If it's not the right fit, you can cancel in one click before then and you won't be charged."
+msgstr ""
+
+#. js-lingui-explicit-id
 #: src/emails/two-factor-authentication-backup-codes-regenerated.email.tsx
 msgid "If this was not you, change your password and generate new backup codes under Settings, Profile, Two-factor authentication."
 msgstr "Jeśli to nie Ty, zmień hasło i wygeneruj nowe kody zapasowe w Ustawieniach, Profilu, Uwierzytelnianiu dwuskładnikowym."
@@ -162,11 +162,6 @@ msgstr "Jeśli to nie Ty, zmień hasło i wygeneruj nowe kody zapasowe."
 #: src/emails/two-factor-authentication-reset.email.tsx
 msgid "If this was not you, contact your workspace administrator and change your password."
 msgstr "Jeśli to nie Ty, skontaktuj się z administratorem swojego obszaru roboczego i zmień hasło."
-
-#. js-lingui-explicit-id
-#: src/emails/billing-trial-converting.email.tsx
-msgid "If Twenty is working for you, you're all set — there's nothing to do. If it's not the right fit, you can cancel in one click before then and you won't be charged."
-msgstr "Jeśli Twenty dobrze się u Ciebie sprawdza, wszystko jest gotowe — nie musisz nic robić. Jeśli to jednak nie jest odpowiednie rozwiązanie, możesz anulować jednym kliknięciem przed tym terminem i nie zostaniesz obciążony."
 
 #. js-lingui-explicit-id
 #: src/emails/two-factor-authentication-recovery-code-issued.email.tsx
@@ -190,18 +185,13 @@ msgstr "Jeśli nic nie zrobisz, wstrzymamy Twoją przestrzeń roboczą i będzie
 
 #. js-lingui-explicit-id
 #: src/emails/clean-suspended-workspace.email.tsx
-msgid "If you'd ever like to give Twenty another try, you can start a fresh workspace in minutes — we'd love to have you back."
-msgstr "Jeśli kiedykolwiek zechcesz ponownie wypróbować Twenty, możesz w kilka minut utworzyć nową przestrzeń roboczą — z przyjemnością powitamy Cię z powrotem."
+msgid "If you'd ever like to give RevWay CRM another try, you can start a fresh workspace in minutes — we'd love to have you back."
+msgstr ""
 
 #. js-lingui-explicit-id
 #: src/emails/server-admin-access-changed.email.tsx
 msgid "Impersonation: {impersonateStatus}"
 msgstr "Podszywanie się: {impersonateStatus}"
-
-#. js-lingui-explicit-id
-#: src/components/WhatIsTwenty.tsx
-msgid "It's a CRM, a software to help businesses manage their customer data and relationships efficiently."
-msgstr "To jest CRM, oprogramowanie pomagające firmom w zarządzaniu danymi i relacjami z klientami."
 
 #. js-lingui-explicit-id
 #: src/emails/clean-suspended-workspace.email.tsx
@@ -210,8 +200,8 @@ msgstr "Jej dane zostały usunięte i nie można ich już odzyskać."
 
 #. js-lingui-explicit-id
 #: src/emails/send-invite-link.email.tsx
-msgid "Join your team on Twenty"
-msgstr "Dołącz do swojego zespołu w Twenty"
+msgid "Join your team on RevWay CRM"
+msgstr ""
 
 #. js-lingui-explicit-id
 #: src/emails/billing-subscription-renewing.email.tsx
@@ -255,11 +245,6 @@ msgid "Reactivate workspace"
 msgstr "Aktywuj ponownie przestrzeń roboczą"
 
 #. js-lingui-explicit-id
-#: src/components/Footer.tsx
-msgid "Read Twenty's user guide"
-msgstr "Przeczytaj przewodnik użytkownika Twenty"
-
-#. js-lingui-explicit-id
 #: src/emails/password-reset-link.email.tsx
 msgid "Reset"
 msgstr "Zresetuj"
@@ -270,9 +255,14 @@ msgid "Reset your password 🗝"
 msgstr "Zresetuj swoje hasło 🗝"
 
 #. js-lingui-explicit-id
-#: src/components/Footer.tsx
-msgid "San Francisco / Paris"
-msgstr "San Francisco / Paryż"
+#: src/components/BaseHead.tsx
+msgid "RevWay CRM email"
+msgstr ""
+
+#. js-lingui-explicit-id
+#: src/components/Logo.tsx
+msgid "RevWay CRM logo"
+msgstr ""
 
 #. js-lingui-explicit-id
 #: src/emails/server-admin-access-changed.email.tsx
@@ -296,9 +286,19 @@ msgid "Set your password 🗝"
 msgstr "Ustaw swoje hasło 🗝"
 
 #. js-lingui-explicit-id
+#: src/components/Footer.tsx
+msgid "Source code"
+msgstr ""
+
+#. js-lingui-explicit-id
 #: src/emails/clean-suspended-workspace.email.tsx
 msgid "Start a new workspace"
 msgstr "Utwórz nową przestrzeń roboczą"
+
+#. js-lingui-explicit-id
+#: src/components/Footer.tsx
+msgid "Support"
+msgstr ""
 
 #. js-lingui-explicit-id
 #: src/emails/test.email.tsx
@@ -307,8 +307,8 @@ msgstr "Testowy email"
 
 #. js-lingui-explicit-id
 #: src/emails/send-email-verification-link.email.tsx
-msgid "Thanks for registering for an account on Twenty! Before we get started, we just need to confirm that this is you. Click below to verify your email address."
-msgstr "Dziękujemy za rejestrację konta w Twenty! Zanim zaczniemy, musimy tylko potwierdzić, że to Ty. Kliknij poniżej, aby zweryfikować swój adres email."
+msgid "Thanks for registering for an account on RevWay CRM! Before we get started, we just need to confirm that this is you. Click below to verify your email address."
+msgstr ""
 
 #. js-lingui-explicit-id
 #: src/emails/two-factor-authentication-removed.email.tsx
@@ -336,21 +336,6 @@ msgid "To keep your workspace and everything you've built, add a payment method 
 msgstr "Aby zachować swoją przestrzeń roboczą i wszystko, co w niej stworzyłeś, dodaj metodę płatności i wybierz plan."
 
 #. js-lingui-explicit-id
-#: src/components/BaseHead.tsx
-msgid "Twenty email"
-msgstr "E-mail Twenty"
-
-#. js-lingui-explicit-id
-#: src/components/Logo.tsx
-msgid "Twenty logo"
-msgstr "Logo Twenty"
-
-#. js-lingui-explicit-id
-#: src/components/Footer.tsx
-msgid "Twenty.com, Public Benefit Corporation"
-msgstr "Twenty.com, Korporacja Non-Profit"
-
-#. js-lingui-explicit-id
 #: src/emails/two-factor-authentication-recovery-code-issued.email.tsx
 msgid "Two-factor authentication recovery code issued"
 msgstr "Wydano kod odzyskiwania uwierzytelniania dwuskładnikowego"
@@ -366,11 +351,6 @@ msgid "Two-factor authentication reset"
 msgstr "Resetowanie uwierzytelniania dwuskładnikowego"
 
 #. js-lingui-explicit-id
-#: src/components/Footer.tsx
-msgid "User guide"
-msgstr "Przewodnik użytkownika"
-
-#. js-lingui-explicit-id
 #: src/emails/validate-approved-access-domain.email.tsx
 #: src/emails/validate-approved-access-domain.email.tsx
 msgid "Validate domain"
@@ -383,18 +363,13 @@ msgstr "Zweryfikuj Email"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
-msgid "Visit Twenty's developer documentation"
-msgstr "Odwiedź dokumentację dla deweloperów Twenty"
+msgid "View the RevWay CRM source code"
+msgstr ""
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
-msgid "Visit Twenty's GitHub repository"
-msgstr "Odwiedź repozytorium GitHub Twenty"
-
-#. js-lingui-explicit-id
-#: src/components/Footer.tsx
-msgid "Visit Twenty's website"
-msgstr "Odwiedź stronę Twenty"
+msgid "Visit the RevWay website"
+msgstr ""
 
 #. js-lingui-explicit-id
 #: src/emails/billing-trial-converting.email.tsx
@@ -403,18 +378,13 @@ msgstr "Nie lubimy niespodziewanych opłat, więc przesyłamy Ci przyjazne powia
 
 #. js-lingui-explicit-id
 #: src/emails/send-email-verification-link.email.tsx
-msgid "We received a request to change the email address associated with your Twenty account. Click below to confirm this change."
-msgstr "Otrzymaliśmy prośbę o zmianę adresu e-mail powiązanego z Twoim kontem Twenty. Kliknij poniżej, aby potwierdzić tę zmianę."
+msgid "We received a request to change the email address associated with your RevWay CRM account. Click below to confirm this change."
+msgstr ""
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
 msgid "Website"
 msgstr "Strona internetowa"
-
-#. js-lingui-explicit-id
-#: src/components/WhatIsTwenty.tsx
-msgid "What is Twenty?"
-msgstr "Czym jest Twenty?"
 
 #. js-lingui-explicit-id
 #: src/emails/send-invite-link.email.tsx

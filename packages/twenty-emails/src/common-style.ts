@@ -23,7 +23,7 @@ const grayScale = {
 };
 
 const colors = {
-  blue40: '#5e90f2',
+  blue40: '#154BD4',
 };
 
 export const canvasTheme = {
@@ -54,7 +54,7 @@ export const canvasTheme = {
   },
   background: {
     colors: { highlight: grayScale.gray15 },
-    button: grayScale.gray60,
+    button: '#0B1B33',
     transparent: {
       medium: 'rgba(0, 0, 0, 0.08)',
       light: 'rgba(0, 0, 0, 0.04)',

@@ -9,13 +9,14 @@ type LogoProps = {
   i18n: I18n;
 };
 
+// RevWay: lockup served by the RevWay CRM front (public/images/revway).
 export const Logo = ({ i18n }: LogoProps) => {
   return (
     <Img
-      src="https://app.twenty.com/images/icons/windows11/Square150x150Logo.scale-100.png"
-      alt={i18n._('Twenty logo')}
-      width="40"
-      height="40"
+      src="https://crm.revway.com.br/images/revway/email-logo.png"
+      alt={i18n._('RevWay CRM logo')}
+      width="130"
+      height="28"
       style={logoStyle}
     />
   );
